@@ -1,0 +1,53 @@
+{
+ "description": "Level-shift buffer, low-to-high, isolated well on input buffer, no taps, double-row-height cell.",
+ "file_prefix": "sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell",
+ "library": "sky130_fd_sc_hd",
+ "name": "lpflow_lsbuf_lh_isowell",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "X",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "A",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "LOWLVPWR",
+   "input",
+   "wire"
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell"
+}

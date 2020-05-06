@@ -1,0 +1,10 @@
+sky130_fd_sc_hd__a22oi_1	A1:I A2:I B1:I B2:I VGND:I VNB:I VPB:I VPWR:I Y:O
+Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
+MMPA0	MOSFET	pndA	A1	VPWR	VPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMPA1	MOSFET	pndA	A2	VPWR	VPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMPB0	MOSFET	Y	B1	pndA	VPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMPB1	MOSFET	Y	B2	pndA	VPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMNA0	MOSFET	Y	A1	sndA1	VNB	nshort	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMNA1	MOSFET	sndA1	A2	VGND	VNB	nshort	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMNB0	MOSFET	Y	B1	sndB1	VNB	nshort	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMNB1	MOSFET	sndB1	B2	VGND	VNB	nshort	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14

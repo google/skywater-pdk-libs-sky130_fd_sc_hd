@@ -1,0 +1,11 @@
+SET	RESET	CLK_N	D	:	Qt	:	Qt+1	Comments
+0	1	?	?	:	?	:	0	Asserting reset
+0	*	?	?	:	0	:	0	Changing reset
+1	?	?	?	:	?	:	1	Asserting set (dominates reset)
+*	0	?	?	:	1	:	1	Changing set
+0	?	(01)	0	:	?	:	0	rising clock
+?	0	(01)	1	:	?	:	1	rising clock
+0	?	p	0	:	0	:	0	potential rising clock
+?	0	p	1	:	1	:	1	potential rising clock
+0	0	n	?	:	?	:	-	Clock falling register output does not change
+0	0	?	*	:	?	:	-	Changing Data

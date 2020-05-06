@@ -1,0 +1,8 @@
+sky130_fd_sc_hd__lpflow_inputiso0n_1	A:I SLEEP_B:I VGND:I VNB:I VPB:I VPWR:I X:O
+Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
+MI14	MOSFET	X	net36	VGND	VNB	nshort	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMN0	MOSFET	net36	A	sndA	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI13	MOSFET	sndA	SLEEP_B	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMP1	MOSFET	net36	SLEEP_B	VPWR	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI19	MOSFET	X	net36	VPWR	VPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI17	MOSFET	net36	A	VPWR	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14

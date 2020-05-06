@@ -1,0 +1,53 @@
+{
+ "description": "Delay latch, non-inverted enable, single output.",
+ "file_prefix": "sky130_fd_sc_hd__dlxtp",
+ "library": "sky130_fd_sc_hd",
+ "name": "dlxtp",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "Q",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "D",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "GATE",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_hd__dlxtp"
+}

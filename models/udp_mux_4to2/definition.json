@@ -1,0 +1,53 @@
+{
+ "description": "Four to one multiplexer with 2 select controls",
+ "file_prefix": "sky130_fd_sc_hd__udp_mux_4to2",
+ "library": "sky130_fd_sc_hd",
+ "name": "udp_mux_4to2",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "A0",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "A1",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "A2",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "A3",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "S0",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "S1",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "X",
+   "output",
+   ""
+  ]
+ ],
+ "type": "primitive",
+ "verilog_name": "sky130_fd_sc_hd__udp_mux_4to2"
+}

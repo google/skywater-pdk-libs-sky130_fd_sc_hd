@@ -1,0 +1,159 @@
+{
+  "comp_attribute voltage_map": [
+    [
+      "VPWR",
+      1.65
+    ],
+    [
+      "VSS",
+      0.0
+    ],
+    [
+      "KAPWR",
+      1.65
+    ],
+    [
+      "LOWLVPWR",
+      1.65
+    ],
+    [
+      "VGND",
+      0.0
+    ],
+    [
+      "VNB",
+      0.0
+    ],
+    [
+      "VPB",
+      1.65
+    ],
+    [
+      "VPWRIN",
+      1.65
+    ]
+  ],
+  "default_arc_mode": "best_edges",
+  "default_max_transition": 1.5,
+  "define": [
+    {
+      "attribute_name": "switching_power_split_model",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "driver_model",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "leakage_sim_opt",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "default_constraint_arc_mode",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "min_pulse_width_mode",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "default_arc_mode",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "def_sim_opt",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "simulator",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "violation_delay_degrade_pct",
+      "attribute_type": "string",
+      "group_name": "timing"
+    },
+    {
+      "attribute_name": "sim_opt",
+      "attribute_type": "string",
+      "group_name": "timing"
+    }
+  ],
+  "leakage_sim_opt": "runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15",
+  "nom_temperature": -40.0,
+  "nom_voltage": 1.65,
+  "normalized_driver_waveform driver_waveform_template": {
+    "driver_waveform_name": "ramp",
+    "index_1": [
+      0.01,
+      0.0230506,
+      0.0531329,
+      0.1224745,
+      0.2823108,
+      0.5,
+      0.6507428,
+      1.5
+    ],
+    "index_2": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "values": [
+      [
+        0.0,
+        0.0083333333,
+        0.016666667
+      ],
+      [
+        0.0,
+        0.019208818,
+        0.038417635
+      ],
+      [
+        0.0,
+        0.04427744,
+        0.088554881
+      ],
+      [
+        0.0,
+        0.10206207,
+        0.20412415
+      ],
+      [
+        0.0,
+        0.23525901,
+        0.47051801
+      ],
+      [
+        0.0,
+        0.41666667,
+        0.83333333
+      ],
+      [
+        0.0,
+        0.54228568,
+        1.0845714
+      ],
+      [
+        0.0,
+        1.25,
+        2.5
+      ]
+    ]
+  },
+  "operating_conditions ff_n40C_1v65": {
+    "process": 1.0,
+    "temperature": -40.0,
+    "tree_type": "balanced_tree",
+    "voltage": 1.65
+  }
+}

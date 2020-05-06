@@ -1,0 +1,4 @@
+sky130_fd_sc_hd__lpflow_decapkapwr_8	KAPWR:I VGND:I VNB:I VPB:I VPWR:I
+Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
+MI1	MOSFET	VGND	KAPWR	VGND	VNB	nshort	1	0.55	2.89	1	0.265	0.265	0.28	normal	0.063	1.14
+MI2	MOSFET	KAPWR	VGND	KAPWR	VPB	phighvt	1	0.87	2.89	1	0.265	0.265	0.28	normal	0.063	1.14

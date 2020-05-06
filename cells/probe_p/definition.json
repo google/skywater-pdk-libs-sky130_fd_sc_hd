@@ -1,0 +1,47 @@
+{
+ "description": "Virtual voltage probe point.",
+ "file_prefix": "sky130_fd_sc_hd__probe_p",
+ "library": "sky130_fd_sc_hd",
+ "name": "probe_p",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "X",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "A",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_hd__probe_p"
+}

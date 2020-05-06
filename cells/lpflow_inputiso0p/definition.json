@@ -1,0 +1,54 @@
+{
+ "description": "Input isolator with non-inverted enable.",
+ "equation": "X = (A & !SLEEP_B)",
+ "file_prefix": "sky130_fd_sc_hd__lpflow_inputiso0p",
+ "library": "sky130_fd_sc_hd",
+ "name": "lpflow_inputiso0p",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "X",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "A",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "SLEEP",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_hd__lpflow_inputiso0p"
+}

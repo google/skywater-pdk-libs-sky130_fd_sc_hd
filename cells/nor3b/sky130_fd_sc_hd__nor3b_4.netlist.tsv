@@ -1,0 +1,10 @@
+sky130_fd_sc_hd__nor3b_4	A:I B:I C_N:I VGND:I VNB:I VPB:I VPWR:I Y:O
+Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
+MMP0	MOSFET	VPWR	A	sndPA	VPB	phighvt	4	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMP1	MOSFET	sndPA	B	sndPB	VPB	phighvt	4	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMP2	MOSFET	sndPB	C	Y	VPB	phighvt	4	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIP2	MOSFET	C	C_N	VPWR	VPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMN0	MOSFET	Y	A	VGND	VNB	nshort	4	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMN1	MOSFET	Y	B	VGND	VNB	nshort	4	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMN2	MOSFET	Y	C	VGND	VNB	nshort	4	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIN2	MOSFET	C	C_N	VGND	VNB	nshort	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14

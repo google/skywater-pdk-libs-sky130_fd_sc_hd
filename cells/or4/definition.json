@@ -1,0 +1,65 @@
+{
+ "description": "4-input OR.",
+ "file_prefix": "sky130_fd_sc_hd__or4",
+ "library": "sky130_fd_sc_hd",
+ "name": "or4",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "X",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "A",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "B",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "C",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "D",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_hd__or4"
+}

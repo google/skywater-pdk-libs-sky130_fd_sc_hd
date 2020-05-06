@@ -1,0 +1,5 @@
+UDP_IN	VPWR	:	UDP_OUT	Comments
+0	1	:	0	
+1	1	:	1	
+?	0	:	x	
+?	x	:	x	

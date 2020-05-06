@@ -1,0 +1,39 @@
+{
+  "area": 3.7536,
+  "cell_footprint": "conb",
+  "cell_leakage_power": 0.003210344,
+  "pg_pin VGND": {
+    "pg_type": "primary_ground",
+    "voltage_name": "VGND"
+  },
+  "pg_pin VNB": {
+    "pg_type": "primary_ground",
+    "voltage_name": "VNB"
+  },
+  "pg_pin VPB": {
+    "pg_type": "primary_power",
+    "voltage_name": "VPB"
+  },
+  "pg_pin VPWR": {
+    "pg_type": "primary_power",
+    "voltage_name": "VPWR"
+  },
+  "pin HI": {
+    "direction": "output",
+    "function": "1",
+    "max_capacitance": 1.7899,
+    "max_transition": 1.0,
+    "power_down_function": "!VPWR",
+    "related_ground_pin": "VGND",
+    "related_power_pin": "VPWR"
+  },
+  "pin LO": {
+    "direction": "output",
+    "function": "0",
+    "max_capacitance": 1.921,
+    "max_transition": 1.0,
+    "power_down_function": "VGND",
+    "related_ground_pin": "VGND",
+    "related_power_pin": "VPWR"
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "clk_width": 4e-08,
+  "comp_attribute voltage_map": [
+    [
+      "KAPWR",
+      1.6
+    ],
+    [
+      "LOWLVPWR",
+      1.6
+    ],
+    [
+      "VGND",
+      0.0
+    ],
+    [
+      "VNB",
+      0.0
+    ],
+    [
+      "VPB",
+      1.6
+    ],
+    [
+      "VPWR",
+      1.6
+    ],
+    [
+      "VPWRIN",
+      1.6
+    ]
+  ],
+  "default_arc_mode": "worst_edges",
+  "default_max_transition": 1.5,
+  "define": [
+    {
+      "attribute_name": "switching_power_split_model",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "driver_model",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "leakage_sim_opt",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "clk_width",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "default_constraint_arc_mode",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "min_pulse_width_mode",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "default_arc_mode",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "def_sim_opt",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "simulator",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "violation_delay_degrade_pct",
+      "attribute_type": "string",
+      "group_name": "timing"
+    },
+    {
+      "attribute_name": "sim_opt",
+      "attribute_type": "string",
+      "group_name": "timing"
+    }
+  ],
+  "input_voltage GENERAL": {
+    "vih": 1.28,
+    "vil": 0.32,
+    "vimax": 1.68,
+    "vimin": -0.08
+  },
+  "leakage_sim_opt": "runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15",
+  "lu_table_template ccsn_dc": {
+    "variable_1": "input_voltage",
+    "variable_2": "output_voltage"
+  },
+  "lu_table_template ccsn_ovrf": {
+    "variable_1": "input_net_transition",
+    "variable_2": "total_output_net_capacitance",
+    "variable_3": "time"
+  },
+  "lu_table_template ccsn_pnlh": {
+    "variable_1": "input_noise_height",
+    "variable_2": "input_noise_width",
+    "variable_3": "total_output_net_capacitance",
+    "variable_4": "time"
+  },
+  "nom_temperature": -40.0,
+  "nom_voltage": 1.6,
+  "normalized_driver_waveform driver_waveform_template": {
+    "driver_waveform_name": "ramp",
+    "index_1": [
+      0.01,
+      0.0281727,
+      0.07937,
+      0.2236068,
+      0.223607,
+      0.6299605,
+      0.629961,
+      1.774768,
+      1.7747683,
+      1.77477,
+      2.5,
+      5.0
+    ],
+    "index_2": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "values": [
+      [
+        0.0,
+        0.0083333333,
+        0.016666667
+      ],
+      [
+        0.0,
+        0.023477242,
+        0.046954483
+      ],
+      [
+        0.0,
+        0.066141708,
+        0.13228342
+      ],
+      [
+        0.0,
+        0.186339,
+        0.372678
+      ],
+      [
+        0.0,
+        0.18633917,
+        0.37267833
+      ],
+      [
+        0.0,
+        0.52496708,
+        1.0499342
+      ],
+      [
+        0.0,
+        0.5249675,
+        1.049935
+      ],
+      [
+        0.0,
+        1.4789733,
+        2.9579467
+      ],
+      [
+        0.0,
+        1.4789736,
+        2.9579472
+      ],
+      [
+        0.0,
+        1.478975,
+        2.95795
+      ],
+      [
+        0.0,
+        2.0833333,
+        4.1666667
+      ],
+      [
+        0.0,
+        4.1666667,
+        8.3333333
+      ]
+    ]
+  },
+  "operating_conditions ss_n40C_1v60": {
+    "process": 1.0,
+    "temperature": -40.0,
+    "tree_type": "balanced_tree",
+    "voltage": 1.6
+  },
+  "output_voltage GENERAL": {
+    "voh": 1.44,
+    "vol": 0.16,
+    "vomax": 1.68,
+    "vomin": -0.08
+  }
+}

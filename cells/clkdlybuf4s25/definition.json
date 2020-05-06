@@ -1,0 +1,47 @@
+{
+ "description": "Clock Delay Buffer 4-stage 0.25um length inner stage gates.",
+ "file_prefix": "sky130_fd_sc_hd__clkdlybuf4s25",
+ "library": "sky130_fd_sc_hd",
+ "name": "clkdlybuf4s25",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "X",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "A",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_hd__clkdlybuf4s25"
+}

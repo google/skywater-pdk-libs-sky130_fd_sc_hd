@@ -1,0 +1,150 @@
+{
+  "creator": "Yosys 0.9+2406 (git sha1 46ed0db2, clang 7.0.1-8 -fPIC -Os)",
+  "modules": {
+    "sky130_fd_sc_hd__or3b": {
+      "attributes": {
+        "top": 1,
+        "src": "./cells/or3b/sky130_fd_sc_hd__or3b.functional.v:33.1-55.10"
+      },
+      "ports": {
+        "X": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "A": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "C_N": {
+          "direction": "input",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+        "$not$./cells/or3b/sky130_fd_sc_hd__or3b.functional.v:0$1": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/or3b/sky130_fd_sc_hd__or3b.functional.v:0.0-0.0"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 5 ],
+            "Y": [ 6 ]
+          }
+        },
+        "$or$./cells/or3b/sky130_fd_sc_hd__or3b.functional.v:52$2": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/or3b/sky130_fd_sc_hd__or3b.functional.v:52.9-52.42"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "B": [ 3 ],
+            "Y": [ 7 ]
+          }
+        },
+        "$or$./cells/or3b/sky130_fd_sc_hd__or3b.functional.v:52$3": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/or3b/sky130_fd_sc_hd__or3b.functional.v:52.9-52.42"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 7 ],
+            "B": [ 6 ],
+            "Y": [ 2 ]
+          }
+        }
+      },
+      "netnames": {
+        "$or$./cells/or3b/sky130_fd_sc_hd__or3b.functional.v:52$2_Y": {
+          "hide_name": 1,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "./cells/or3b/sky130_fd_sc_hd__or3b.functional.v:52.9-52.42"
+          }
+        },
+        "A": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "./cells/or3b/sky130_fd_sc_hd__or3b.functional.v:42.12-42.13"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "./cells/or3b/sky130_fd_sc_hd__or3b.functional.v:43.12-43.13"
+          }
+        },
+        "C_N": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "./cells/or3b/sky130_fd_sc_hd__or3b.functional.v:44.12-44.15"
+          }
+        },
+        "X": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "./cells/or3b/sky130_fd_sc_hd__or3b.functional.v:41.12-41.13"
+          }
+        },
+        "not0_out": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "./cells/or3b/sky130_fd_sc_hd__or3b.functional.v:47.10-47.18"
+          }
+        },
+        "or0_out_X": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "./cells/or3b/sky130_fd_sc_hd__or3b.functional.v:48.10-48.19"
+          }
+        }
+      }
+    }
+  }
+}

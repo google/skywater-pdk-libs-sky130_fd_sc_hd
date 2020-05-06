@@ -1,0 +1,47 @@
+{
+ "description": "Constant value, low, high outputs.",
+ "file_prefix": "sky130_fd_sc_hd__conb",
+ "library": "sky130_fd_sc_hd",
+ "name": "conb",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "HI",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "LO",
+   "output",
+   ""
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_hd__conb"
+}

@@ -1,0 +1,10 @@
+D	GATE	RESET	:	Qt	:	Qt+1	Comments
+?	0	0	:	?	:	-	hold
+0	1	0	:	?	:	0	pass 0
+1	1	0	:	?	:	1	pass 1
+?	?	1	:	?	:	0	async reset
+0	1	?	:	?	:	0	reduce pessimism
+0	x	0	:	0	:	0	reduce pessimism
+1	x	0	:	1	:	1	reduce pessimism
+?	0	x	:	0	:	0	reduce pessimism
+0	x	x	:	0	:	0	reduce pessimism

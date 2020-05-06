@@ -1,0 +1,46 @@
+{
+  "creator": "Yosys 0.9+2406 (git sha1 46ed0db2, clang 7.0.1-8 -fPIC -Os)",
+  "modules": {
+    "sky130_fd_sc_hd__probec_p": {
+      "attributes": {
+        "top": 1,
+        "src": "./cells/probec_p/sky130_fd_sc_hd__probec_p.functional.v:33.1-49.10"
+      },
+      "ports": {
+        "X": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "./cells/probec_p/sky130_fd_sc_hd__probec_p.functional.v:40.12-40.13"
+          }
+        },
+        "X": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "./cells/probec_p/sky130_fd_sc_hd__probec_p.functional.v:39.12-39.13"
+          }
+        },
+        "buf0_out_X": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "./cells/probec_p/sky130_fd_sc_hd__probec_p.functional.v:43.10-43.20"
+          }
+        }
+      }
+    }
+  }
+}

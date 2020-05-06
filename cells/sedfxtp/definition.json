@@ -1,0 +1,71 @@
+{
+ "description": "Scan delay flop, data enable, non-inverted clock, single output.",
+ "file_prefix": "sky130_fd_sc_hd__sedfxtp",
+ "library": "sky130_fd_sc_hd",
+ "name": "sedfxtp",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "Q",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "CLK",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "D",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "DE",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "SCD",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "SCE",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_hd__sedfxtp"
+}

@@ -1,0 +1,35 @@
+{
+ "description": "Positive edge triggered D flip-flop with active high",
+ "file_prefix": "sky130_fd_sc_hd__udp_dff_pr",
+ "library": "sky130_fd_sc_hd",
+ "name": "udp_dff$PR",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "Q",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "D",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "CLK",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "RESET",
+   "input",
+   ""
+  ]
+ ],
+ "type": "primitive",
+ "verilog_name": "sky130_fd_sc_hd__udp_dff$PR"
+}

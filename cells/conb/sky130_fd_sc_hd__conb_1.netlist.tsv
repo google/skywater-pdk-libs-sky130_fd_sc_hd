@@ -1,0 +1,4 @@
+sky130_fd_sc_hd__conb_1	VGND:I VNB:I VPB:I VPWR:I HI:O LO:O
+Name	Formula	
+rI12	VGND LO short
+rI11	HI VPWR short

@@ -1,0 +1,59 @@
+{
+ "description": "3-input AND.",
+ "file_prefix": "sky130_fd_sc_hd__and3",
+ "library": "sky130_fd_sc_hd",
+ "name": "and3",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "X",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "A",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "B",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "C",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_hd__and3"
+}

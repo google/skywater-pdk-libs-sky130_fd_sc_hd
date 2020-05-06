@@ -1,0 +1,192 @@
+{
+  "creator": "Yosys 0.9+2406 (git sha1 46ed0db2, clang 7.0.1-8 -fPIC -Os)",
+  "modules": {
+    "sky130_fd_sc_hd__a31oi": {
+      "attributes": {
+        "top": 1,
+        "src": "./cells/a31oi/sky130_fd_sc_hd__a31oi.functional.v:35.1-59.10"
+      },
+      "ports": {
+        "Y": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "A1": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "A2": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "A3": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "B1": {
+          "direction": "input",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+        "$and$./cells/a31oi/sky130_fd_sc_hd__a31oi.functional.v:55$1": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/a31oi/sky130_fd_sc_hd__a31oi.functional.v:55.9-55.43"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 5 ],
+            "B": [ 3 ],
+            "Y": [ 7 ]
+          }
+        },
+        "$and$./cells/a31oi/sky130_fd_sc_hd__a31oi.functional.v:55$2": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/a31oi/sky130_fd_sc_hd__a31oi.functional.v:55.9-55.43"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 7 ],
+            "B": [ 4 ],
+            "Y": [ 8 ]
+          }
+        },
+        "$not$./cells/a31oi/sky130_fd_sc_hd__a31oi.functional.v:0$4": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/a31oi/sky130_fd_sc_hd__a31oi.functional.v:0.0-0.0"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 9 ],
+            "Y": [ 2 ]
+          }
+        },
+        "$or$./cells/a31oi/sky130_fd_sc_hd__a31oi.functional.v:56$3": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/a31oi/sky130_fd_sc_hd__a31oi.functional.v:56.9-56.43"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 6 ],
+            "B": [ 8 ],
+            "Y": [ 9 ]
+          }
+        }
+      },
+      "netnames": {
+        "$and$./cells/a31oi/sky130_fd_sc_hd__a31oi.functional.v:55$1_Y": {
+          "hide_name": 1,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "./cells/a31oi/sky130_fd_sc_hd__a31oi.functional.v:55.9-55.43"
+          }
+        },
+        "$or$./cells/a31oi/sky130_fd_sc_hd__a31oi.functional.v:56$3_Y": {
+          "hide_name": 1,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "./cells/a31oi/sky130_fd_sc_hd__a31oi.functional.v:56.9-56.43"
+          }
+        },
+        "A1": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "./cells/a31oi/sky130_fd_sc_hd__a31oi.functional.v:45.12-45.14"
+          }
+        },
+        "A2": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "./cells/a31oi/sky130_fd_sc_hd__a31oi.functional.v:46.12-46.14"
+          }
+        },
+        "A3": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "./cells/a31oi/sky130_fd_sc_hd__a31oi.functional.v:47.12-47.14"
+          }
+        },
+        "B1": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "./cells/a31oi/sky130_fd_sc_hd__a31oi.functional.v:48.12-48.14"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "./cells/a31oi/sky130_fd_sc_hd__a31oi.functional.v:44.12-44.13"
+          }
+        },
+        "and0_out": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "./cells/a31oi/sky130_fd_sc_hd__a31oi.functional.v:51.10-51.18"
+          }
+        },
+        "nor0_out_Y": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "./cells/a31oi/sky130_fd_sc_hd__a31oi.functional.v:52.10-52.20"
+          }
+        }
+      }
+    }
+  }
+}

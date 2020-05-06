@@ -1,0 +1,139 @@
+# Copyright 2020 The SkyWater PDK Authors
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     https://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# SPDX-License-Identifier: Apache-2.0
+
+VERSION 5.7 ;
+  NAMESCASESENSITIVE ON ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+UNITS
+  DATABASE MICRONS 200 ;
+END UNITS
+MACRO sky130_fd_sc_hd__o32ai_1
+  CLASS CORE ;
+  SOURCE USER ;
+  FOREIGN sky130_fd_sc_hd__o32ai_1 ;
+  ORIGIN  0.000000  0.000000 ;
+  SIZE  3.220000 BY  2.720000 ;
+  SYMMETRY X Y R90 ;
+  SITE unithd ;
+  PIN A1
+    ANTENNAGATEAREA  0.247500 ;
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER li1 ;
+        RECT 2.575000 0.995000 3.135000 1.325000 ;
+    END
+  END A1
+  PIN A2
+    ANTENNAGATEAREA  0.247500 ;
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER li1 ;
+        RECT 1.930000 0.995000 2.225000 2.465000 ;
+    END
+  END A2
+  PIN A3
+    ANTENNAGATEAREA  0.247500 ;
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER li1 ;
+        RECT 1.410000 0.995000 1.700000 1.615000 ;
+    END
+  END A3
+  PIN B1
+    ANTENNAGATEAREA  0.247500 ;
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER li1 ;
+        RECT 0.090000 0.685000 0.345000 0.995000 ;
+        RECT 0.090000 0.995000 0.360000 1.325000 ;
+    END
+  END B1
+  PIN B2
+    ANTENNAGATEAREA  0.247500 ;
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER li1 ;
+        RECT 0.870000 0.995000 1.240000 1.615000 ;
+    END
+  END B2
+  PIN Y
+    ANTENNADIFFAREA  0.821250 ;
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER li1 ;
+        RECT 0.515000 0.655000 0.845000 0.825000 ;
+        RECT 0.530000 0.825000 0.700000 1.785000 ;
+        RECT 0.530000 1.785000 1.545000 2.465000 ;
+    END
+  END Y
+  PIN VGND
+    DIRECTION INOUT ;
+    SHAPE ABUTMENT ;
+    USE GROUND ;
+    PORT
+      LAYER li1 ;
+        RECT 0.000000 -0.085000 3.220000 0.085000 ;
+        RECT 1.515000  0.085000 2.185000 0.485000 ;
+        RECT 2.695000  0.085000 3.135000 0.825000 ;
+      LAYER mcon ;
+        RECT 0.145000 -0.085000 0.315000 0.085000 ;
+        RECT 0.605000 -0.085000 0.775000 0.085000 ;
+        RECT 1.065000 -0.085000 1.235000 0.085000 ;
+        RECT 1.525000 -0.085000 1.695000 0.085000 ;
+        RECT 1.985000 -0.085000 2.155000 0.085000 ;
+        RECT 2.445000 -0.085000 2.615000 0.085000 ;
+        RECT 2.905000 -0.085000 3.075000 0.085000 ;
+      LAYER met1 ;
+        RECT 0.000000 -0.240000 3.220000 0.240000 ;
+    END
+  END VGND
+  PIN VPWR
+    DIRECTION INOUT ;
+    SHAPE ABUTMENT ;
+    USE POWER ;
+    PORT
+      LAYER li1 ;
+        RECT 0.000000 2.635000 3.220000 2.805000 ;
+        RECT 0.090000 1.495000 0.360000 2.635000 ;
+        RECT 2.695000 1.495000 3.135000 2.635000 ;
+      LAYER mcon ;
+        RECT 0.145000 2.635000 0.315000 2.805000 ;
+        RECT 0.605000 2.635000 0.775000 2.805000 ;
+        RECT 1.065000 2.635000 1.235000 2.805000 ;
+        RECT 1.525000 2.635000 1.695000 2.805000 ;
+        RECT 1.985000 2.635000 2.155000 2.805000 ;
+        RECT 2.445000 2.635000 2.615000 2.805000 ;
+        RECT 2.905000 2.635000 3.075000 2.805000 ;
+      LAYER met1 ;
+        RECT 0.000000 2.480000 3.220000 2.960000 ;
+    END
+  END VPWR
+  OBS
+    LAYER li1 ;
+      RECT 0.090000 0.255000 1.345000 0.485000 ;
+      RECT 1.015000 0.485000 1.345000 0.655000 ;
+      RECT 1.015000 0.655000 2.525000 0.825000 ;
+      RECT 2.355000 0.375000 2.525000 0.655000 ;
+  END
+END sky130_fd_sc_hd__o32ai_1

@@ -1,0 +1,14 @@
+sky130_fd_sc_hd__o2bb2a_1	A1_N:I A2_N:I B1:I B2:I VGND:I VNB:I VPB:I VPWR:I X:O
+Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
+MMIN2	MOSFET	X	y	VGND	VNB	nshort	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMNnand0	MOSFET	VGND	A1_N	sndNA1N	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMNnand1	MOSFET	sndNA1N	A2_N	inand	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMNaoi10	MOSFET	nmid	B1	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMNaoi11	MOSFET	nmid	B2	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMNaoi20	MOSFET	y	inand	nmid	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIP2	MOSFET	X	y	VPWR	VPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMPnand0	MOSFET	inand	A1_N	VPWR	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMPnand1	MOSFET	inand	A2_N	VPWR	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMPaoi10	MOSFET	VPWR	B1	sndPB1	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMPaoi11	MOSFET	sndPB1	B2	y	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMPaoi20	MOSFET	y	inand	VPWR	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14

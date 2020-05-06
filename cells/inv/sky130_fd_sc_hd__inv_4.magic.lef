@@ -1,0 +1,98 @@
+# Copyright 2020 The SkyWater PDK Authors
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     https://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# SPDX-License-Identifier: Apache-2.0
+
+VERSION 5.7 ;
+  NAMESCASESENSITIVE ON ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+UNITS
+  DATABASE MICRONS 200 ;
+END UNITS
+MACRO sky130_fd_sc_hd__inv_4
+  CLASS CORE ;
+  SOURCE USER ;
+  FOREIGN sky130_fd_sc_hd__inv_4 ;
+  ORIGIN  0.000000  0.000000 ;
+  SIZE  2.300000 BY  2.720000 ;
+  SYMMETRY X Y R90 ;
+  SITE unithd ;
+  PIN A
+    ANTENNAGATEAREA  0.990000 ;
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER li1 ;
+        RECT 0.105000 1.075000 1.735000 1.325000 ;
+    END
+  END A
+  PIN Y
+    ANTENNADIFFAREA  0.891000 ;
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER li1 ;
+        RECT 0.565000 0.255000 0.895000 0.725000 ;
+        RECT 0.565000 0.725000 2.170000 0.905000 ;
+        RECT 0.565000 1.495000 2.170000 1.665000 ;
+        RECT 0.565000 1.665000 0.895000 2.465000 ;
+        RECT 1.405000 0.255000 1.735000 0.725000 ;
+        RECT 1.405000 1.665000 2.170000 1.685000 ;
+        RECT 1.405000 1.685000 1.735000 2.465000 ;
+        RECT 1.905000 0.905000 2.170000 1.495000 ;
+    END
+  END Y
+  PIN VGND
+    DIRECTION INOUT ;
+    SHAPE ABUTMENT ;
+    USE GROUND ;
+    PORT
+      LAYER li1 ;
+        RECT 0.000000 -0.085000 2.300000 0.085000 ;
+        RECT 0.130000  0.085000 0.395000 0.545000 ;
+        RECT 1.065000  0.085000 1.235000 0.545000 ;
+        RECT 1.905000  0.085000 2.155000 0.550000 ;
+      LAYER mcon ;
+        RECT 0.145000 -0.085000 0.315000 0.085000 ;
+        RECT 0.605000 -0.085000 0.775000 0.085000 ;
+        RECT 1.065000 -0.085000 1.235000 0.085000 ;
+        RECT 1.525000 -0.085000 1.695000 0.085000 ;
+        RECT 1.985000 -0.085000 2.155000 0.085000 ;
+      LAYER met1 ;
+        RECT 0.000000 -0.240000 2.300000 0.240000 ;
+    END
+  END VGND
+  PIN VPWR
+    DIRECTION INOUT ;
+    SHAPE ABUTMENT ;
+    USE POWER ;
+    PORT
+      LAYER li1 ;
+        RECT 0.000000 2.635000 2.300000 2.805000 ;
+        RECT 0.130000 1.495000 0.395000 2.635000 ;
+        RECT 1.065000 1.835000 1.235000 2.635000 ;
+        RECT 1.905000 2.175000 2.115000 2.635000 ;
+      LAYER mcon ;
+        RECT 0.145000 2.635000 0.315000 2.805000 ;
+        RECT 0.605000 2.635000 0.775000 2.805000 ;
+        RECT 1.065000 2.635000 1.235000 2.805000 ;
+        RECT 1.525000 2.635000 1.695000 2.805000 ;
+        RECT 1.985000 2.635000 2.155000 2.805000 ;
+      LAYER met1 ;
+        RECT 0.000000 2.480000 2.300000 2.960000 ;
+    END
+  END VPWR
+END sky130_fd_sc_hd__inv_4

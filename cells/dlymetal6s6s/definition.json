@@ -1,0 +1,47 @@
+{
+ "description": "6-inverter delay with output from 6th inverter on horizontal route.",
+ "file_prefix": "sky130_fd_sc_hd__dlymetal6s6s",
+ "library": "sky130_fd_sc_hd",
+ "name": "dlymetal6s6s",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "X",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "A",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_hd__dlymetal6s6s"
+}

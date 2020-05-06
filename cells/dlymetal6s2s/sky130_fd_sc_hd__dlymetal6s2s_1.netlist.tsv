@@ -1,0 +1,14 @@
+sky130_fd_sc_hd__dlymetal6s2s_1	A:I VGND:I VNB:I VPB:I VPWR:I X:O
+Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
+MMIN1	MOSFET	Ab	net55	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIN2	MOSFET	net59	Ab	VGND	VNB	nshort	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI6	MOSFET	net55	net47	VGND	VNB	nshort	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI15	MOSFET	net51	A	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI9	MOSFET	net47	X	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI16	MOSFET	X	net51	VGND	VNB	nshort	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIP1	MOSFET	Ab	net55	VPWR	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIP2	MOSFET	net59	Ab	VPWR	VPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI7	MOSFET	net55	net47	VPWR	VPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI8	MOSFET	net47	X	VPWR	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI18	MOSFET	X	net51	VPWR	VPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI17	MOSFET	net51	A	VPWR	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14

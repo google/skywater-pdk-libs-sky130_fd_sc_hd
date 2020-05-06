@@ -1,0 +1,10 @@
+D	CLK	:	Qt	:	Qt+1	Comments
+1	(01)	:	?	:	1	clocked data
+0	(01)	:	?	:	0	
+1	(x1)	:	1	:	1	reducing pessimism
+0	(x1)	:	0	:	0	
+1	(0x)	:	1	:	1	
+0	(0x)	:	0	:	0	
+?	(1x)	:	?	:	-	no change on falling edge
+?	(?0)	:	?	:	-	
+*	?	:	?	:	-	ignore edges on data

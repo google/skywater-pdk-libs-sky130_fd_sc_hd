@@ -1,0 +1,53 @@
+{
+ "description": "Clock tree buffer on keep-alive power rail.",
+ "file_prefix": "sky130_fd_sc_hd__lpflow_clkbufkapwr",
+ "library": "sky130_fd_sc_hd",
+ "name": "lpflow_clkbufkapwr",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "X",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "A",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "KAPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_hd__lpflow_clkbufkapwr"
+}

@@ -1,0 +1,24 @@
+SET	RESET	CLK_N	D	NOTIFIER	VPWR	VGND	:	Qt	:	Qt+1	Comments
+0	1	b	?	?	1	0	:	?	:	0	Asserting reset
+0	*	?	?	?	1	0	:	0	:	0	Changing reset
+1	?	b	?	?	1	0	:	?	:	1	Asserting set  (dominates reset)
+*	0	?	?	?	1	0	:	1	:	1	Changing set
+1	?	n	?	?	1	0	:	1	:	1	
+?	1	n	?	?	1	0	:	0	:	0	
+x	?	n	?	?	1	0	:	1	:	1	
+?	x	n	?	?	1	0	:	0	:	0	
+0	?	(01)	0	?	1	0	:	?	:	0	rising clock
+?	0	(01)	1	?	1	0	:	?	:	1	rising clock
+0	?	p	0	?	1	0	:	0	:	0	potential rising clock
+?	0	p	1	?	1	0	:	1	:	1	potential rising clock
+0	?	x	0	?	1	0	:	1	:	x	
+?	0	x	1	?	1	0	:	0	:	x	
+0	0	n	?	?	1	0	:	?	:	-	Clock falling register output does not change
+0	0	?	*	?	1	0	:	?	:	-	Changing Data
+IfDef(functional)	
+?	?	?	?	*	1	0	:	?	:	-	go to - on notify
+Else	
+?	?	?	?	*	1	0	:	?	:	X	go to X on notify
+EndIfDef(functional)	
+?	?	?	?	?	*	0	:	?	:	X	any change on vpwr
+?	?	?	?	?	?	*	:	?	:	X	any change on vgnd

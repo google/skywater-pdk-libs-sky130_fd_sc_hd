@@ -1,0 +1,47 @@
+{
+ "description": "Delay Buffer 4-stage 0.18um length inner stage gates.",
+ "file_prefix": "sky130_fd_sc_hd__dlygate4sd2",
+ "library": "sky130_fd_sc_hd",
+ "name": "dlygate4sd2",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "X",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "A",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_hd__dlygate4sd2"
+}

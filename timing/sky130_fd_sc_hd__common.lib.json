@@ -1,0 +1,132 @@
+{
+  "bus_naming_style": "%s[%d]",
+  "comp_attribute capacitive_load_unit": [
+    1.0,
+    "pf"
+  ],
+  "comp_attribute library_features": "report_delay_calculation",
+  "comp_attribute technology": "cmos",
+  "comp_attribute voltage_map": {
+    "VGND": 0.0,
+    "VNB": 0.0
+  },
+  "current_unit": "1mA",
+  "default_cell_leakage_power": 0.0,
+  "default_constraint_arc_mode": "worst",
+  "default_fanout_load": 0.0,
+  "default_inout_pin_cap": 0.0,
+  "default_input_pin_cap": 0.0,
+  "default_leakage_power_density": 0.0,
+  "default_output_pin_cap": 0.0,
+  "delay_model": "table_lookup",
+  "driver_model": "ramp",
+  "in_place_swap_mode": "match_footprint",
+  "input_threshold_pct_fall": 50.0,
+  "input_threshold_pct_rise": 50.0,
+  "leakage_power_unit": "1nW",
+  "lu_table_template constraint_3_0_1": {
+    "index_1": [
+      1,
+      2,
+      3
+    ],
+    "variable_1": "related_pin_transition"
+  },
+  "lu_table_template del_1_7_7": {
+    "index_1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "index_2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "variable_1": "input_net_transition",
+    "variable_2": "total_output_net_capacitance"
+  },
+  "lu_table_template driver_waveform_template": {
+    "index_1": [
+      1,
+      2
+    ],
+    "index_2": [
+      1,
+      2
+    ],
+    "variable_1": "input_net_transition",
+    "variable_2": "normalized_voltage"
+  },
+  "lu_table_template vio_3_3_1": {
+    "index_1": [
+      1,
+      2,
+      3
+    ],
+    "index_2": [
+      1,
+      2,
+      3
+    ],
+    "variable_1": "related_pin_transition",
+    "variable_2": "constrained_pin_transition"
+  },
+  "min_pulse_width_mode": "max",
+  "nom_process": 1.0,
+  "output_threshold_pct_fall": 50.0,
+  "output_threshold_pct_rise": 50.0,
+  "power_lut_template power_inputs_1": {
+    "index_1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "variable_1": "input_transition_time"
+  },
+  "power_lut_template power_outputs_1": {
+    "index_1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "index_2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "variable_1": "input_transition_time",
+    "variable_2": "total_output_net_capacitance"
+  },
+  "pulling_resistance_unit": "1kohm",
+  "revision": 1.0,
+  "simulation": "true",
+  "slew_derate_from_library": 1.0,
+  "slew_lower_threshold_pct_fall": 20.0,
+  "slew_lower_threshold_pct_rise": 20.0,
+  "slew_upper_threshold_pct_fall": 80.0,
+  "slew_upper_threshold_pct_rise": 80.0,
+  "switching_power_split_model": "true",
+  "time_unit": "1ns",
+  "voltage_unit": "1V"
+}

@@ -1,0 +1,53 @@
+{
+ "description": "Clock gate.",
+ "file_prefix": "sky130_fd_sc_hd__dlclkp",
+ "library": "sky130_fd_sc_hd",
+ "name": "dlclkp",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "GCLK",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "GATE",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "CLK",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_hd__dlclkp"
+}

@@ -1,0 +1,84 @@
+{
+  "area": 7.5072,
+  "cell_footprint": "bleeder",
+  "cell_leakage_power": 32213.84,
+  "driver_waveform_fall": "ramp",
+  "driver_waveform_rise": "ramp",
+  "leakage_power": [
+    {
+      "value": 64427.673,
+      "when": "SHORT"
+    },
+    {
+      "value": 4.1733144e-06,
+      "when": "!SHORT"
+    }
+  ],
+  "pg_pin VGND": {
+    "pg_type": "primary_ground",
+    "voltage_name": "VGND"
+  },
+  "pg_pin VNB": {
+    "pg_type": "primary_ground",
+    "voltage_name": "VNB"
+  },
+  "pg_pin VPB": {
+    "pg_type": "primary_power",
+    "voltage_name": "VPB"
+  },
+  "pg_pin VPWR": {
+    "pg_type": "primary_power",
+    "voltage_name": "VPWR"
+  },
+  "pin SHORT": {
+    "always_on": "true",
+    "capacitance": 0.001958,
+    "direction": "input",
+    "fall_capacitance": 0.00203,
+    "internal_power": {
+      "fall_power power_inputs_1": {
+        "index_1": [
+          0.01,
+          0.0316228,
+          0.1,
+          0.316228,
+          1.0,
+          3.16228,
+          9.9999999
+        ],
+        "values": [
+          -0.0315362,
+          -0.5629608,
+          -1.0941611,
+          -1.6250737,
+          -2.1546552,
+          -2.6800272,
+          -3.1920875
+        ]
+      },
+      "rise_power power_inputs_1": {
+        "index_1": [
+          0.01,
+          0.0316228,
+          0.1,
+          0.316228,
+          1.0,
+          3.16228,
+          9.9999999
+        ],
+        "values": [
+          0.0051237,
+          0.0046878,
+          0.0033092,
+          0.0135807,
+          0.0460619,
+          0.1487765,
+          0.4735882
+        ]
+      }
+    },
+    "related_ground_pin": "VGND",
+    "related_power_pin": "VPWR",
+    "rise_capacitance": 0.001885
+  }
+}

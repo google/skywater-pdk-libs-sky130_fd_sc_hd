@@ -1,0 +1,59 @@
+{
+ "description": "2-input multiplexer.",
+ "file_prefix": "sky130_fd_sc_hd__mux2",
+ "library": "sky130_fd_sc_hd",
+ "name": "mux2",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "X",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "A0",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "A1",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "S",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_hd__mux2"
+}

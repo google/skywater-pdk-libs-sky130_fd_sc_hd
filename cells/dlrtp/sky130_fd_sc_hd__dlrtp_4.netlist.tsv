@@ -1,0 +1,22 @@
+sky130_fd_sc_hd__dlrtp_4	D:I GATE:I RESET_B:I VGND:I VNB:I VPB:I VPWR:I Q:O
+Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
+MI635	MOSFET	clkpos	clkneg	VPWR	VPB	phighvt	1	0.64	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI17	MOSFET	M0	clkneg	net55	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI650	MOSFET	Q	m1	VPWR	VPB	phighvt	4	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI633	MOSFET	clkneg	GATE	VPWR	VPB	phighvt	1	0.64	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI658	MOSFET	m1	RESET_B	VPWR	VPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI18	MOSFET	net55	db	VPWR	VPB	phighvt	1	0.64	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI653	MOSFET	net51	m1	VPWR	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI651	MOSFET	M0	clkpos	net51	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI655	MOSFET	m1	M0	VPWR	VPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI638	MOSFET	db	D	VPWR	VPB	phighvt	1	0.64	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI634	MOSFET	clkneg	GATE	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI649	MOSFET	Q	m1	VGND	VNB	nshort	4	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI657	MOSFET	net94	RESET_B	VGND	VNB	nshort	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI652	MOSFET	M0	clkneg	net102	VNB	nshort	1	0.36	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI654	MOSFET	net102	m1	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI656	MOSFET	m1	M0	net94	VNB	nshort	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI636	MOSFET	clkpos	clkneg	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI637	MOSFET	db	D	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI19	MOSFET	M0	clkpos	net82	VNB	nshort	1	0.36	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI20	MOSFET	net82	db	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14

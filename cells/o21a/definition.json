@@ -1,0 +1,60 @@
+{
+ "description": "2-input OR into first input of 2-input AND.",
+ "equation": "X = ((A1 | A2) & B1)",
+ "file_prefix": "sky130_fd_sc_hd__o21a",
+ "library": "sky130_fd_sc_hd",
+ "name": "o21a",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "X",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "A1",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "A2",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "B1",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_hd__o21a"
+}

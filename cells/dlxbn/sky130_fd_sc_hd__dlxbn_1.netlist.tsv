@@ -1,0 +1,24 @@
+sky130_fd_sc_hd__dlxbn_1	D:I GATE_N:I VGND:I VNB:I VPB:I VPWR:I Q:O Q_N:O
+Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
+MI635	MOSFET	clkneg	clkpos	VPWR	VPB	phighvt	1	0.64	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI648	MOSFET	Q_N	net112	VPWR	VPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI17	MOSFET	M0	clkneg	net56	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI646	MOSFET	net112	m1	VPWR	VPB	phighvt	1	0.64	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI650	MOSFET	Q	m1	VPWR	VPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI633	MOSFET	clkpos	GATE_N	VPWR	VPB	phighvt	1	0.64	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI18	MOSFET	net56	db	VPWR	VPB	phighvt	1	0.64	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI653	MOSFET	net52	m1	VPWR	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI651	MOSFET	M0	clkpos	net52	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI655	MOSFET	m1	M0	VPWR	VPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI638	MOSFET	db	D	VPWR	VPB	phighvt	1	0.64	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI634	MOSFET	clkpos	GATE_N	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI647	MOSFET	Q_N	net112	VGND	VNB	nshort	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI649	MOSFET	Q	m1	VGND	VNB	nshort	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI645	MOSFET	net112	m1	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI652	MOSFET	M0	clkneg	net107	VNB	nshort	1	0.36	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI654	MOSFET	net107	m1	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI656	MOSFET	m1	M0	VGND	VNB	nshort	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI636	MOSFET	clkneg	clkpos	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI637	MOSFET	db	D	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI19	MOSFET	M0	clkpos	net87	VNB	nshort	1	0.36	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI20	MOSFET	net87	db	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14

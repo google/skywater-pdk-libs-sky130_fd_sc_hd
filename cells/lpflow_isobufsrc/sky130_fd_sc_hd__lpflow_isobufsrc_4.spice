@@ -1,0 +1,41 @@
+* NGSPICE file created from sky130_fd_sc_hd__lpflow_isobufsrc_4.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hd__lpflow_isobufsrc_4 A SLEEP VGND VNB VPB VPWR X
+M1000 a_27_297# a_419_21# X VPB phighvt w=1e+06u l=150000u
++  ad=1.37e+12p pd=1.274e+07u as=5.4e+11p ps=5.08e+06u
+M1001 VPWR SLEEP a_27_297# VPB phighvt w=1e+06u l=150000u
++  ad=8.2e+11p pd=7.64e+06u as=0p ps=0u
+M1002 X SLEEP VGND VNB nshort w=650000u l=150000u
++  ad=7.02e+11p pd=7.36e+06u as=1.053e+12p ps=1.104e+07u
+M1003 VGND A a_419_21# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=1.82e+11p ps=1.86e+06u
+M1004 VGND SLEEP X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1005 VGND a_419_21# X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1006 X a_419_21# a_27_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1007 a_27_297# a_419_21# X VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1008 VGND SLEEP X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1009 X SLEEP VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1010 X a_419_21# VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1011 VPWR A a_419_21# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=2.7e+11p ps=2.54e+06u
+M1012 a_27_297# SLEEP VPWR VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1013 VGND a_419_21# X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1014 VPWR SLEEP a_27_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1015 X a_419_21# a_27_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1016 X a_419_21# VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1017 a_27_297# SLEEP VPWR VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

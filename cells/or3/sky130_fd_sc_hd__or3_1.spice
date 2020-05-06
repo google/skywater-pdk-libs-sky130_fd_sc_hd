@@ -1,0 +1,21 @@
+* NGSPICE file created from sky130_fd_sc_hd__or3_1.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hd__or3_1 A B C VGND VNB VPB VPWR X
+M1000 a_29_53# B VGND VNB nshort w=420000u l=150000u
++  ad=2.226e+11p pd=2.74e+06u as=3.1715e+11p ps=3.36e+06u
+M1001 a_183_297# B a_111_297# VPB phighvt w=420000u l=150000u
++  ad=1.386e+11p pd=1.5e+06u as=8.82e+10p ps=1.26e+06u
+M1002 X a_29_53# VPWR VPB phighvt w=1e+06u l=150000u
++  ad=2.8e+11p pd=2.56e+06u as=2.965e+11p ps=2.68e+06u
+M1003 a_111_297# C a_29_53# VPB phighvt w=420000u l=150000u
++  ad=0p pd=0u as=1.092e+11p ps=1.36e+06u
+M1004 VGND C a_29_53# VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1005 VGND A a_29_53# VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1006 X a_29_53# VGND VNB nshort w=650000u l=150000u
++  ad=1.82e+11p pd=1.86e+06u as=0p ps=0u
+M1007 VPWR A a_183_297# VPB phighvt w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

@@ -1,0 +1,18 @@
+D	CLK	NOTIFIER	VPWR	VGND	:	Qt	:	Qt+1	Comments
+1	(01)	?	1	0	:	?	:	1	clocked data
+0	(01)	?	1	0	:	?	:	0	
+1	(x1)	?	1	0	:	1	:	1	reducing pessimism
+0	(x1)	?	1	0	:	0	:	0	
+1	(0x)	?	1	0	:	1	:	1	
+0	(0x)	?	1	0	:	0	:	0	
+0	x	?	1	0	:	0	:	0	Hold when CLK=X and D=Q
+1	x	?	1	0	:	1	:	1	Hold when CLK=X and D=Q
+?	(?0)	?	1	0	:	?	:	-	
+*	b	?	1	0	:	?	:	-	ignore edges on data
+IfDef(functional)	
+?	?	*	1	0	:	?	:	-	
+Else	
+?	?	*	1	0	:	?	:	x	
+EndIfDef(functional)	
+?	?	?	*	?	:	?	:	x	any change on vpwr
+?	?	?	?	*	:	?	:	x	any change on vgnd

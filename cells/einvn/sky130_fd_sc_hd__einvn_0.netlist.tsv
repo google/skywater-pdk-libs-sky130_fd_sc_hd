@@ -1,0 +1,8 @@
+sky130_fd_sc_hd__einvn_0	A:I TE_B:I VGND:I VNB:I VPB:I VPWR:I Z:O
+Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
+MMN0	MOSFET	Z	A	sndA	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMN1	MOSFET	sndA	net25	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIN1	MOSFET	net25	TE_B	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMP0	MOSFET	VPWR	TE_B	sndTEB	VPB	phighvt	1	0.64	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMP1	MOSFET	sndTEB	A	Z	VPB	phighvt	1	0.64	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIP1	MOSFET	net25	TE_B	VPWR	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14

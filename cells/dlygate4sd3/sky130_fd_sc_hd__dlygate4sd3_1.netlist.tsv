@@ -1,0 +1,10 @@
+sky130_fd_sc_hd__dlygate4sd3_1	A:I VGND:I VNB:I VPB:I VPWR:I X:O
+Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
+MMIN1	MOSFET	Ab	net34	VGND	VNB	nshort	1	0.42	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIN2	MOSFET	X	Ab	VGND	VNB	nshort	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI6	MOSFET	net34	net30	VGND	VNB	nshort	1	0.42	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MI9	MOSFET	net30	A	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIP1	MOSFET	Ab	net34	VPWR	VPB	phighvt	1	0.42	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIP2	MOSFET	X	Ab	VPWR	VPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI7	MOSFET	net34	net30	VPWR	VPB	phighvt	1	0.42	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MI8	MOSFET	net30	A	VPWR	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14

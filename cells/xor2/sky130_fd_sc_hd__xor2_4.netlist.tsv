@@ -1,0 +1,12 @@
+sky130_fd_sc_hd__xor2_4	A:I B:I VGND:I VNB:I VPB:I VPWR:I X:O
+Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
+MMNnor0	MOSFET	inor	A	VGND	VNB	nshort	4	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMNnor1	MOSFET	inor	B	VGND	VNB	nshort	4	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMNaoi10	MOSFET	VGND	A	sndNA	VNB	nshort	4	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMNaoi11	MOSFET	sndNA	B	X	VNB	nshort	4	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMNaoi20	MOSFET	X	inor	VGND	VNB	nshort	4	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMPnor0	MOSFET	VPWR	A	sndPA	VPB	phighvt	4	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMPnor1	MOSFET	sndPA	B	inor	VPB	phighvt	4	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMPaoi10	MOSFET	pmid	A	VPWR	VPB	phighvt	4	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMPaoi11	MOSFET	pmid	B	VPWR	VPB	phighvt	4	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMPaoi20	MOSFET	X	inor	pmid	VPB	phighvt	4	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14

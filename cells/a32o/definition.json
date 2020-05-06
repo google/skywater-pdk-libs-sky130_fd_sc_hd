@@ -1,0 +1,72 @@
+{
+ "description": "3-input AND into first input, and 2-input AND into 2nd input of 2-input OR.",
+ "equation": "X = ((A1 & A2 & A3) | (B1 & B2))",
+ "file_prefix": "sky130_fd_sc_hd__a32o",
+ "library": "sky130_fd_sc_hd",
+ "name": "a32o",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "X",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "A1",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "A2",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "A3",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "B1",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "B2",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_hd__a32o"
+}

@@ -1,0 +1,12 @@
+sky130_fd_sc_hd__lpflow_isobufsrckapwr_16	A:I SLEEP:I KAPWR:I VGND:I VNB:I VPB:I VPWR:I X:O
+Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
+MMP0	MOSFET	VPWR	SLEEP	sndPA	VPB	phighvt	4	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMP1	MOSFET	sndPA	net58	net66	VPB	phighvt	4	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIP1	MOSFET	net58	A	VPWR	VPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIP0	MOSFET	Ab	net66	KAPWR	VPB	phighvt	4	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI9	MOSFET	X	Ab	KAPWR	VPB	phighvt	16	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMN0	MOSFET	net66	SLEEP	VGND	VNB	nshort	4	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMN1	MOSFET	net66	net58	VGND	VNB	nshort	4	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIN1	MOSFET	net58	A	VGND	VNB	nshort	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIN0	MOSFET	Ab	net66	VGND	VNB	nshort	4	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI8	MOSFET	X	Ab	VGND	VNB	nshort	16	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14

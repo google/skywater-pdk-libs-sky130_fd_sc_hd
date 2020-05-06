@@ -1,0 +1,6 @@
+D	GATE	:	Qt	:	Qt+1	Comments
+?	0	:	?	:	-	hold
+0	1	:	?	:	0	pass 0
+1	1	:	?	:	1	pass 1
+0	x	:	0	:	0	reduce pessimism
+1	x	:	1	:	1	reduce pessimism

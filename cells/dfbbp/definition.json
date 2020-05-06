@@ -1,0 +1,71 @@
+{
+ "description": "Delay flop, inverted set, inverted reset, complementary outputs.",
+ "file_prefix": "sky130_fd_sc_hd__dfbbp",
+ "library": "sky130_fd_sc_hd",
+ "name": "dfbbp",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "Q",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "Q_N",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "D",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "CLK",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "SET_B",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "RESET_B",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_hd__dfbbp"
+}

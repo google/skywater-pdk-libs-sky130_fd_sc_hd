@@ -1,0 +1,35 @@
+{
+ "description": "Tap cell with tap to ground, isolated power connection 2 rows down.",
+ "file_prefix": "sky130_fd_sc_hd__tapvgnd2",
+ "library": "sky130_fd_sc_hd",
+ "name": "tapvgnd2",
+ "parameters": [],
+ "ports": [
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_hd__tapvgnd2"
+}

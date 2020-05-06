@@ -1,0 +1,6 @@
+UDP_IN	VGND	:	out	Comments
+0	0	:	0	
+1	0	:	1	
+x	0	:	x	
+?	1	:	x	
+?	x	:	x	

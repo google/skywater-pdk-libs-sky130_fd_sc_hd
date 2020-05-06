@@ -1,0 +1,6 @@
+sky130_fd_sc_hd__lpflow_clkbufkapwr_16	A:I KAPWR:I VGND:I VNB:I VPB:I VPWR:I X:O
+Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
+MMIN0	MOSFET	Ab	A	VGND	VNB	nshort	4	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIN1	MOSFET	X	Ab	VGND	VNB	nshort	16	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIP0	MOSFET	Ab	A	KAPWR	VPB	phighvt	4	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIP1	MOSFET	X	Ab	KAPWR	VPB	phighvt	16	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14

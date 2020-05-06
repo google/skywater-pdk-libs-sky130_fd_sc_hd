@@ -1,0 +1,29 @@
+{
+ "description": "D-latch, gated standard drive / active high (Q output UDP)",
+ "file_prefix": "sky130_fd_sc_hd__udp_dlatch_lp",
+ "library": "sky130_fd_sc_hd",
+ "name": "udp_dlatch$lP",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "Q",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "D",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "GATE",
+   "input",
+   ""
+  ]
+ ],
+ "type": "primitive",
+ "verilog_name": "sky130_fd_sc_hd__udp_dlatch$lP"
+}

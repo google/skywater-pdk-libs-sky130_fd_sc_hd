@@ -1,0 +1,17 @@
+{
+  "creator": "Yosys 0.9+2406 (git sha1 46ed0db2, clang 7.0.1-8 -fPIC -Os)",
+  "modules": {
+    "sky130_fd_sc_hd__tap": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "./cells/tap/sky130_fd_sc_hd__tap.functional.v:33.1-35.10"
+      },
+      "ports": {
+      },
+      "cells": {
+      },
+      "netnames": {
+      }
+    }
+  }
+}

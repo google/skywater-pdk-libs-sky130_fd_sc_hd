@@ -1,0 +1,41 @@
+{
+ "description": "Macro cell for metal-mask-only revisioning, containing inverter, 2-input NOR, 2-input NAND, and constant cell.",
+ "file_prefix": "sky130_fd_sc_hd__macro_sparecell",
+ "library": "sky130_fd_sc_hd",
+ "name": "macro_sparecell",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "LO",
+   "output",
+   ""
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_hd__macro_sparecell"
+}

@@ -1,0 +1,45 @@
+* NGSPICE file created from sky130_fd_sc_hd__a2bb2oi_2.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hd__a2bb2oi_2 A1_N A2_N B1 B2 VGND VNB VPB VPWR Y
+M1000 Y a_442_21# a_54_297# VPB phighvt w=1e+06u l=150000u
++  ad=2.7e+11p pd=2.54e+06u as=1.06e+12p ps=1.012e+07u
+M1001 Y a_442_21# VGND VNB nshort w=650000u l=150000u
++  ad=3.51e+11p pd=3.68e+06u as=1.2155e+12p ps=1.024e+07u
+M1002 a_136_47# B1 VGND VNB nshort w=650000u l=150000u
++  ad=3.51e+11p pd=3.68e+06u as=0p ps=0u
+M1003 VGND B1 a_136_47# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1004 VPWR B1 a_54_297# VPB phighvt w=1e+06u l=150000u
++  ad=8.1e+11p pd=7.62e+06u as=0p ps=0u
+M1005 a_54_297# B1 VPWR VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1006 VGND a_442_21# Y VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1007 VPWR B2 a_54_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1008 a_54_297# B2 VPWR VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1009 VPWR A1_N a_662_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=8.1e+11p ps=7.62e+06u
+M1010 a_662_297# A2_N a_442_21# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=2.7e+11p ps=2.54e+06u
+M1011 Y B2 a_136_47# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1012 a_442_21# A2_N VGND VNB nshort w=650000u l=150000u
++  ad=3.51e+11p pd=3.68e+06u as=0p ps=0u
+M1013 a_442_21# A2_N a_662_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1014 VGND A1_N a_442_21# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1015 a_54_297# a_442_21# Y VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1016 a_136_47# B2 Y VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1017 a_442_21# A1_N VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1018 VGND A2_N a_442_21# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1019 a_662_297# A1_N VPWR VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

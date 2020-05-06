@@ -1,0 +1,32 @@
+D	GATE	RESET	NOTIFIER	VPWR	VGND	:	Qt	:	Qt+1	Comments
+*	0	0	?	1	0	:	?	:	-	
+?	?	1	?	1	0	:	?	:	0	asynchro clear
+?	(?0)	0	?	1	0	:	?	:	-	Changed R=? to R=0 ; jek 08/14/06/
+?	(1x)	0	?	1	0	:	?	:	-	Changed R=? to R=0 ; jek 08/14/06
+0	(0x)	0	?	1	0	:	0	:	0	
+1	(0x)	0	?	1	0	:	1	:	1	
+0	(x1)	0	?	1	0	:	?	:	0	
+1	(x1)	0	?	1	0	:	?	:	1	
+(?0)	1	0	?	1	0	:	?	:	0	
+(?1)	1	0	?	1	0	:	?	:	1	
+0	(01)	0	?	1	0	:	?	:	0	
+1	(01)	0	?	1	0	:	?	:	1	
+?	0	(?x)	?	1	0	:	0	:	0	Reducing pessimism.//AB
+*	0	x	?	1	0	:	0	:	0	Reducing pessimism//AB
+0	(?1)	x	?	1	0	:	?	:	0	Reducing pessimism.
+(?0)	1	x	?	1	0	:	?	:	0	Reducing pessimism.
+0	1	(?x)	?	1	0	:	?	:	0	Reducing pessimism.//AB
+?	0	(?0)	?	1	0	:	?	:	-	ignore edge on clear
+0	1	(?0)	?	1	0	:	?	:	0	pessimism .
+1	1	(?0)	?	1	0	:	?	:	1	
+(?1)	x	0	?	1	0	:	1	:	1	Reducing pessimism.
+(?0)	x	0	?	1	0	:	0	:	0	Reducing pessimism.
+IfDef(functional)	
+?	?	?	*	1	0	:	?	:	-	
+Else	
+?	?	?	*	1	0	:	?	:	x	
+EndIfDef(functional)	
+0	1	0	?	(?1)	0	:	?	:	0	
+1	1	0	?	(?1)	0	:	?	:	1	
+0	1	0	?	1	(?0)	:	?	:	0	
+1	1	0	?	1	(?0)	:	?	:	1	

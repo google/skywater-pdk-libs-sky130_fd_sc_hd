@@ -1,0 +1,47 @@
+{
+ "description": "Positive edge triggered D flip-flop (Q output UDP).",
+ "file_prefix": "sky130_fd_sc_hd__udp_dff_p_pp_pg_n",
+ "library": "sky130_fd_sc_hd",
+ "name": "udp_dff$P_pp$PG$N",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "Q",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "D",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "CLK",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "NOTIFIER",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "primitive",
+ "verilog_name": "sky130_fd_sc_hd__udp_dff$P_pp$PG$N"
+}

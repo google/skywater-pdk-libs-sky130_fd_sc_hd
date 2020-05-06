@@ -1,0 +1,53 @@
+* NGSPICE file created from sky130_fd_sc_hd__nor3_4.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hd__nor3_4 A B C VGND VNB VPB VPWR Y
+M1000 a_27_297# B a_449_297# VPB phighvt w=1e+06u l=150000u
++  ad=1.35e+12p pd=1.27e+07u as=1.08e+12p ps=1.016e+07u
+M1001 Y C a_449_297# VPB phighvt w=1e+06u l=150000u
++  ad=5.4e+11p pd=5.08e+06u as=0p ps=0u
+M1002 VPWR A a_27_297# VPB phighvt w=1e+06u l=150000u
++  ad=5.4e+11p pd=5.08e+06u as=0p ps=0u
+M1003 Y A VGND VNB nshort w=650000u l=150000u
++  ad=1.053e+12p pd=1.104e+07u as=1.2285e+12p ps=1.288e+07u
+M1004 a_449_297# C Y VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1005 VGND A Y VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1006 VGND C Y VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1007 a_449_297# B a_27_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1008 Y C a_449_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1009 VGND A Y VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1010 Y A VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1011 Y B VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1012 a_27_297# A VPWR VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1013 VGND B Y VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1014 Y C VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1015 VPWR A a_27_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1016 a_449_297# B a_27_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1017 Y B VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1018 a_27_297# B a_449_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1019 Y C VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1020 VGND B Y VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1021 VGND C Y VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1022 a_27_297# A VPWR VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1023 a_449_297# C Y VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

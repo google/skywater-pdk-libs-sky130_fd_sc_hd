@@ -1,0 +1,8 @@
+sky130_fd_sc_hd__bufinv_16	A:I VGND:I VNB:I VPB:I VPWR:I Y:O
+Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
+MMIN1	MOSFET	Ab	A	VGND	VNB	nshort	3	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIN2	MOSFET	Abb	Ab	VGND	VNB	nshort	6	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIN3	MOSFET	Y	Abb	VGND	VNB	nshort	16	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIP1	MOSFET	Ab	A	VPWR	VPB	phighvt	3	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIP2	MOSFET	Abb	Ab	VPWR	VPB	phighvt	6	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIP3	MOSFET	Y	Abb	VPWR	VPB	phighvt	16	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14

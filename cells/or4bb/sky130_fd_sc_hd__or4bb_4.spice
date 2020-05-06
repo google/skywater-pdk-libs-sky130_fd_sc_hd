@@ -1,0 +1,45 @@
+* NGSPICE file created from sky130_fd_sc_hd__or4bb_4.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hd__or4bb_4 A B C_N D_N VGND VNB VPB VPWR X
+M1000 a_583_297# B a_499_297# VPB phighvt w=1e+06u l=150000u
++  ad=2.7e+11p pd=2.54e+06u as=2.7e+11p ps=2.54e+06u
+M1001 X a_315_380# VPWR VPB phighvt w=1e+06u l=150000u
++  ad=5.4e+11p pd=5.08e+06u as=1.15522e+12p ps=1.046e+07u
+M1002 a_397_297# a_205_93# a_315_380# VPB phighvt w=1e+06u l=150000u
++  ad=3.6e+11p pd=2.72e+06u as=2.57925e+11p ps=2.52e+06u
+M1003 a_499_297# a_27_410# a_397_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1004 a_315_380# a_205_93# VGND VNB nshort w=650000u l=150000u
++  ad=4.225e+11p pd=3.9e+06u as=1.0599e+12p ps=1.081e+07u
+M1005 a_315_380# B VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1006 VPWR a_315_380# X VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1007 VGND a_27_410# a_315_380# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1008 X a_315_380# VGND VNB nshort w=650000u l=150000u
++  ad=3.51e+11p pd=3.68e+06u as=0p ps=0u
+M1009 VGND a_315_380# X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1010 X a_315_380# VPWR VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1011 VGND A a_315_380# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1012 X a_315_380# VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1013 VPWR a_315_380# X VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1014 VGND C_N a_27_410# VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=1.092e+11p ps=1.36e+06u
+M1015 VGND a_315_380# X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1016 a_205_93# D_N VGND VNB nshort w=420000u l=150000u
++  ad=1.092e+11p pd=1.36e+06u as=0p ps=0u
+M1017 VPWR C_N a_27_410# VPB phighvt w=420000u l=150000u
++  ad=0p pd=0u as=1.092e+11p ps=1.36e+06u
+M1018 a_205_93# D_N VPWR VPB phighvt w=420000u l=150000u
++  ad=1.1295e+11p pd=1.4e+06u as=0p ps=0u
+M1019 VPWR A a_583_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

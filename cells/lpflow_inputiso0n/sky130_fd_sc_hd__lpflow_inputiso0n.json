@@ -1,0 +1,74 @@
+{
+  "creator": "Yosys 0.9+2406 (git sha1 46ed0db2, clang 7.0.1-8 -fPIC -Os)",
+  "modules": {
+    "sky130_fd_sc_hd__lpflow_inputiso0n": {
+      "attributes": {
+        "top": 1,
+        "src": "./cells/lpflow_inputiso0n/sky130_fd_sc_hd__lpflow_inputiso0n.functional.v:35.1-49.10"
+      },
+      "ports": {
+        "X": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "A": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "SLEEP_B": {
+          "direction": "input",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+        "$and$./cells/lpflow_inputiso0n/sky130_fd_sc_hd__lpflow_inputiso0n.functional.v:47$1": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/lpflow_inputiso0n/sky130_fd_sc_hd__lpflow_inputiso0n.functional.v:47.9-47.39"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3 ],
+            "B": [ 4 ],
+            "Y": [ 2 ]
+          }
+        }
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "./cells/lpflow_inputiso0n/sky130_fd_sc_hd__lpflow_inputiso0n.functional.v:43.12-43.13"
+          }
+        },
+        "SLEEP_B": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "./cells/lpflow_inputiso0n/sky130_fd_sc_hd__lpflow_inputiso0n.functional.v:44.12-44.19"
+          }
+        },
+        "X": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "./cells/lpflow_inputiso0n/sky130_fd_sc_hd__lpflow_inputiso0n.functional.v:42.12-42.13"
+          }
+        }
+      }
+    }
+  }
+}

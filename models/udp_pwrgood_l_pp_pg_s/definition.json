@@ -1,0 +1,41 @@
+{
+ "description": "UDP_OUT :=x when VPWR!=1 or VGND!=0\nUDP_OUT :=UDP_IN when VPWR==1 and VGND==0",
+ "file_prefix": "sky130_fd_sc_hd__udp_pwrgood_l_pp_pg_s",
+ "library": "sky130_fd_sc_hd",
+ "name": "udp_pwrgood$l_pp$PG$S",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "UDP_OUT",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "UDP_IN",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "signal",
+   "SLEEP",
+   "input",
+   ""
+  ]
+ ],
+ "type": "primitive",
+ "verilog_name": "sky130_fd_sc_hd__udp_pwrgood$l_pp$PG$S"
+}

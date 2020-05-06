@@ -1,0 +1,41 @@
+* NGSPICE file created from sky130_fd_sc_hd__ha_2.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hd__ha_2 A B VGND VNB VPB VPWR COUT SUM
+M1000 COUT a_342_199# VPWR VPB phighvt w=1e+06u l=150000u
++  ad=3.1e+11p pd=2.62e+06u as=1.8556e+12p ps=1.392e+07u
+M1001 VPWR A a_342_199# VPB phighvt w=640000u l=150000u
++  ad=0p pd=0u as=1.856e+11p ps=1.86e+06u
+M1002 COUT a_342_199# VGND VNB nshort w=650000u l=150000u
++  ad=2.015e+11p pd=1.92e+06u as=8.144e+11p ps=8.79e+06u
+M1003 a_468_369# B a_79_21# VPB phighvt w=640000u l=150000u
++  ad=2.56e+11p pd=2.08e+06u as=1.728e+11p ps=1.82e+06u
+M1004 VPWR a_79_21# SUM VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=3.1e+11p ps=2.62e+06u
+M1005 a_79_21# a_342_199# VPWR VPB phighvt w=640000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1006 VGND a_342_199# COUT VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1007 VPWR A a_468_369# VPB phighvt w=640000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1008 VPWR a_342_199# COUT VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1009 a_342_199# B VPWR VPB phighvt w=640000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1010 SUM a_79_21# VPWR VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1011 VGND B a_389_47# VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=2.226e+11p ps=2.74e+06u
+M1012 a_389_47# a_342_199# a_79_21# VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=1.092e+11p ps=1.36e+06u
+M1013 a_766_47# B a_342_199# VNB nshort w=420000u l=150000u
++  ad=8.82e+10p pd=1.26e+06u as=1.092e+11p ps=1.36e+06u
+M1014 VGND A a_766_47# VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1015 VGND a_79_21# SUM VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=2.015e+11p ps=1.92e+06u
+M1016 SUM a_79_21# VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1017 a_389_47# A VGND VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

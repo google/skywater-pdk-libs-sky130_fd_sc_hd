@@ -1,0 +1,254 @@
+{
+  "comp_attribute voltage_map": [
+    [
+      "KAPWR",
+      1.95
+    ],
+    [
+      "LOWLVPWR",
+      1.95
+    ],
+    [
+      "VGND",
+      0.0
+    ],
+    [
+      "VNB",
+      0.0
+    ],
+    [
+      "VPB",
+      1.95
+    ],
+    [
+      "VPWR",
+      1.95
+    ],
+    [
+      "VPWRIN",
+      1.95
+    ]
+  ],
+  "default_arc_mode": "best_edges",
+  "default_max_transition": 1.5,
+  "define": [
+    {
+      "attribute_name": "switching_power_split_model",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "driver_model",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "leakage_sim_opt",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "default_constraint_arc_mode",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "min_pulse_width_mode",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "default_arc_mode",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "def_sim_opt",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "simulator",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "violation_delay_degrade_pct",
+      "attribute_type": "string",
+      "group_name": "timing"
+    },
+    {
+      "attribute_name": "sim_opt",
+      "attribute_type": "string",
+      "group_name": "timing"
+    }
+  ],
+  "input_voltage GENERAL": {
+    "vih": 1.56,
+    "vil": 0.39,
+    "vimax": 2.0475,
+    "vimin": -0.0975
+  },
+  "leakage_sim_opt": "runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15",
+  "lu_table_template ccsn_dc": {
+    "variable_1": "input_voltage",
+    "variable_2": "output_voltage"
+  },
+  "lu_table_template ccsn_ovrf": {
+    "variable_1": "input_net_transition",
+    "variable_2": "total_output_net_capacitance",
+    "variable_3": "time"
+  },
+  "lu_table_template ccsn_pnlh": {
+    "variable_1": "input_noise_height",
+    "variable_2": "input_noise_width",
+    "variable_3": "total_output_net_capacitance",
+    "variable_4": "time"
+  },
+  "nom_temperature": -40.0,
+  "nom_voltage": 1.95,
+  "normalized_driver_waveform driver_waveform_template": {
+    "driver_waveform_name": "ramp",
+    "index_1": [
+      0.01,
+      0.0230506,
+      0.0281727,
+      0.0531329,
+      0.07937,
+      0.122474,
+      0.1224745,
+      0.2236068,
+      0.223607,
+      0.2823108,
+      0.282311,
+      0.5,
+      0.6299605,
+      0.629961,
+      0.6507428,
+      0.650743,
+      1.5,
+      1.774768,
+      1.77477,
+      5.0
+    ],
+    "index_2": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "values": [
+      [
+        0.0,
+        0.0083333333,
+        0.016666667
+      ],
+      [
+        0.0,
+        0.019208817,
+        0.038417633
+      ],
+      [
+        0.0,
+        0.023477242,
+        0.046954483
+      ],
+      [
+        0.0,
+        0.044277417,
+        0.088554833
+      ],
+      [
+        0.0,
+        0.066141708,
+        0.13228342
+      ],
+      [
+        0.0,
+        0.10206167,
+        0.20412333
+      ],
+      [
+        0.0,
+        0.10206208,
+        0.20412417
+      ],
+      [
+        0.0,
+        0.186339,
+        0.372678
+      ],
+      [
+        0.0,
+        0.18633917,
+        0.37267833
+      ],
+      [
+        0.0,
+        0.235259,
+        0.470518
+      ],
+      [
+        0.0,
+        0.23525917,
+        0.47051833
+      ],
+      [
+        0.0,
+        0.41666667,
+        0.83333333
+      ],
+      [
+        0.0,
+        0.52496708,
+        1.0499342
+      ],
+      [
+        0.0,
+        0.5249675,
+        1.049935
+      ],
+      [
+        0.0,
+        0.54228567,
+        1.0845713
+      ],
+      [
+        0.0,
+        0.54228583,
+        1.0845717
+      ],
+      [
+        0.0,
+        1.25,
+        2.5
+      ],
+      [
+        0.0,
+        1.4789733,
+        2.9579467
+      ],
+      [
+        0.0,
+        1.478975,
+        2.95795
+      ],
+      [
+        0.0,
+        4.1666667,
+        8.3333333
+      ]
+    ]
+  },
+  "operating_conditions ff_n40C_1v95": {
+    "process": 1.0,
+    "temperature": -40.0,
+    "tree_type": "balanced_tree",
+    "voltage": 1.95
+  },
+  "output_voltage GENERAL": {
+    "voh": 1.755,
+    "vol": 0.195,
+    "vomax": 2.0475,
+    "vomin": -0.0975
+  }
+}

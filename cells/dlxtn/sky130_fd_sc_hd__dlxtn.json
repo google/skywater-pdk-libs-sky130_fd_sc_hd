@@ -1,0 +1,149 @@
+{
+  "creator": "Yosys 0.9+2406 (git sha1 46ed0db2, clang 7.0.1-8 -fPIC -Os)",
+  "modules": {
+    "sky130_fd_sc_hd__dlxtn": {
+      "attributes": {
+        "top": 1,
+        "src": "./cells/dlxtn/sky130_fd_sc_hd__dlxtn.functional.v:36.1-56.10"
+      },
+      "ports": {
+        "Q": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "GATE_N": {
+          "direction": "input",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+        "$not$./cells/dlxtn/sky130_fd_sc_hd__dlxtn.functional.v:0$1": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/dlxtn/sky130_fd_sc_hd__dlxtn.functional.v:0.0-0.0"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "Y": [ 5 ]
+          }
+        },
+        "dlatch0": {
+          "hide_name": 0,
+          "type": "udp_dlatch$P",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": 1,
+            "src": "./cells/dlxtn/sky130_fd_sc_hd__dlxtn.functional.v:53.35-53.68"
+          },
+          "port_directions": {
+            "D": "input",
+            "GATE": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "D": [ 3 ],
+            "GATE": [ 5 ],
+            "Q": [ 2 ]
+          }
+        }
+      },
+      "netnames": {
+        "D": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "./cells/dlxtn/sky130_fd_sc_hd__dlxtn.functional.v:44.12-44.13"
+          }
+        },
+        "GATE": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "./cells/dlxtn/sky130_fd_sc_hd__dlxtn.functional.v:48.10-48.14"
+          }
+        },
+        "GATE_N": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "./cells/dlxtn/sky130_fd_sc_hd__dlxtn.functional.v:45.12-45.18"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "./cells/dlxtn/sky130_fd_sc_hd__dlxtn.functional.v:43.12-43.13"
+          }
+        },
+        "buf_Q": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "./cells/dlxtn/sky130_fd_sc_hd__dlxtn.functional.v:49.10-49.15"
+          }
+        }
+      }
+    },
+    "sky130_fd_sc_hd__udp_dlatch$P": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "./cells/dlxtn/../../models/udp_dlatch_p/./sky130_fd_sc_hd__udp_dlatch_p.blackbox.v:35.1-44.10"
+      },
+      "ports": {
+        "Q": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "GATE": {
+          "direction": "input",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "D": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "./cells/dlxtn/../../models/udp_dlatch_p/./sky130_fd_sc_hd__udp_dlatch_p.blackbox.v:42.12-42.13"
+          }
+        },
+        "GATE": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "./cells/dlxtn/../../models/udp_dlatch_p/./sky130_fd_sc_hd__udp_dlatch_p.blackbox.v:43.12-43.16"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "./cells/dlxtn/../../models/udp_dlatch_p/./sky130_fd_sc_hd__udp_dlatch_p.blackbox.v:41.12-41.13"
+          }
+        }
+      }
+    }
+  }
+}

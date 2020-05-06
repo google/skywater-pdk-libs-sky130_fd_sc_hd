@@ -1,0 +1,35 @@
+{
+ "description": "Two to one multiplexer",
+ "file_prefix": "sky130_fd_sc_hd__udp_mux_2to1",
+ "library": "sky130_fd_sc_hd",
+ "name": "udp_mux_2to1",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "X",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "A0",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "A1",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "S",
+   "input",
+   ""
+  ]
+ ],
+ "type": "primitive",
+ "verilog_name": "sky130_fd_sc_hd__udp_mux_2to1"
+}

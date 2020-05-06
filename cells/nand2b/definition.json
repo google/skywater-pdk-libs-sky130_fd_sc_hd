@@ -1,0 +1,53 @@
+{
+ "description": "2-input NAND, first input inverted.",
+ "file_prefix": "sky130_fd_sc_hd__nand2b",
+ "library": "sky130_fd_sc_hd",
+ "name": "nand2b",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "Y",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "A_N",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "B",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_hd__nand2b"
+}

@@ -1,0 +1,49 @@
+* NGSPICE file created from sky130_fd_sc_hd__buf_8.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hd__buf_8 A VGND VNB VPB VPWR X
+M1000 X a_27_47# VGND VNB nshort w=650000u l=150000u
++  ad=7.02e+11p pd=7.36e+06u as=1.0465e+12p ps=1.102e+07u
+M1001 VPWR a_27_47# X VPB phighvt w=1e+06u l=150000u
++  ad=1.61e+12p pd=1.522e+07u as=1.08e+12p ps=1.016e+07u
+M1002 VPWR A a_27_47# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=5.3e+11p ps=5.06e+06u
+M1003 VGND a_27_47# X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1004 a_27_47# A VPWR VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1005 X a_27_47# VPWR VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1006 VPWR a_27_47# X VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1007 a_27_47# A VGND VNB nshort w=650000u l=150000u
++  ad=3.445e+11p pd=3.66e+06u as=0p ps=0u
+M1008 X a_27_47# VPWR VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1009 X a_27_47# VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1010 VGND a_27_47# X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1011 VPWR a_27_47# X VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1012 VGND A a_27_47# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1013 VPWR A a_27_47# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1014 X a_27_47# VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1015 VPWR a_27_47# X VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1016 VGND a_27_47# X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1017 VGND a_27_47# X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1018 X a_27_47# VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1019 X a_27_47# VPWR VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1020 X a_27_47# VPWR VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1021 VGND A a_27_47# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

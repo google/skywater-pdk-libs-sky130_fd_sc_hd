@@ -1,0 +1,88 @@
+{
+  "area": 2.5024,
+  "cell_footprint": "diode",
+  "cell_leakage_power": 5.703909e-06,
+  "driver_waveform_fall": "ramp",
+  "driver_waveform_rise": "ramp",
+  "leakage_power": [
+    {
+      "value": 7.6053191e-06,
+      "when": "DIODE"
+    },
+    {
+      "value": 3.8024999e-06,
+      "when": "!DIODE"
+    }
+  ],
+  "pg_pin VGND": {
+    "pg_type": "primary_ground",
+    "voltage_name": "VGND"
+  },
+  "pg_pin VNB": {
+    "pg_type": "primary_ground",
+    "voltage_name": "VNB"
+  },
+  "pg_pin VPB": {
+    "pg_type": "primary_power",
+    "voltage_name": "VPB"
+  },
+  "pg_pin VPWR": {
+    "pg_type": "primary_power",
+    "voltage_name": "VPWR"
+  },
+  "pin DIODE": {
+    "capacitance": 0.000788,
+    "ccsn_first_stage": {
+      "is_needed": "false"
+    },
+    "direction": "input",
+    "fall_capacitance": 0.000772,
+    "input_voltage": "GENERAL",
+    "internal_power": {
+      "fall_power power_inputs_1": {
+        "index_1": [
+          0.01,
+          0.0230506,
+          0.0531329,
+          0.122474,
+          0.282311,
+          0.650743,
+          1.5
+        ],
+        "values": [
+          0.0008154,
+          0.0008034,
+          0.0007756,
+          0.0007782,
+          0.0007842,
+          0.000798,
+          0.0008299
+        ]
+      },
+      "rise_power power_inputs_1": {
+        "index_1": [
+          0.01,
+          0.0230506,
+          0.0531329,
+          0.122474,
+          0.282311,
+          0.650743,
+          1.5
+        ],
+        "values": [
+          -0.0007054,
+          -0.0007269,
+          -0.0007764,
+          -0.0007791,
+          -0.0007852,
+          -0.0007993,
+          -0.0008317
+        ]
+      }
+    },
+    "max_transition": 1.5,
+    "related_ground_pin": "VGND",
+    "related_power_pin": "VPWR",
+    "rise_capacitance": 0.000805
+  }
+}

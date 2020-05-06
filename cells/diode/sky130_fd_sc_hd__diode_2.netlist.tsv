@@ -1,0 +1,3 @@
+sky130_fd_sc_hd__diode_2	DIODE:I VGND:I VNB:I VPB:I VPWR:I
+Name	Formula	
+Note	Tap diode is not represented here.

@@ -1,0 +1,149 @@
+* NGSPICE file created from sky130_fd_sc_hd__lpflow_isobufsrc_16.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hd__lpflow_isobufsrc_16 A SLEEP VGND VNB VPB VPWR X
+M1000 VPWR a_143_297# a_505_297# VPB phighvt w=1e+06u l=150000u
++  ad=2.97e+12p pd=2.794e+07u as=4.6e+12p ps=4.32e+07u
+M1001 a_505_297# a_143_297# VPWR VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1002 X a_143_297# VGND VNB nshort w=650000u l=150000u
++  ad=2.808e+12p pd=2.944e+07u as=3.5425e+12p ps=3.56e+07u
+M1003 VGND a_143_297# X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1004 VPWR a_143_297# a_505_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1005 VPWR a_143_297# a_505_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1006 a_505_297# SLEEP X VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=2.16e+12p ps=2.032e+07u
+M1007 VGND a_143_297# X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1008 VGND a_143_297# X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1009 a_505_297# a_143_297# VPWR VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1010 X a_143_297# VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1011 a_505_297# a_143_297# VPWR VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1012 a_505_297# SLEEP X VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1013 X SLEEP a_505_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1014 X SLEEP a_505_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1015 X a_143_297# VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1016 VGND a_143_297# X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1017 a_505_297# SLEEP X VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1018 X SLEEP VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1019 VPWR a_143_297# a_505_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1020 VPWR a_143_297# a_505_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1021 VGND a_143_297# X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1022 X a_143_297# VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1023 a_505_297# a_143_297# VPWR VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1024 a_505_297# SLEEP X VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1025 a_143_297# A VPWR VPB phighvt w=1e+06u l=150000u
++  ad=5.4e+11p pd=5.08e+06u as=0p ps=0u
+M1026 X SLEEP a_505_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1027 VGND a_143_297# X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1028 X a_143_297# VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1029 X SLEEP VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1030 VGND SLEEP X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1031 VPWR a_143_297# a_505_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1032 VPWR a_143_297# a_505_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1033 VGND SLEEP X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1034 a_505_297# SLEEP X VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1035 VGND SLEEP X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1036 VPWR A a_143_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1037 X SLEEP a_505_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1038 VGND A a_143_297# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=3.51e+11p ps=3.68e+06u
+M1039 a_505_297# a_143_297# VPWR VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1040 X SLEEP a_505_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1041 X SLEEP VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1042 VGND SLEEP X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1043 a_143_297# A VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1044 VGND SLEEP X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1045 X SLEEP VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1046 X SLEEP VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1047 a_143_297# A VPWR VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1048 a_505_297# a_143_297# VPWR VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1049 a_143_297# A VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1050 X SLEEP a_505_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1051 X SLEEP VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1052 VGND SLEEP X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1053 VPWR a_143_297# a_505_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1054 a_505_297# SLEEP X VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1055 X a_143_297# VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1056 VGND SLEEP X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1057 a_505_297# a_143_297# VPWR VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1058 X SLEEP VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1059 VPWR A a_143_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1060 a_505_297# a_143_297# VPWR VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1061 X SLEEP a_505_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1062 VGND a_143_297# X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1063 X SLEEP VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1064 VGND A a_143_297# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1065 X a_143_297# VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1066 VGND SLEEP X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1067 VGND a_143_297# X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1068 X a_143_297# VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1069 X SLEEP a_505_297# VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1070 a_505_297# SLEEP X VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1071 a_505_297# SLEEP X VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

@@ -1,0 +1,9 @@
+* NGSPICE file created from sky130_fd_sc_hd__lpflow_decapkapwr_4.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hd__lpflow_decapkapwr_4 KAPWR VGND VNB VPB VPWR
+M1000 KAPWR VGND KAPWR VPB phighvt w=870000u l=1.05e+06u
++  ad=4.524e+11p pd=4.52e+06u as=0p ps=0u
+M1001 VGND KAPWR VGND VNB nshort w=550000u l=1.05e+06u
++  ad=2.86e+11p pd=3.24e+06u as=0p ps=0u
+.ends
+

@@ -1,0 +1,22 @@
+sky130_fd_sc_hd__dlclkp_1	CLK:I GATE:I VGND:I VNB:I VPB:I VPWR:I GCLK:O
+Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
+MI662	MOSFET	net75	m1	VPWR	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI664	MOSFET	M0	clkpos	net75	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI659	MOSFET	net63	CLK	VPWR	VPB	phighvt	1	0.64	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI658	MOSFET	net63	m1	VPWR	VPB	phighvt	1	0.64	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI19	MOSFET	m1	M0	VPWR	VPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI38	MOSFET	M0	clkneg	net54	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI37	MOSFET	net54	GATE	VPWR	VPB	phighvt	1	0.64	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI47	MOSFET	clkneg	clkpos	VPWR	VPB	phighvt	1	0.64	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI45	MOSFET	clkpos	CLK	VPWR	VPB	phighvt	1	0.64	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI660	MOSFET	GCLK	net63	VPWR	VPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI20	MOSFET	m1	M0	VGND	VNB	nshort	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI655	MOSFET	M0	clkneg	net110	VNB	nshort	1	0.39	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI654	MOSFET	net110	m1	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI34	MOSFET	M0	clkpos	net91	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI657	MOSFET	net99	CLK	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI656	MOSFET	net63	m1	net99	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI36	MOSFET	net91	GATE	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI46	MOSFET	clkneg	clkpos	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI44	MOSFET	clkpos	CLK	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI653	MOSFET	GCLK	net63	VGND	VNB	nshort	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14

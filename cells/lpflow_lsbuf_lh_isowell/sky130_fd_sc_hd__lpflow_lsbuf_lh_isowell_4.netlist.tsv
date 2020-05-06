@@ -1,0 +1,12 @@
+sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4	A:I LOWLVPWR:I VGND:I VNB:I VPB:I VPWR:I X:O
+Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
+MI2	MOSFET	net72	cross1	VPWR	VPB	phighvt	1	0.79	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI3	MOSFET	cross1	net72	VPWR	VPB	phighvt	1	0.79	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI20	MOSFET	Ab	A	LOWLVPWR	LOWLVPWR	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI24	MOSFET	X	net60	VPWR	VPB	phighvt	4	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI28	MOSFET	net60	cross1	VPWR	VPB	phighvt	1	0.79	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI5	MOSFET	cross1	Ab	VGND	VNB	nshort	4	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI4	MOSFET	net72	A	VGND	VNB	nshort	4	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI23	MOSFET	Ab	A	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI25	MOSFET	X	net60	VGND	VNB	nshort	4	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI29	MOSFET	net60	cross1	VGND	VNB	nshort	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14

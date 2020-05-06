@@ -1,0 +1,192 @@
+{
+  "creator": "Yosys 0.9+2406 (git sha1 46ed0db2, clang 7.0.1-8 -fPIC -Os)",
+  "modules": {
+    "sky130_fd_sc_hd__or4b": {
+      "attributes": {
+        "top": 1,
+        "src": "./cells/or4b/sky130_fd_sc_hd__or4b.functional.v:33.1-57.10"
+      },
+      "ports": {
+        "X": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "A": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "D_N": {
+          "direction": "input",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+        "$not$./cells/or4b/sky130_fd_sc_hd__or4b.functional.v:0$1": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/or4b/sky130_fd_sc_hd__or4b.functional.v:0.0-0.0"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 6 ],
+            "Y": [ 7 ]
+          }
+        },
+        "$or$./cells/or4b/sky130_fd_sc_hd__or4b.functional.v:54$2": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/or4b/sky130_fd_sc_hd__or4b.functional.v:54.9-54.44"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 7 ],
+            "B": [ 5 ],
+            "Y": [ 8 ]
+          }
+        },
+        "$or$./cells/or4b/sky130_fd_sc_hd__or4b.functional.v:54$3": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/or4b/sky130_fd_sc_hd__or4b.functional.v:54.9-54.44"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 8 ],
+            "B": [ 4 ],
+            "Y": [ 9 ]
+          }
+        },
+        "$or$./cells/or4b/sky130_fd_sc_hd__or4b.functional.v:54$4": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/or4b/sky130_fd_sc_hd__or4b.functional.v:54.9-54.44"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 9 ],
+            "B": [ 3 ],
+            "Y": [ 2 ]
+          }
+        }
+      },
+      "netnames": {
+        "$or$./cells/or4b/sky130_fd_sc_hd__or4b.functional.v:54$2_Y": {
+          "hide_name": 1,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "./cells/or4b/sky130_fd_sc_hd__or4b.functional.v:54.9-54.44"
+          }
+        },
+        "$or$./cells/or4b/sky130_fd_sc_hd__or4b.functional.v:54$3_Y": {
+          "hide_name": 1,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "./cells/or4b/sky130_fd_sc_hd__or4b.functional.v:54.9-54.44"
+          }
+        },
+        "A": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "./cells/or4b/sky130_fd_sc_hd__or4b.functional.v:43.12-43.13"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "./cells/or4b/sky130_fd_sc_hd__or4b.functional.v:44.12-44.13"
+          }
+        },
+        "C": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "./cells/or4b/sky130_fd_sc_hd__or4b.functional.v:45.12-45.13"
+          }
+        },
+        "D_N": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "./cells/or4b/sky130_fd_sc_hd__or4b.functional.v:46.12-46.15"
+          }
+        },
+        "X": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "./cells/or4b/sky130_fd_sc_hd__or4b.functional.v:42.12-42.13"
+          }
+        },
+        "not0_out": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "./cells/or4b/sky130_fd_sc_hd__or4b.functional.v:49.10-49.18"
+          }
+        },
+        "or0_out_X": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "./cells/or4b/sky130_fd_sc_hd__or4b.functional.v:50.10-50.19"
+          }
+        }
+      }
+    }
+  }
+}

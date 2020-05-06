@@ -1,0 +1,4 @@
+sky130_fd_sc_hd__decap_3	VGND:I VNB:I VPB:I VPWR:I
+Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
+MI1	MOSFET	VGND	VPWR	VGND	VNB	nshort	1	0.55	0.59	1	0.265	0.265	0.28	normal	0.063	1.14
+MI2	MOSFET	VPWR	VGND	VPWR	VPB	phighvt	1	0.87	0.59	1	0.265	0.265	0.28	normal	0.063	1.14

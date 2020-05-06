@@ -1,0 +1,7 @@
+sky130_fd_sc_hd__lpflow_bleeder_1	SHORT:I VGND:I VNB:I VPB:I VPWR:B
+Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
+MI2	MOSFET	net29	SHORT	net25	VNB	nshort	1	0.36	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI3	MOSFET	net25	SHORT	net24	VNB	nshort	1	0.36	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI1	MOSFET	VPWR	SHORT	net29	VNB	nshort	1	0.36	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI4	MOSFET	net24	SHORT	net16	VNB	nshort	1	0.36	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI7	MOSFET	net16	SHORT	VGND	VNB	nshort	1	0.36	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
