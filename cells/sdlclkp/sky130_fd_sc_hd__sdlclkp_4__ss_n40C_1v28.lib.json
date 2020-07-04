@@ -856,7 +856,7 @@
   },
   "pin M0": {
     "direction": "internal",
-    "internal_node": "m0",
+    "internal_node": "M0",
     "related_ground_pin": "VNB",
     "related_power_pin": "VPWR"
   },
