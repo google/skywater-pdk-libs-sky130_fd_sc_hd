@@ -46,7 +46,7 @@
     "clock": "false",
     "direction": "input",
     "fall_capacitance": 0.005128,
-    "input_signal_level": "vpwrin",
+    "input_signal_level": "VPWRIN",
     "level_shifter_data_pin": "true",
     "max_transition": 10.0,
     "related_ground_pin": "VGND",

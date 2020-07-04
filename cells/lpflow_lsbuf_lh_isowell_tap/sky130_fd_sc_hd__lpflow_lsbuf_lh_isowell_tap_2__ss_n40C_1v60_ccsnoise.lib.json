@@ -2900,7 +2900,7 @@
     "clock": "false",
     "direction": "input",
     "fall_capacitance": 0.005542,
-    "input_signal_level": "lowlvpwr",
+    "input_signal_level": "LOWLVPWR",
     "input_voltage": "GENERAL",
     "level_shifter_data_pin": "true",
     "max_transition": 1.5,
