@@ -1,5 +1,5 @@
 {
-  "comp_attribute voltage_map": [
+  "comp_attribute,voltage_map": [
     [
       "VSS",
       0.0
@@ -35,6 +35,7 @@
   ],
   "default_arc_mode": "best_edges",
   "default_max_transition": 1.5,
+  "default_operating_conditions": "ff_n40C_1v76",
   "define": [
     {
       "attribute_name": "switching_power_split_model",
@@ -87,10 +88,9 @@
       "group_name": "timing"
     }
   ],
-  "leakage_sim_opt": "runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15",
   "nom_temperature": -40.0,
   "nom_voltage": 1.76,
-  "normalized_driver_waveform driver_waveform_template": {
+  "normalized_driver_waveform,driver_waveform_template": {
     "driver_waveform_name": "ramp",
     "index_1": [
       0.01,
@@ -150,7 +150,7 @@
       ]
     ]
   },
-  "operating_conditions ff_n40C_1v76": {
+  "operating_conditions,ff_n40C_1v76": {
     "process": 1.0,
     "temperature": -40.0,
     "tree_type": "balanced_tree",

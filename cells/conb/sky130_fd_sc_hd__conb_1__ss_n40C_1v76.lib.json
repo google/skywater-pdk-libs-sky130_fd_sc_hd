@@ -1,24 +1,24 @@
 {
   "area": 3.7536,
-  "cell_footprint": "conb",
+  "cell_footprint": "sky130_fd_sc_hd__conb",
   "cell_leakage_power": 0.0030976,
-  "pg_pin VGND": {
+  "pg_pin,VGND": {
     "pg_type": "primary_ground",
     "voltage_name": "VGND"
   },
-  "pg_pin VNB": {
+  "pg_pin,VNB": {
     "pg_type": "primary_ground",
     "voltage_name": "VNB"
   },
-  "pg_pin VPB": {
+  "pg_pin,VPB": {
     "pg_type": "primary_power",
     "voltage_name": "VPB"
   },
-  "pg_pin VPWR": {
+  "pg_pin,VPWR": {
     "pg_type": "primary_power",
     "voltage_name": "VPWR"
   },
-  "pin HI": {
+  "pin,HI": {
     "direction": "output",
     "function": "1",
     "max_capacitance": 2.0596,
@@ -26,7 +26,7 @@
     "related_ground_pin": "VGND",
     "related_power_pin": "VPWR"
   },
-  "pin LO": {
+  "pin,LO": {
     "direction": "output",
     "function": "0",
     "max_capacitance": 2.2213,

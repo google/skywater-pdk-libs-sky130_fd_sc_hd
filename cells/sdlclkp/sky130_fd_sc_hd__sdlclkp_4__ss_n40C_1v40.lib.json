@@ -1,6 +1,6 @@
 {
   "area": 22.5216,
-  "cell_footprint": "sdlclkp",
+  "cell_footprint": "sky130_fd_sc_hd__sdlclkp",
   "cell_leakage_power": 0.0005517864,
   "clock_gating_integrated_cell": "latch_posedge_precontrol",
   "driver_waveform_fall": "ramp",
@@ -55,30 +55,30 @@
       "when": "CLK&!GATE&GCLK&!SCE"
     }
   ],
-  "pg_pin VGND": {
+  "pg_pin,VGND": {
     "pg_type": "primary_ground",
     "voltage_name": "VGND"
   },
-  "pg_pin VNB": {
+  "pg_pin,VNB": {
     "pg_type": "primary_ground",
     "voltage_name": "VNB"
   },
-  "pg_pin VPB": {
+  "pg_pin,VPB": {
     "pg_type": "primary_power",
     "voltage_name": "VPB"
   },
-  "pg_pin VPWR": {
+  "pg_pin,VPWR": {
     "pg_type": "primary_power",
     "voltage_name": "VPWR"
   },
-  "pin CLK": {
+  "pin,CLK": {
     "capacitance": 0.003652,
     "clock": "true",
     "clock_gate_clock_pin": "true",
     "direction": "input",
     "fall_capacitance": 0.003398,
     "internal_power": {
-      "fall_power power_inputs_1": {
+      "fall_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0316228,
@@ -98,7 +98,7 @@
           0.0111871
         ]
       },
-      "rise_power power_inputs_1": {
+      "rise_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0316228,
@@ -124,7 +124,7 @@
     "related_power_pin": "VPWR",
     "rise_capacitance": 0.003907,
     "timing": {
-      "fall_constraint constraint_3_0_1": {
+      "fall_constraint,constraint_3_0_1": {
         "index_1": [
           0.01,
           5.0,
@@ -143,14 +143,14 @@
       "violation_delay_degrade_pct": 10
     }
   },
-  "pin GATE": {
+  "pin,GATE": {
     "capacitance": 0.001637,
     "clock": "false",
     "clock_gate_enable_pin": "true",
     "direction": "input",
     "fall_capacitance": 0.00146,
     "internal_power": {
-      "fall_power power_inputs_1": {
+      "fall_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0316228,
@@ -170,7 +170,7 @@
           0.0144664
         ]
       },
-      "rise_power power_inputs_1": {
+      "rise_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0316228,
@@ -197,7 +197,7 @@
     "rise_capacitance": 0.001813,
     "timing": [
       {
-        "fall_constraint vio_3_3_1": {
+        "fall_constraint,vio_3_3_1": {
           "index_1": [
             0.01,
             5.0,
@@ -227,7 +227,7 @@
           ]
         },
         "related_pin": "CLK",
-        "rise_constraint vio_3_3_1": {
+        "rise_constraint,vio_3_3_1": {
           "index_1": [
             0.01,
             5.0,
@@ -261,7 +261,7 @@
         "violation_delay_degrade_pct": 10
       },
       {
-        "fall_constraint vio_3_3_1": {
+        "fall_constraint,vio_3_3_1": {
           "index_1": [
             0.01,
             5.0,
@@ -291,7 +291,7 @@
           ]
         },
         "related_pin": "CLK",
-        "rise_constraint vio_3_3_1": {
+        "rise_constraint,vio_3_3_1": {
           "index_1": [
             0.01,
             5.0,
@@ -326,11 +326,11 @@
       }
     ]
   },
-  "pin GCLK": {
+  "pin,GCLK": {
     "clock_gate_out_pin": "true",
     "direction": "output",
     "internal_power": {
-      "fall_power power_outputs_1": {
+      "fall_power,power_outputs_1": {
         "index_1": [
           0.01,
           0.03162278,
@@ -416,7 +416,7 @@
         ]
       },
       "related_pin": "CLK",
-      "rise_power power_outputs_1": {
+      "rise_power,power_outputs_1": {
         "index_1": [
           0.01,
           0.03162278,
@@ -509,7 +509,7 @@
     "related_power_pin": "VPWR",
     "state_function": "(CLK*M0)",
     "timing": {
-      "cell_fall del_1_7_7": {
+      "cell_fall,del_1_7_7": {
         "index_1": [
           0.01,
           0.0316228,
@@ -594,7 +594,7 @@
           ]
         ]
       },
-      "cell_rise del_1_7_7": {
+      "cell_rise,del_1_7_7": {
         "index_1": [
           0.01,
           0.0316228,
@@ -679,7 +679,7 @@
           ]
         ]
       },
-      "fall_transition del_1_7_7": {
+      "fall_transition,del_1_7_7": {
         "index_1": [
           0.01,
           0.0316228,
@@ -765,7 +765,7 @@
         ]
       },
       "related_pin": "CLK",
-      "rise_transition del_1_7_7": {
+      "rise_transition,del_1_7_7": {
         "index_1": [
           0.01,
           0.0316228,
@@ -854,20 +854,20 @@
       "timing_type": "combinational"
     }
   },
-  "pin M0": {
+  "pin,M0": {
     "direction": "internal",
     "internal_node": "M0",
     "related_ground_pin": "VNB",
     "related_power_pin": "VPWR"
   },
-  "pin SCE": {
+  "pin,SCE": {
     "capacitance": 0.001544,
     "clock": "false",
     "clock_gate_test_pin": "true",
     "direction": "input",
     "fall_capacitance": 0.001426,
     "internal_power": {
-      "fall_power power_inputs_1": {
+      "fall_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0316228,
@@ -887,7 +887,7 @@
           0.0149069
         ]
       },
-      "rise_power power_inputs_1": {
+      "rise_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0316228,
@@ -914,7 +914,7 @@
     "rise_capacitance": 0.001661,
     "timing": [
       {
-        "fall_constraint vio_3_3_1": {
+        "fall_constraint,vio_3_3_1": {
           "index_1": [
             0.01,
             5.0,
@@ -944,7 +944,7 @@
           ]
         },
         "related_pin": "CLK",
-        "rise_constraint vio_3_3_1": {
+        "rise_constraint,vio_3_3_1": {
           "index_1": [
             0.01,
             5.0,
@@ -978,7 +978,7 @@
         "violation_delay_degrade_pct": 10
       },
       {
-        "fall_constraint vio_3_3_1": {
+        "fall_constraint,vio_3_3_1": {
           "index_1": [
             0.01,
             5.0,
@@ -1008,7 +1008,7 @@
           ]
         },
         "related_pin": "CLK",
-        "rise_constraint vio_3_3_1": {
+        "rise_constraint,vio_3_3_1": {
           "index_1": [
             0.01,
             5.0,
@@ -1043,7 +1043,13 @@
       }
     ]
   },
-  "statetable \"CLK GATE SCE\",\"M0\"": {
-    "table": "L L L : - : L ,L L H : - : H ,L H L : - : H ,L H H : - : H ,H - - : - : N"
+  "statetable,CLK GATE SCE,M0": {
+    "table": [
+      "L L L : - : L",
+      "L L H : - : H",
+      "L H L : - : H",
+      "L H H : - : H",
+      "H - - : - : N"
+    ]
   }
 }
