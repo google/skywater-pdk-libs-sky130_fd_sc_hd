@@ -1,7 +1,7 @@
 {
   "always_on": "true",
   "area": 25.024,
-  "cell_footprint": "clkbufkapwr",
+  "cell_footprint": "sky130_fd_sc_hd__clkbufkapwr",
   "cell_leakage_power": 0.01232311,
   "driver_waveform_fall": "ramp",
   "driver_waveform_rise": "ramp",
@@ -15,27 +15,27 @@
       "when": "!A"
     }
   ],
-  "pg_pin KAPWR": {
+  "pg_pin,KAPWR": {
     "pg_type": "backup_power",
     "voltage_name": "KAPWR"
   },
-  "pg_pin VGND": {
+  "pg_pin,VGND": {
     "pg_type": "primary_ground",
     "voltage_name": "VGND"
   },
-  "pg_pin VNB": {
+  "pg_pin,VNB": {
     "pg_type": "primary_ground",
     "voltage_name": "VNB"
   },
-  "pg_pin VPB": {
+  "pg_pin,VPB": {
     "pg_type": "primary_power",
     "voltage_name": "VPB"
   },
-  "pg_pin VPWR": {
+  "pg_pin,VPWR": {
     "pg_type": "primary_power",
     "voltage_name": "VPWR"
   },
-  "pin A": {
+  "pin,A": {
     "capacitance": 0.007431,
     "clock": "false",
     "direction": "input",
@@ -45,11 +45,11 @@
     "related_power_pin": "KAPWR",
     "rise_capacitance": 0.007906
   },
-  "pin X": {
+  "pin,X": {
     "direction": "output",
     "function": "(A)",
     "internal_power": {
-      "fall_power power_outputs_1": {
+      "fall_power,power_outputs_1": {
         "index_1": [
           0.01,
           0.02305058,
@@ -135,7 +135,7 @@
         ]
       },
       "related_pin": "A",
-      "rise_power power_outputs_1": {
+      "rise_power,power_outputs_1": {
         "index_1": [
           0.01,
           0.02305058,
@@ -227,7 +227,7 @@
     "related_ground_pin": "VGND",
     "related_power_pin": "KAPWR",
     "timing": {
-      "cell_fall del_1_7_7": {
+      "cell_fall,del_1_7_7": {
         "index_1": [
           0.01,
           0.0230506,
@@ -312,7 +312,7 @@
           ]
         ]
       },
-      "cell_rise del_1_7_7": {
+      "cell_rise,del_1_7_7": {
         "index_1": [
           0.01,
           0.0230506,
@@ -397,7 +397,7 @@
           ]
         ]
       },
-      "fall_transition del_1_7_7": {
+      "fall_transition,del_1_7_7": {
         "index_1": [
           0.01,
           0.0230506,
@@ -483,7 +483,7 @@
         ]
       },
       "related_pin": "A",
-      "rise_transition del_1_7_7": {
+      "rise_transition,del_1_7_7": {
         "index_1": [
           0.01,
           0.0230506,
