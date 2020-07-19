@@ -30,15 +30,17 @@
   },
   "pg_pin,VGND": {
     "pg_type": "primary_ground",
+    "related_bias_pin": "VPB",
     "voltage_name": "VGND"
   },
   "pg_pin,VPB": {
-    "pg_type": "primary_power",
+    "pg_type": "pwell",
+    "physical_connection": "device_layer",
     "voltage_name": "VPB"
   },
   "pg_pin,VPWR": {
     "pg_type": "primary_power",
-    "std_cell_main_rail": "true",
+    "related_bias_pin": "VNB",
     "voltage_name": "VPWR"
   },
   "pin,A": {
