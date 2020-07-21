@@ -67,3 +67,4 @@ MACRO sky130_fd_sc_hd__tapvgnd2_1
       RECT 0.145000  2.635000 0.315000 2.805000 ;
   END
 END sky130_fd_sc_hd__tapvgnd2_1
+END LIBRARY

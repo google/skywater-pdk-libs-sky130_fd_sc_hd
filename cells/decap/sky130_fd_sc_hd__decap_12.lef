@@ -58,3 +58,4 @@ MACRO sky130_fd_sc_hd__decap_12
   OBS
   END
 END sky130_fd_sc_hd__decap_12
+END LIBRARY

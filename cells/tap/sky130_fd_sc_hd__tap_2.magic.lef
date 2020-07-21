@@ -73,3 +73,4 @@ MACRO sky130_fd_sc_hd__tap_2
       RECT 0.605000  2.635000 0.775000 2.805000 ;
   END
 END sky130_fd_sc_hd__tap_2
+END LIBRARY

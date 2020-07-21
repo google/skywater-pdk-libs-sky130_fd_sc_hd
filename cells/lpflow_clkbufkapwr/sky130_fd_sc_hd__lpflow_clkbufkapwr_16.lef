@@ -172,3 +172,4 @@ MACRO sky130_fd_sc_hd__lpflow_clkbufkapwr_16
       RECT 1.455000 1.325000 1.645000 2.460000 ;
   END
 END sky130_fd_sc_hd__lpflow_clkbufkapwr_16
+END LIBRARY

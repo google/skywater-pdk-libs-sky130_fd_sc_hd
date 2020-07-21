@@ -154,3 +154,4 @@ MACRO sky130_fd_sc_hd__o41a_4
       RECT 7.265000 1.615000 7.595000 2.465000 ;
   END
 END sky130_fd_sc_hd__o41a_4
+END LIBRARY

@@ -110,3 +110,4 @@ MACRO sky130_fd_sc_hd__nand4_1
   OBS
   END
 END sky130_fd_sc_hd__nand4_1
+END LIBRARY

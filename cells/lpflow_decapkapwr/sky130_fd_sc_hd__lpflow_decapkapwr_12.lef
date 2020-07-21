@@ -71,3 +71,4 @@ MACRO sky130_fd_sc_hd__lpflow_decapkapwr_12
   OBS
   END
 END sky130_fd_sc_hd__lpflow_decapkapwr_12
+END LIBRARY

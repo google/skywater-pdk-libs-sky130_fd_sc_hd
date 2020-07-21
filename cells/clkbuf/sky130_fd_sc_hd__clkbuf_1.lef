@@ -84,3 +84,4 @@ MACRO sky130_fd_sc_hd__clkbuf_1
       RECT 1.035000 1.705000 1.205000 2.465000 ;
   END
 END sky130_fd_sc_hd__clkbuf_1
+END LIBRARY

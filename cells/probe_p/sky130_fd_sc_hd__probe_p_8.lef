@@ -145,3 +145,4 @@ MACRO sky130_fd_sc_hd__probe_p_8
       RECT 1.420000 1.245000 1.595000 1.445000 ;
   END
 END sky130_fd_sc_hd__probe_p_8
+END LIBRARY

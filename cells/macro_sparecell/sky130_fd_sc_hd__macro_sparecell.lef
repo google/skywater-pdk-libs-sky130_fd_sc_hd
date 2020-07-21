@@ -109,3 +109,4 @@ MACRO sky130_fd_sc_hd__macro_sparecell
       RECT 12.470000 1.075000 12.835000 1.305000 ;
   END
 END sky130_fd_sc_hd__macro_sparecell
+END LIBRARY

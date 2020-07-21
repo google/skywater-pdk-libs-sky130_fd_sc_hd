@@ -292,3 +292,4 @@ MACRO sky130_fd_sc_hd__fa_4
       RECT 6.550000 0.920000 6.840000 0.965000 ;
   END
 END sky130_fd_sc_hd__fa_4
+END LIBRARY

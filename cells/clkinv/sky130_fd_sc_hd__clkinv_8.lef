@@ -97,3 +97,4 @@ MACRO sky130_fd_sc_hd__clkinv_8
   OBS
   END
 END sky130_fd_sc_hd__clkinv_8
+END LIBRARY

@@ -109,3 +109,4 @@ MACRO sky130_fd_sc_hd__lpflow_decapkapwr_12
       RECT 5.205000  2.635000 5.375000 2.805000 ;
   END
 END sky130_fd_sc_hd__lpflow_decapkapwr_12
+END LIBRARY

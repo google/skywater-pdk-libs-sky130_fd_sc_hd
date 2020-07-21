@@ -133,3 +133,4 @@ MACRO sky130_fd_sc_hd__o221a_1
       RECT 3.300000 1.285000 3.470000 1.455000 ;
   END
 END sky130_fd_sc_hd__o221a_1
+END LIBRARY

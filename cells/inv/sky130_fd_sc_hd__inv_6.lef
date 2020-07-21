@@ -89,3 +89,4 @@ MACRO sky130_fd_sc_hd__inv_6
   OBS
   END
 END sky130_fd_sc_hd__inv_6
+END LIBRARY

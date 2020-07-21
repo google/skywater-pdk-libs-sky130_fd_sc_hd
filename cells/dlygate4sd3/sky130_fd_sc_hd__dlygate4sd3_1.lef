@@ -94,3 +94,4 @@ MACRO sky130_fd_sc_hd__dlygate4sd3_1
       RECT 2.590000 1.325000 3.040000 1.785000 ;
   END
 END sky130_fd_sc_hd__dlygate4sd3_1
+END LIBRARY

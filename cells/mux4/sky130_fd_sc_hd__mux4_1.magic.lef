@@ -269,3 +269,4 @@ MACRO sky130_fd_sc_hd__mux4_1
       RECT 8.415000 1.260000 8.705000 1.305000 ;
   END
 END sky130_fd_sc_hd__mux4_1
+END LIBRARY

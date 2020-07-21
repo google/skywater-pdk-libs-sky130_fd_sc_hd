@@ -137,3 +137,4 @@ MACRO sky130_fd_sc_hd__o2bb2ai_2
       RECT 4.880000 0.255000 5.210000 0.725000 ;
   END
 END sky130_fd_sc_hd__o2bb2ai_2
+END LIBRARY

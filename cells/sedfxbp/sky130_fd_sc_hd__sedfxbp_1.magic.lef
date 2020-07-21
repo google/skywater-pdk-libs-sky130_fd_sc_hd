@@ -308,3 +308,4 @@ MACRO sky130_fd_sc_hd__sedfxbp_1
       RECT 12.630000 0.920000 12.920000 0.965000 ;
   END
 END sky130_fd_sc_hd__sedfxbp_1
+END LIBRARY

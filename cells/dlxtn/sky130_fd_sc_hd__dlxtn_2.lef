@@ -146,3 +146,4 @@ MACRO sky130_fd_sc_hd__dlxtn_2
       RECT 2.890000 1.600000 3.180000 1.645000 ;
   END
 END sky130_fd_sc_hd__dlxtn_2
+END LIBRARY

@@ -171,3 +171,4 @@ MACRO sky130_fd_sc_hd__dlclkp_2
       RECT 6.585000  2.635000 6.755000 2.805000 ;
   END
 END sky130_fd_sc_hd__dlclkp_2
+END LIBRARY

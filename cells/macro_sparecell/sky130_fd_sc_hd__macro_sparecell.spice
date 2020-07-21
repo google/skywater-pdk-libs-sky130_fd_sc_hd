@@ -1,6 +1,6 @@
 * NGSPICE file created from sky130_fd_sc_hd__macro_sparecell.ext - technology: sky130A
 
-.subckt sky130_fd_sc_hd__nand2_2 Y A B VPB VNB VGND VPWR
+.subckt sky130_fd_sc_hd__nand2_2 A B VGND VNB VPB VPWR Y
 M1000 Y A VPWR VPB phighvt w=1e+06u l=150000u
 +  ad=5.4e+11p pd=5.08e+06u as=7.9e+11p ps=7.58e+06u
 M1001 VPWR B Y VPB phighvt w=1e+06u l=150000u
@@ -55,8 +55,8 @@ R1 HI VPWR short w=480000u l=45000u
 .ends
 
 .subckt sky130_fd_sc_hd__macro_sparecell VGND VNB VPB VPWR LO
-Xsky130_fd_sc_hd__nand2_2_1 sky130_fd_sc_hd__nor2_2_1/B LO LO VPB VNB VGND VPWR sky130_fd_sc_hd__nand2_2
-Xsky130_fd_sc_hd__nand2_2_0 sky130_fd_sc_hd__nor2_2_0/A LO LO VPB VNB VGND VPWR sky130_fd_sc_hd__nand2_2
+Xsky130_fd_sc_hd__nand2_2_1 LO LO VGND VNB VPB VPWR sky130_fd_sc_hd__nor2_2_1/B sky130_fd_sc_hd__nand2_2
+Xsky130_fd_sc_hd__nand2_2_0 LO LO VGND VNB VPB VPWR sky130_fd_sc_hd__nor2_2_0/A sky130_fd_sc_hd__nand2_2
 Xsky130_fd_sc_hd__inv_2_0 sky130_fd_sc_hd__inv_2_0/A sky130_fd_sc_hd__inv_2_0/Y VPB
 + VNB VPWR VGND sky130_fd_sc_hd__inv_2
 Xsky130_fd_sc_hd__inv_2_1 sky130_fd_sc_hd__inv_2_1/A sky130_fd_sc_hd__inv_2_1/Y VPB

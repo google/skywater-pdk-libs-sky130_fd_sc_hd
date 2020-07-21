@@ -139,3 +139,4 @@ MACRO sky130_fd_sc_hd__or4bb_4
       RECT 3.575000 1.075000 5.035000 1.245000 ;
   END
 END sky130_fd_sc_hd__or4bb_4
+END LIBRARY

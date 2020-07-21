@@ -131,3 +131,4 @@ MACRO sky130_fd_sc_hd__buf_16
       RECT 2.690000 1.275000 2.865000 1.445000 ;
   END
 END sky130_fd_sc_hd__buf_16
+END LIBRARY

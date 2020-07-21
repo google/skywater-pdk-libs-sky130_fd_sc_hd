@@ -103,3 +103,4 @@ MACRO sky130_fd_sc_hd__einvp_2
       RECT 2.850000 1.785000 3.135000 2.295000 ;
   END
 END sky130_fd_sc_hd__einvp_2
+END LIBRARY
