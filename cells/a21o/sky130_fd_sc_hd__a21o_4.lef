@@ -125,3 +125,4 @@ MACRO sky130_fd_sc_hd__a21o_4
       RECT 5.105000 1.460000 5.360000 1.850000 ;
   END
 END sky130_fd_sc_hd__a21o_4
+END LIBRARY

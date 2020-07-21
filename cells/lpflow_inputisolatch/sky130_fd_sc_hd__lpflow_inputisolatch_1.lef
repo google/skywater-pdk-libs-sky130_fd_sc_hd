@@ -122,3 +122,4 @@ MACRO sky130_fd_sc_hd__lpflow_inputisolatch_1
       RECT 3.950000 0.745000 4.125000 1.535000 ;
   END
 END sky130_fd_sc_hd__lpflow_inputisolatch_1
+END LIBRARY

@@ -203,3 +203,4 @@ MACRO sky130_fd_sc_hd__dfxtp_4
       RECT 4.250000 1.940000 4.540000 1.985000 ;
   END
 END sky130_fd_sc_hd__dfxtp_4
+END LIBRARY

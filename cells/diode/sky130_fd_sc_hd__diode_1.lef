@@ -61,3 +61,4 @@ MACRO sky130_fd_sc_hd__diode_1
   OBS
   END
 END sky130_fd_sc_hd__diode_1
+END LIBRARY

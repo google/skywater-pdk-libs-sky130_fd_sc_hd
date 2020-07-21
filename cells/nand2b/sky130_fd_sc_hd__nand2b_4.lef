@@ -110,3 +110,4 @@ MACRO sky130_fd_sc_hd__nand2b_4
       RECT 4.520000 0.255000 4.850000 0.715000 ;
   END
 END sky130_fd_sc_hd__nand2b_4
+END LIBRARY

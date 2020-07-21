@@ -126,3 +126,4 @@ MACRO sky130_fd_sc_hd__a32oi_1
       RECT 2.015000 1.955000 2.185000 2.465000 ;
   END
 END sky130_fd_sc_hd__a32oi_1
+END LIBRARY

@@ -95,3 +95,4 @@ MACRO sky130_fd_sc_hd__lpflow_inputiso0n_1
       RECT 1.505000 1.325000 1.675000 1.575000 ;
   END
 END sky130_fd_sc_hd__lpflow_inputiso0n_1
+END LIBRARY

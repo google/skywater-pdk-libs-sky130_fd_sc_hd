@@ -112,3 +112,4 @@ MACRO sky130_fd_sc_hd__dlymetal6s6s_1
       RECT 3.560000 1.325000 3.910000 1.845000 ;
   END
 END sky130_fd_sc_hd__dlymetal6s6s_1
+END LIBRARY

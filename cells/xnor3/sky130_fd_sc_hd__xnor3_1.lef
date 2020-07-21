@@ -184,3 +184,4 @@ MACRO sky130_fd_sc_hd__xnor3_1
       RECT 6.985000 0.580000 7.275000 0.625000 ;
   END
 END sky130_fd_sc_hd__xnor3_1
+END LIBRARY

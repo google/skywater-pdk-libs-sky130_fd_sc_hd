@@ -94,3 +94,4 @@ MACRO sky130_fd_sc_hd__nor2b_1
       RECT 1.535000 1.245000 1.705000 1.510000 ;
   END
 END sky130_fd_sc_hd__nor2b_1
+END LIBRARY

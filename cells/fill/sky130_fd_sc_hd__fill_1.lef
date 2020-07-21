@@ -54,3 +54,4 @@ MACRO sky130_fd_sc_hd__fill_1
   OBS
   END
 END sky130_fd_sc_hd__fill_1
+END LIBRARY

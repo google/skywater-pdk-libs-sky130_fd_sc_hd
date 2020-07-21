@@ -169,3 +169,4 @@ MACRO sky130_fd_sc_hd__a22oi_4
       RECT 7.505000  2.635000 7.675000 2.805000 ;
   END
 END sky130_fd_sc_hd__a22oi_4
+END LIBRARY

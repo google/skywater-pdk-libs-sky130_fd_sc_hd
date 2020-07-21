@@ -175,3 +175,4 @@ MACRO sky130_fd_sc_hd__xor2_2
       RECT 1.005000 2.280000 1.295000 2.325000 ;
   END
 END sky130_fd_sc_hd__xor2_2
+END LIBRARY

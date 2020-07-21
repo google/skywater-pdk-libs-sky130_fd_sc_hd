@@ -165,3 +165,4 @@ MACRO sky130_fd_sc_hd__lpflow_isobufsrc_16
       RECT 15.985000 1.795000 16.235000 2.295000 ;
   END
 END sky130_fd_sc_hd__lpflow_isobufsrc_16
+END LIBRARY

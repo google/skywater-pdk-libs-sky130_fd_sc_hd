@@ -56,3 +56,4 @@ MACRO sky130_fd_sc_hd__tapvpwrvgnd_1
   OBS
   END
 END sky130_fd_sc_hd__tapvpwrvgnd_1
+END LIBRARY

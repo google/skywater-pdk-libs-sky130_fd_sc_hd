@@ -65,3 +65,4 @@ MACRO sky130_fd_sc_hd__lpflow_bleeder_1
   OBS
   END
 END sky130_fd_sc_hd__lpflow_bleeder_1
+END LIBRARY

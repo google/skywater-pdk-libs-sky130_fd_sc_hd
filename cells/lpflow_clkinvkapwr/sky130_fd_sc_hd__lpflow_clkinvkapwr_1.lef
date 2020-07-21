@@ -95,3 +95,4 @@ MACRO sky130_fd_sc_hd__lpflow_clkinvkapwr_1
   OBS
   END
 END sky130_fd_sc_hd__lpflow_clkinvkapwr_1
+END LIBRARY
