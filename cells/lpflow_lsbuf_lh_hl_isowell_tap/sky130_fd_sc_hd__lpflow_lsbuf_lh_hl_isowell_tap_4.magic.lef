@@ -23,7 +23,7 @@ UNITS
   DATABASE MICRONS 200 ;
 END UNITS
 MACRO sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4
-  CLASS CORE ;
+  CLASS CORE WELLTAP ;
   FOREIGN sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4 ;
   ORIGIN  0.000000  0.000000 ;
   SIZE  7.360000 BY  5.440000 ;
