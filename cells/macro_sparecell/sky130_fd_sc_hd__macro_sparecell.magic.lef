@@ -24,7 +24,6 @@ UNITS
 END UNITS
 MACRO sky130_fd_sc_hd__macro_sparecell
   CLASS CORE ;
-  SOURCE USER ;
   FOREIGN sky130_fd_sc_hd__macro_sparecell ;
   ORIGIN  0.000000  0.000000 ;
   SIZE  13.34000 BY  2.720000 ;

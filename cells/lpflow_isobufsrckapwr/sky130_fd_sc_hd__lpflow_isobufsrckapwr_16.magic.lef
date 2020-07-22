@@ -24,7 +24,6 @@ UNITS
 END UNITS
 MACRO sky130_fd_sc_hd__lpflow_isobufsrckapwr_16
   CLASS CORE ;
-  SOURCE USER ;
   FOREIGN sky130_fd_sc_hd__lpflow_isobufsrckapwr_16 ;
   ORIGIN  0.000000  0.000000 ;
   SIZE  14.26000 BY  2.720000 ;
