@@ -1,6 +1,21 @@
-* NGSPICE file created from sky130_fd_sc_hd__macro_sparecell.ext - technology: sky130A
+* Copyright 2020 The SkyWater PDK Authors
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     https://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+* SPDX-License-Identifier: Apache-2.0
 
-.subckt sky130_fd_sc_hd__nand2_2 A B VGND VNB VPB VPWR Y
+
+.subckt sky130_fd_sc_hd__nand2_2 Y A B VPB VNB VGND VPWR
 M1000 Y A VPWR VPB phighvt w=1e+06u l=150000u
 +  ad=5.4e+11p pd=5.08e+06u as=7.9e+11p ps=7.58e+06u
 M1001 VPWR B Y VPB phighvt w=1e+06u l=150000u
@@ -18,7 +33,6 @@ M1006 VPWR A Y VPB phighvt w=1e+06u l=150000u
 M1007 VGND B a_27_47# VNB nshort w=650000u l=150000u
 +  ad=0p pd=0u as=0p ps=0u
 .ends
-
 .subckt sky130_fd_sc_hd__inv_2 A Y VPB VNB VPWR VGND
 M1000 VPWR A Y VPB phighvt w=1e+06u l=150000u
 +  ad=5.2e+11p pd=5.04e+06u as=2.7e+11p ps=2.54e+06u
@@ -29,7 +43,6 @@ M1002 Y A VPWR VPB phighvt w=1e+06u l=150000u
 M1003 VGND A Y VNB nshort w=650000u l=150000u
 +  ad=0p pd=0u as=0p ps=0u
 .ends
-
 .subckt sky130_fd_sc_hd__nor2_2 B Y A VPB VNB VGND VPWR
 M1000 VPWR A a_27_297# VPB phighvt w=1e+06u l=150000u
 +  ad=2.7e+11p pd=2.54e+06u as=8.1e+11p ps=7.62e+06u
@@ -48,15 +61,13 @@ M1006 Y B a_27_297# VPB phighvt w=1e+06u l=150000u
 M1007 a_27_297# A VPWR VPB phighvt w=1e+06u l=150000u
 +  ad=0p pd=0u as=0p ps=0u
 .ends
-
 .subckt sky130_fd_sc_hd__conb_1 LO HI VPB VNB VGND VPWR
 R0 VGND LO short w=480000u l=45000u
 R1 HI VPWR short w=480000u l=45000u
 .ends
-
 .subckt sky130_fd_sc_hd__macro_sparecell VGND VNB VPB VPWR LO
-Xsky130_fd_sc_hd__nand2_2_1 LO LO VGND VNB VPB VPWR sky130_fd_sc_hd__nor2_2_1/B sky130_fd_sc_hd__nand2_2
-Xsky130_fd_sc_hd__nand2_2_0 LO LO VGND VNB VPB VPWR sky130_fd_sc_hd__nor2_2_0/A sky130_fd_sc_hd__nand2_2
+Xsky130_fd_sc_hd__nand2_2_1 sky130_fd_sc_hd__nor2_2_1/B LO LO VPB VNB VGND VPWR sky130_fd_sc_hd__nand2_2
+Xsky130_fd_sc_hd__nand2_2_0 sky130_fd_sc_hd__nor2_2_0/A LO LO VPB VNB VGND VPWR sky130_fd_sc_hd__nand2_2
 Xsky130_fd_sc_hd__inv_2_0 sky130_fd_sc_hd__inv_2_0/A sky130_fd_sc_hd__inv_2_0/Y VPB
 + VNB VPWR VGND sky130_fd_sc_hd__inv_2
 Xsky130_fd_sc_hd__inv_2_1 sky130_fd_sc_hd__inv_2_1/A sky130_fd_sc_hd__inv_2_1/Y VPB
@@ -67,4 +78,3 @@ Xsky130_fd_sc_hd__nor2_2_1 sky130_fd_sc_hd__nor2_2_1/B sky130_fd_sc_hd__inv_2_1/
 + sky130_fd_sc_hd__nor2_2_1/B VPB VNB VGND VPWR sky130_fd_sc_hd__nor2_2
 Xsky130_fd_sc_hd__conb_1_0 LO sky130_fd_sc_hd__conb_1_0/HI VPB VNB VGND VPWR sky130_fd_sc_hd__conb_1
 .ends
-
