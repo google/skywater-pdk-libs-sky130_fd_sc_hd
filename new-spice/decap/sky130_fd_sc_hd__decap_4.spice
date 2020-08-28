@@ -1,0 +1,25 @@
+* File: sky130_fd_sc_hd__decap_4.spice
+* Created: Thu Aug 27 14:13:38 2020
+* Program "Calibre xRC"
+* Version "v2018.4_34.26"
+* 
+.include "sky130_fd_sc_hd__decap_4.spice.pex"
+.subckt sky130_fd_sc_hd__decap_4  VNB VPB VGND VPWR
+* 
+* VPWR	VPWR
+* VGND	VGND
+* VPB	VPB
+* VNB	VNB
+MM1001 N_VGND_M1001_s N_VPWR_M1001_g N_VGND_M1001_s VNB NSHORT L=1.05 W=0.55
++ AD=0.143 AS=0.143 PD=1.62 PS=1.62 NRD=0 NRS=0 M=1 R=0.52381 SA=525000
++ SB=525000 A=0.5775 P=3.2 MULT=1
+MM1000 N_VPWR_M1000_s N_VGND_M1000_g N_VPWR_M1000_s VPB PHIGHVT L=1.05 W=0.87
++ AD=0.2262 AS=0.2262 PD=2.26 PS=2.26 NRD=0 NRS=0 M=1 R=0.828571 SA=525000
++ SB=525000 A=0.9135 P=3.84 MULT=1
+DX2_noxref VNB VPB NWDIODE A=3.5631 P=7.65
+*
+.include "sky130_fd_sc_hd__decap_4.spice.SKY130_FD_SC_HD__DECAP_4.pxi"
+*
+.ends
+*
+*

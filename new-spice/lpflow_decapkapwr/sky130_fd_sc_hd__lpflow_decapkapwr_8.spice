@@ -1,0 +1,25 @@
+* File: sky130_fd_sc_hd__lpflow_decapkapwr_8.spice
+* Created: Thu Aug 27 14:24:49 2020
+* Program "Calibre xRC"
+* Version "v2018.4_34.26"
+* 
+.include "sky130_fd_sc_hd__lpflow_decapkapwr_8.spice.pex"
+.subckt sky130_fd_sc_hd__lpflow_decapkapwr_8  VNB VPB VGND KAPWR VPWR
+* 
+* KAPWR	KAPWR
+* VGND	VGND
+* VPB	VPB
+* VNB	VNB
+MM1001 N_VGND_M1001_s N_KAPWR_M1001_g N_VGND_M1001_s VNB NSHORT L=2.89 W=0.55
++ AD=0.143 AS=0.143 PD=1.62 PS=1.62 NRD=0 NRS=0 M=1 R=0.190311 SA=1.445e+06
++ SB=1.445e+06 A=1.5895 P=6.88 MULT=1
+MM1000 N_KAPWR_M1000_s N_VGND_M1000_g N_KAPWR_M1000_s VPB PHIGHVT L=2.89 W=0.87
++ AD=0.2262 AS=0.2262 PD=2.26 PS=2.26 NRD=0 NRS=0 M=1 R=0.301038 SA=1.445e+06
++ SB=1.445e+06 A=2.5143 P=7.52 MULT=1
+DX2_noxref VNB VPB NWDIODE A=6.5163 P=11.33
+*
+.include "sky130_fd_sc_hd__lpflow_decapkapwr_8.spice.SKY130_FD_SC_HD__LPFLOW_DECAPKAPWR_8.pxi"
+*
+.ends
+*
+*

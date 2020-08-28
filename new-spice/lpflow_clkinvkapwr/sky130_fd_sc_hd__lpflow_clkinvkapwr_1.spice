@@ -1,0 +1,30 @@
+* File: sky130_fd_sc_hd__lpflow_clkinvkapwr_1.spice
+* Created: Thu Aug 27 14:23:54 2020
+* Program "Calibre xRC"
+* Version "v2018.4_34.26"
+* 
+.include "sky130_fd_sc_hd__lpflow_clkinvkapwr_1.spice.pex"
+.subckt sky130_fd_sc_hd__lpflow_clkinvkapwr_1  VNB VPB A KAPWR Y VGND VPWR
+* 
+* VGND	VGND
+* Y	Y
+* KAPWR	KAPWR
+* A	A
+* VPB	VPB
+* VNB	VNB
+MM1002 N_VGND_M1002_d N_A_M1002_g N_Y_M1002_s VNB NSHORT L=0.15 W=0.42 AD=0.1197
++ AS=0.1092 PD=1.41 PS=1.36 NRD=0 NRS=0 M=1 R=2.8 SA=75000.2 SB=75000.2 A=0.063
++ P=1.14 MULT=1
+MM1000 N_KAPWR_M1000_d N_A_M1000_g N_Y_M1000_s VPB PHIGHVT L=0.15 W=0.84
++ AD=0.2184 AS=0.1134 PD=2.2 PS=1.11 NRD=0 NRS=0 M=1 R=5.6 SA=75000.2 SB=75000.6
++ A=0.126 P=1.98 MULT=1
+MM1001 N_KAPWR_M1001_d N_A_M1001_g N_Y_M1000_s VPB PHIGHVT L=0.15 W=0.84
++ AD=0.2352 AS=0.1134 PD=2.24 PS=1.11 NRD=0 NRS=0 M=1 R=5.6 SA=75000.6
++ SB=75000.2 A=0.126 P=1.98 MULT=1
+DX3_noxref VNB VPB NWDIODE A=2.8248 P=6.73
+*
+.include "sky130_fd_sc_hd__lpflow_clkinvkapwr_1.spice.SKY130_FD_SC_HD__LPFLOW_CLKINVKAPWR_1.pxi"
+*
+.ends
+*
+*

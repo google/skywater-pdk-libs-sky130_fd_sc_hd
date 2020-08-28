@@ -1,0 +1,20 @@
+* File: sky130_fd_sc_hd__diode_2.spice
+* Created: Thu Aug 27 14:16:11 2020
+* Program "Calibre xRC"
+* Version "v2018.4_34.26"
+* 
+.include "sky130_fd_sc_hd__diode_2.spice.pex"
+.subckt sky130_fd_sc_hd__diode_2  VNB VPB DIODE VGND VPWR
+* 
+* DIODE	DIODE
+* VPB	VPB
+* VNB	VNB
+D0_noxref VNB N_DIODE_D0_noxref_neg NDIODE  AREA=0.4347 PJ=2.64 M=1
++ AHFTEMPPERIM=2.64
+DX1_noxref VNB VPB NWDIODE A=2.0865 P=5.81
+*
+.include "sky130_fd_sc_hd__diode_2.spice.SKY130_FD_SC_HD__DIODE_2.pxi"
+*
+.ends
+*
+*
