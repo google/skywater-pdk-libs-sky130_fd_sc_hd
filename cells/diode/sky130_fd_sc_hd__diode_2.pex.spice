@@ -1,0 +1,24 @@
+* File: sky130_fd_sc_hd__diode_2.pex.spice
+* Created: Thu Aug 27 14:16:11 2020
+* Program "Calibre xRC"
+* Version "v2018.4_34.26"
+* Nominal Temperature: 27C
+* Circuit Temperature: 27C
+* 
+.subckt PM_SKY130_FD_SC_HD__DIODE_2%DIODE 1 4 5 6 7 8 9 29
+r5 8 9 5.42222 $w=7.48e-07 $l=3.4e-07 $layer=LI1_cond $X=0.46 $Y=1.87 $X2=0.46
++ $Y2=2.21
+r6 7 8 5.42222 $w=7.48e-07 $l=3.4e-07 $layer=LI1_cond $X=0.46 $Y=1.53 $X2=0.46
++ $Y2=1.87
+r7 6 7 5.42222 $w=7.48e-07 $l=3.4e-07 $layer=LI1_cond $X=0.46 $Y=1.19 $X2=0.46
++ $Y2=1.53
+r8 5 6 5.42222 $w=7.48e-07 $l=3.4e-07 $layer=LI1_cond $X=0.46 $Y=0.85 $X2=0.46
++ $Y2=1.19
+r9 4 5 5.42222 $w=7.48e-07 $l=3.4e-07 $layer=LI1_cond $X=0.46 $Y=0.51 $X2=0.46
++ $Y2=0.85
+r10 4 29 2.23268 $w=7.48e-07 $l=1.4e-07 $layer=LI1_cond $X=0.46 $Y=0.51 $X2=0.46
++ $Y2=0.37
+r11 1 29 45.5 $w=1.7e-07 $l=5.86003e-07 $layer=licon1_NDIFF $count=4 $X=0.155
++ $Y=0.195 $X2=0.66 $Y2=0.37
+.ends
+

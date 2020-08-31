@@ -1,20 +1,20 @@
-* Copyright 2020 The SkyWater PDK Authors
+* File: sky130_fd_sc_hd__diode_2.spice
+* Created: Thu Aug 27 14:16:11 2020
+* Program "Calibre xRC"
+* Version "v2018.4_34.26"
+* 
+.include "sky130_fd_sc_hd__diode_2.pex.spice"
+.subckt sky130_fd_sc_hd__diode_2  VNB VPB DIODE VGND VPWR
+* 
+* DIODE	DIODE
+* VPB	VPB
+* VNB	VNB
+D0_noxref VNB N_DIODE_D0_noxref_neg NDIODE  AREA=0.4347 PJ=2.64 M=1
++ AHFTEMPPERIM=2.64
+DX1_noxref VNB VPB NWDIODE A=2.0865 P=5.81
 *
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
+.include "sky130_fd_sc_hd__diode_2.pxi.spice"
 *
-*     https://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-* SPDX-License-Identifier: Apache-2.0
-
-
-.subckt sky130_fd_sc_hd__diode_2 DIODE VGND VNB VPB VPWR
-D0 VNB DIODE ndiode p=5.36e+06u a=4.347e+11p
 .ends
+*
+*

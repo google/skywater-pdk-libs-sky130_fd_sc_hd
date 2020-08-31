@@ -1,0 +1,110 @@
+* File: sky130_fd_sc_hd__lpflow_clkinvkapwr_1.pex.spice
+* Created: Thu Aug 27 14:23:54 2020
+* Program "Calibre xRC"
+* Version "v2018.4_34.26"
+* Nominal Temperature: 27C
+* Circuit Temperature: 27C
+* 
+.subckt PM_SKY130_FD_SC_HD__LPFLOW_CLKINVKAPWR_1%A 3 7 11 13 14 15 23
+r31 23 24 0.678873 $w=3.55e-07 $l=5e-09 $layer=POLY_cond $X=0.885 $Y=1.16
++ $X2=0.89 $Y2=1.16
+r32 22 23 56.3465 $w=3.55e-07 $l=4.15e-07 $layer=POLY_cond $X=0.47 $Y=1.16
++ $X2=0.885 $Y2=1.16
+r33 20 22 31.2282 $w=3.55e-07 $l=2.3e-07 $layer=POLY_cond $X=0.24 $Y=1.16
++ $X2=0.47 $Y2=1.16
+r34 15 20 145.28 $w=1.7e-07 $l=1.7e-07 $layer=licon1_POLY $count=1 $X=0.24
++ $Y=1.16 $X2=0.24 $Y2=1.16
+r35 14 15 14.8857 $w=2.38e-07 $l=3.1e-07 $layer=LI1_cond $X=0.205 $Y=0.85
++ $X2=0.205 $Y2=1.16
+r36 13 14 16.3263 $w=2.38e-07 $l=3.4e-07 $layer=LI1_cond $X=0.205 $Y=0.51
++ $X2=0.205 $Y2=0.85
+r37 9 24 22.9692 $w=1.5e-07 $l=1.85e-07 $layer=POLY_cond $X=0.89 $Y=1.345
++ $X2=0.89 $Y2=1.16
+r38 9 11 369.191 $w=1.5e-07 $l=7.2e-07 $layer=POLY_cond $X=0.89 $Y=1.345
++ $X2=0.89 $Y2=2.065
+r39 5 23 22.9692 $w=1.5e-07 $l=1.85e-07 $layer=POLY_cond $X=0.885 $Y=0.975
++ $X2=0.885 $Y2=1.16
+r40 5 7 271.766 $w=1.5e-07 $l=5.3e-07 $layer=POLY_cond $X=0.885 $Y=0.975
++ $X2=0.885 $Y2=0.445
+r41 1 22 22.9692 $w=1.5e-07 $l=1.85e-07 $layer=POLY_cond $X=0.47 $Y=1.345
++ $X2=0.47 $Y2=1.16
+r42 1 3 369.191 $w=1.5e-07 $l=7.2e-07 $layer=POLY_cond $X=0.47 $Y=1.345 $X2=0.47
++ $Y2=2.065
+.ends
+
+.subckt PM_SKY130_FD_SC_HD__LPFLOW_CLKINVKAPWR_1%KAPWR 1 2 7 8 12 15 22 28
+r25 18 28 9.3 $w=1.7e-07 $l=1.7e-07 $layer=mcon $count=1 $X=0.24 $Y=2.21
++ $X2=0.24 $Y2=2.21
+r26 15 18 12.8802 $w=3.38e-07 $l=3.8e-07 $layer=LI1_cond $X=0.255 $Y=1.83
++ $X2=0.255 $Y2=2.21
+r27 12 28 0.00147059 $w=2.55e-07 $l=3e-09 $layer=MET1_cond $X=0.227 $Y=2.21
++ $X2=0.23 $Y2=2.21
+r28 11 22 12.1647 $w=3.58e-07 $l=3.8e-07 $layer=LI1_cond $X=1.115 $Y=2.21
++ $X2=1.115 $Y2=1.83
+r29 10 11 9.3 $w=1.7e-07 $l=1.7e-07 $layer=mcon $count=1 $X=1.14 $Y=2.21
++ $X2=1.14 $Y2=2.21
+r30 8 28 0.0821384 $w=2.55e-07 $l=1.69337e-07 $layer=MET1_cond $X=0.385 $Y=2.24
++ $X2=0.23 $Y2=2.21
+r31 7 10 0.0772364 $w=2.55e-07 $l=1.59295e-07 $layer=MET1_cond $X=0.995 $Y=2.24
++ $X2=1.14 $Y2=2.21
+r32 7 8 0.468202 $w=2e-07 $l=6.1e-07 $layer=MET1_cond $X=0.995 $Y=2.24 $X2=0.385
++ $Y2=2.24
+r33 2 22 300 $w=1.7e-07 $l=2.43311e-07 $layer=licon1_PDIFF $count=2 $X=0.965
++ $Y=1.645 $X2=1.1 $Y2=1.83
+r34 1 15 300 $w=1.7e-07 $l=2.39479e-07 $layer=licon1_PDIFF $count=2 $X=0.135
++ $Y=1.645 $X2=0.26 $Y2=1.83
+.ends
+
+.subckt PM_SKY130_FD_SC_HD__LPFLOW_CLKINVKAPWR_1%Y 1 2 9 13 15 17
+r27 17 27 10.0702 $w=5.27e-07 $l=4.35e-07 $layer=LI1_cond $X=1.15 $Y=1.025
++ $X2=0.715 $Y2=1.025
+r28 15 27 0.578748 $w=5.27e-07 $l=2.5e-08 $layer=LI1_cond $X=0.69 $Y=1.025
++ $X2=0.715 $Y2=1.025
+r29 15 23 0.231499 $w=5.27e-07 $l=1e-08 $layer=LI1_cond $X=0.69 $Y=1.025
++ $X2=0.68 $Y2=1.025
+r30 11 23 7.48814 $w=1.7e-07 $l=2.65e-07 $layer=LI1_cond $X=0.68 $Y=1.29
++ $X2=0.68 $Y2=1.025
+r31 11 13 35.2299 $w=1.68e-07 $l=5.4e-07 $layer=LI1_cond $X=0.68 $Y=1.29
++ $X2=0.68 $Y2=1.83
+r32 7 27 5.11519 $w=2.5e-07 $l=2.65e-07 $layer=LI1_cond $X=0.715 $Y=0.76
++ $X2=0.715 $Y2=1.025
+r33 7 9 14.9818 $w=2.48e-07 $l=3.25e-07 $layer=LI1_cond $X=0.715 $Y=0.76
++ $X2=0.715 $Y2=0.435
+r34 2 13 300 $w=1.7e-07 $l=2.43311e-07 $layer=licon1_PDIFF $count=2 $X=0.545
++ $Y=1.645 $X2=0.68 $Y2=1.83
+r35 1 9 182 $w=1.7e-07 $l=2.54951e-07 $layer=licon1_NDIFF $count=1 $X=0.55
++ $Y=0.235 $X2=0.675 $Y2=0.435
+.ends
+
+.subckt PM_SKY130_FD_SC_HD__LPFLOW_CLKINVKAPWR_1%VGND 1 4 6 8 10 17
+r15 16 17 9.3 $w=1.7e-07 $l=1.7e-07 $layer=mcon $count=1 $X=1.15 $Y=0 $X2=1.15
++ $Y2=0
+r16 13 17 0.130889 $w=4.8e-07 $l=4.6e-07 $layer=MET1_cond $X=0.69 $Y=0 $X2=1.15
++ $Y2=0
+r17 12 13 4.65 $w=1.7e-07 $l=3.4e-07 $layer=mcon $count=2 $X=0.69 $Y=0 $X2=0.69
++ $Y2=0
+r18 10 16 4.37302 $w=1.7e-07 $l=1.85e-07 $layer=LI1_cond $X=1.01 $Y=0 $X2=1.195
++ $Y2=0
+r19 10 12 20.877 $w=1.68e-07 $l=3.2e-07 $layer=LI1_cond $X=1.01 $Y=0 $X2=0.69
++ $Y2=0
+r20 8 13 0.130889 $w=4.8e-07 $l=4.6e-07 $layer=MET1_cond $X=0.23 $Y=0 $X2=0.69
++ $Y2=0
+r21 4 16 3.02565 $w=2.85e-07 $l=1.04307e-07 $layer=LI1_cond $X=1.152 $Y=0.085
++ $X2=1.195 $Y2=0
+r22 4 6 13.7484 $w=2.83e-07 $l=3.4e-07 $layer=LI1_cond $X=1.152 $Y=0.085
++ $X2=1.152 $Y2=0.425
+r23 1 6 182 $w=1.7e-07 $l=2.48495e-07 $layer=licon1_NDIFF $count=1 $X=0.96
++ $Y=0.235 $X2=1.095 $Y2=0.425
+.ends
+
+.subckt PM_SKY130_FD_SC_HD__LPFLOW_CLKINVKAPWR_1%VPWR 1 8 9
+r19 8 9 6.2 $w=1.7e-07 $l=2.55e-07 $layer=mcon $count=1 $X=1.15 $Y=2.72 $X2=1.15
++ $Y2=2.72
+r20 4 8 60.0214 $w=1.68e-07 $l=9.2e-07 $layer=LI1_cond $X=0.23 $Y=2.72 $X2=1.15
++ $Y2=2.72
+r21 1 9 0.261778 $w=4.8e-07 $l=9.2e-07 $layer=MET1_cond $X=0.23 $Y=2.72 $X2=1.15
++ $Y2=2.72
+r22 1 4 6.2 $w=1.7e-07 $l=2.55e-07 $layer=mcon $count=1 $X=0.23 $Y=2.72 $X2=0.23
++ $Y2=2.72
+.ends
+

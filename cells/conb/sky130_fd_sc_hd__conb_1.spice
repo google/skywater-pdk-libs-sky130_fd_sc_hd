@@ -1,21 +1,23 @@
-* Copyright 2020 The SkyWater PDK Authors
+* File: sky130_fd_sc_hd__conb_1.spice
+* Created: Thu Aug 27 14:13:13 2020
+* Program "Calibre xRC"
+* Version "v2018.4_34.26"
+* 
+.include "sky130_fd_sc_hd__conb_1.pex.spice"
+.subckt sky130_fd_sc_hd__conb_1  VNB VPB HI VPWR VGND LO
+* 
+* LO	LO
+* VGND	VGND
+* VPWR	VPWR
+* HI	HI
+* VPB	VPB
+* VNB	VNB
+DX0_noxref VNB VPB NWDIODE A=2.8248 P=6.73
+R1 N_HI_R1_pos N_VPWR_R1_neg SHORT 0.01 M=1
+R0 N_VGND_R0_pos N_LO_R0_neg SHORT 0.01 M=1
 *
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
+.include "sky130_fd_sc_hd__conb_1.pxi.spice"
 *
-*     https://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-* SPDX-License-Identifier: Apache-2.0
-
-
-.subckt sky130_fd_sc_hd__conb_1 VGND VNB VPB VPWR HI LO
-R0 VGND LO short w=480000u l=45000u
-R1 HI VPWR short w=480000u l=45000u
 .ends
+*
+*
