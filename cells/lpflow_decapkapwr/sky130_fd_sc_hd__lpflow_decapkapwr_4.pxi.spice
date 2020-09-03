@@ -1,5 +1,5 @@
 * File: sky130_fd_sc_hd__lpflow_decapkapwr_4.pxi.spice
-* Created: Thu Aug 27 14:24:36 2020
+* Created: Tue Sep  1 19:11:45 2020
 * 
 x_PM_SKY130_FD_SC_HD__LPFLOW_DECAPKAPWR_4%VGND N_VGND_M1001_s VGND N_VGND_c_14_n
 + N_VGND_M1000_g N_VGND_c_15_n N_VGND_c_16_n

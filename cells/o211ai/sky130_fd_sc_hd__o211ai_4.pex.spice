@@ -1,5 +1,5 @@
 * File: sky130_fd_sc_hd__o211ai_4.pex.spice
-* Created: Thu Aug 27 14:35:02 2020
+* Created: Tue Sep  1 19:20:59 2020
 * Program "Calibre xRC"
 * Version "v2018.4_34.26"
 * Nominal Temperature: 27C
@@ -485,8 +485,8 @@ r139 1 35 182 $w=1.7e-07 $l=1.89143e-07 $layer=licon1_NDIFF $count=1 $X=5.31
 + $Y=0.235 $X2=5.445 $Y2=0.365
 .ends
 
-.subckt PM_SKY130_FD_SC_HD__O211AI_4%noxref_10 1 2 3 4 5 6 7 22 26 32 38 40 42
-+ 49 50 51 52 53 54 57 60 70
+.subckt PM_SKY130_FD_SC_HD__O211AI_4%A_27_47# 1 2 3 4 5 6 7 22 26 32 38 40 42 49
++ 50 51 52 53 54 57 60 70
 c140 53 0 1.15388e-19 $X=7.45 $Y=0.51
 c141 51 0 1.71138e-19 $X=1.795 $Y=0.765
 c142 42 0 1.73478e-19 $X=7.51 $Y=0.395
@@ -646,7 +646,7 @@ r165 1 15 182 $w=1.7e-07 $l=1.92614e-07 $layer=licon1_NDIFF $count=1 $X=0.55
 + $Y=0.235 $X2=0.69 $Y2=0.36
 .ends
 
-.subckt PM_SKY130_FD_SC_HD__O211AI_4%noxref_12 1 2 11
+.subckt PM_SKY130_FD_SC_HD__O211AI_4%A_806_47# 1 2 11
 c23 11 0 1.81301e-19 $X=5.865 $Y=0.725
 r24 8 11 104.439 $w=1.78e-07 $l=1.695e-06 $layer=LI1_cond $X=4.17 $Y=0.725
 + $X2=5.865 $Y2=0.725

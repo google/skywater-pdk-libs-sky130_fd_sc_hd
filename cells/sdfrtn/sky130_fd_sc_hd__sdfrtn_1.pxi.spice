@@ -1,5 +1,5 @@
 * File: sky130_fd_sc_hd__sdfrtn_1.pxi.spice
-* Created: Thu Aug 27 14:45:54 2020
+* Created: Tue Sep  1 19:30:04 2020
 * 
 x_PM_SKY130_FD_SC_HD__SDFRTN_1%CLK_N N_CLK_N_c_257_n N_CLK_N_M1032_g
 + N_CLK_N_M1026_g CLK_N CLK_N N_CLK_N_c_259_n PM_SKY130_FD_SC_HD__SDFRTN_1%CLK_N

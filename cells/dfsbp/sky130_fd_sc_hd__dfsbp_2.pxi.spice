@@ -1,5 +1,5 @@
 * File: sky130_fd_sc_hd__dfsbp_2.pxi.spice
-* Created: Thu Aug 27 14:15:08 2020
+* Created: Tue Sep  1 19:03:31 2020
 * 
 x_PM_SKY130_FD_SC_HD__DFSBP_2%CLK N_CLK_c_243_n N_CLK_c_238_n N_CLK_M1034_g
 + N_CLK_c_244_n N_CLK_M1019_g N_CLK_c_239_n N_CLK_c_245_n CLK CLK N_CLK_c_241_n

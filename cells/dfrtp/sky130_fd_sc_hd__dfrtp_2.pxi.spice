@@ -1,5 +1,5 @@
 * File: sky130_fd_sc_hd__dfrtp_2.pxi.spice
-* Created: Thu Aug 27 14:14:48 2020
+* Created: Tue Sep  1 19:03:13 2020
 * 
 x_PM_SKY130_FD_SC_HD__DFRTP_2%CLK N_CLK_c_197_n N_CLK_c_201_n N_CLK_c_198_n
 + N_CLK_M1025_g N_CLK_c_202_n N_CLK_M1012_g N_CLK_c_203_n CLK CLK
