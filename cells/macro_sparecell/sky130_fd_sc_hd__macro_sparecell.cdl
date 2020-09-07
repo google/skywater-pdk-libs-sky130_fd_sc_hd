@@ -16,11 +16,13 @@
 
 .SUBCKT sky130_fd_sc_hd__macro_sparecell VGND VNB VPB VPWR LO
 *.PININFO VGND:I VNB:I VPB:I VPWR:I LO:O
-XI1 net59 LO VGND VNB VPB VPWR / scs8hd_conb_1
-XI6 nor2right invright VGND VNB VPB VPWR / scs8hd_inv_2
-XI7 nor2left invleft VGND VNB VPB VPWR / scs8hd_inv_2
-XI4 nd2right nd2right nor2right VGND VNB VPB VPWR / scs8hd_nor2_2
-XI5 nd2left nd2left nor2left VGND VNB VPB VPWR / scs8hd_nor2_2
-XI2 LO LO nd2right VGND VNB VPB VPWR / scs8hd_nand2_2
-XI3 LO LO nd2left VGND VNB VPB VPWR / scs8hd_nand2_2
+XI1 net59 LO VGND VNB VPB VPWR / sky130_fd_sc_hd__conb_1
+XI6 nor2right invright VGND VNB VPB VPWR / sky130_fd_sc_hd__inv_2
+XI7 nor2left invleft VGND VNB VPB VPWR / sky130_fd_sc_hd__inv_2
+XI4 nd2right nd2right nor2right VGND VNB VPB VPWR /
++ sky130_fd_sc_hd__nor2_2
+XI5 nd2left nd2left nor2left VGND VNB VPB VPWR /
++ sky130_fd_sc_hd__nor2_2
+XI2 LO LO nd2right VGND VNB VPB VPWR / sky130_fd_sc_hd__nand2_2
+XI3 LO LO nd2left VGND VNB VPB VPWR / sky130_fd_sc_hd__nand2_2
 .ENDS sky130_fd_sc_hd__macro_sparecell

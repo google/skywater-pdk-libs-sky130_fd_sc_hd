@@ -16,14 +16,9 @@
 
 
 .subckt sky130_fd_sc_hd__lpflow_bleeder_1 SHORT VGND VNB VPB VPWR
-M1000 a_147_105# SHORT VGND VNB nshort w=360000u l=150000u
-+  ad=7.56e+10p pd=1.14e+06u as=9.36e+10p ps=1.24e+06u
-M1001 a_291_105# SHORT a_219_105# VNB nshort w=360000u l=150000u
-+  ad=7.56e+10p pd=1.14e+06u as=7.56e+10p ps=1.14e+06u
-M1002 VPWR SHORT a_363_105# VNB nshort w=360000u l=150000u
-+  ad=9.36e+10p pd=1.24e+06u as=7.56e+10p ps=1.14e+06u
-M1003 a_363_105# SHORT a_291_105# VNB nshort w=360000u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
-M1004 a_219_105# SHORT a_147_105# VNB nshort w=360000u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
+X0 a_291_105# SHORT a_363_105# VNB sky130_fd_pr__nfet_01v8 w=360000u l=150000u
+X1 a_219_105# SHORT a_291_105# VNB sky130_fd_pr__nfet_01v8 w=360000u l=150000u
+X2 VGND SHORT a_147_105# VNB sky130_fd_pr__nfet_01v8 w=360000u l=150000u
+X3 a_363_105# SHORT VPWR VNB sky130_fd_pr__nfet_01v8 w=360000u l=150000u
+X4 a_147_105# SHORT a_219_105# VNB sky130_fd_pr__nfet_01v8 w=360000u l=150000u
 .ends

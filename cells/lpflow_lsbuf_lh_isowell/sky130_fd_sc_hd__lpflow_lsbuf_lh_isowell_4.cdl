@@ -16,24 +16,24 @@
 
 .SUBCKT sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4 A LOWLVPWR VGND VNB VPB VPWR X
 *.PININFO A:I LOWLVPWR:I VGND:I VNB:I VPB:I VPWR:I X:O
-MI2 net72 cross1 VPB phighvt m=1 w=0.79 l=0.15 mult=1 sa=0.265
+MI2 net72 cross1 VPB pfet_01v8_hvt m=1 w=0.79 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI3 cross1 net72 VPB phighvt m=1 w=0.79 l=0.15 mult=1 sa=0.265
+MI3 cross1 net72 VPB pfet_01v8_hvt m=1 w=0.79 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI20 Ab A LOWLVPWR phighvt m=1 w=1.0 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI24 X net60 VPB phighvt m=4 w=1.0 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI28 net60 cross1 VPB phighvt m=1 w=0.79 l=0.15 mult=1 sa=0.265
+MI20 Ab A LOWLVPWR pfet_01v8_hvt m=1 w=1.0 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI5 cross1 Ab VNB nshort m=4 w=0.65 l=0.15 mult=1 sa=0.265 sb=0.265
+MI24 X net60 VPB pfet_01v8_hvt m=4 w=1.0 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI28 net60 cross1 VPB pfet_01v8_hvt m=1 w=0.79 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI5 cross1 Ab VNB nfet_01v8 m=4 w=0.65 l=0.15 mult=1 sa=0.265 sb=0.265
 + sd=0.28 topography=normal area=0.063 perim=1.14
-MI4 net72 A VNB nshort m=4 w=0.65 l=0.15 mult=1 sa=0.265 sb=0.265
+MI4 net72 A VNB nfet_01v8 m=4 w=0.65 l=0.15 mult=1 sa=0.265 sb=0.265
 + sd=0.28 topography=normal area=0.063 perim=1.14
-MI23 Ab A VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
+MI23 Ab A VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
 + sd=0.28 topography=normal area=0.063 perim=1.14
-MI25 X net60 VNB nshort m=4 w=0.65 l=0.15 mult=1 sa=0.265 sb=0.265
+MI25 X net60 VNB nfet_01v8 m=4 w=0.65 l=0.15 mult=1 sa=0.265 sb=0.265
 + sd=0.28 topography=normal area=0.063 perim=1.14
-MI29 net60 cross1 VNB nshort m=1 w=0.65 l=0.15 mult=1 sa=0.265
+MI29 net60 cross1 VNB nfet_01v8 m=1 w=0.65 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 .ENDS sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4

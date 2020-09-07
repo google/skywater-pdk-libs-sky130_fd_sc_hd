@@ -16,14 +16,9 @@
 
 
 .subckt sky130_fd_sc_hd__lpflow_clkinvkapwr_2 A KAPWR VGND VNB VPB VPWR Y
-M1000 KAPWR A Y VPB phighvt w=1e+06u l=150000u
-+  ad=5.45e+11p pd=5.09e+06u as=5.45e+11p ps=5.09e+06u
-M1001 KAPWR A Y VPB phighvt w=1e+06u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
-M1002 Y A VGND VNB nshort w=420000u l=150000u
-+  ad=1.176e+11p pd=1.4e+06u as=2.205e+11p ps=2.73e+06u
-M1003 Y A KAPWR VPB phighvt w=1e+06u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
-M1004 VGND A Y VNB nshort w=420000u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
+X0 Y A KAPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X1 KAPWR A Y VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X2 Y A KAPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X3 VGND A Y VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X4 Y A VGND VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
 .ends

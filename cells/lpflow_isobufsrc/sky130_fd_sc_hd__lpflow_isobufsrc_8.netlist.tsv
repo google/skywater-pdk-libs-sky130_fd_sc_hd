@@ -1,8 +1,8 @@
 sky130_fd_sc_hd__lpflow_isobufsrc_8	A:I SLEEP:I VGND:I VNB:I VPB:I VPWR:I X:O
 Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
-MMP0	MOSFET	VPWR	Ab	sndPA	VPB	phighvt	8	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MMP1	MOSFET	sndPA	SLEEP	X	VPB	phighvt	8	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MMIP1	MOSFET	Ab	A	VPWR	VPB	phighvt	2	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MMN0	MOSFET	X	SLEEP	VGND	VNB	nshort	8	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MMN1	MOSFET	X	Ab	VGND	VNB	nshort	8	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MMIN1	MOSFET	Ab	A	VGND	VNB	nshort	2	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMP0	MOSFET	VPWR	Ab	sndPA	VPB	pfet_01v8_hvt	8	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMP1	MOSFET	sndPA	SLEEP	X	VPB	pfet_01v8_hvt	8	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIP1	MOSFET	Ab	A	VPWR	VPB	pfet_01v8_hvt	2	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMN0	MOSFET	X	SLEEP	VGND	VNB	nfet_01v8	8	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMN1	MOSFET	X	Ab	VGND	VNB	nfet_01v8	8	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIN1	MOSFET	Ab	A	VGND	VNB	nfet_01v8	2	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14

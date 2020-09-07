@@ -16,38 +16,40 @@
 
 .SUBCKT sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2 A LOWLVPWR VGND VPB VPWR X
 *.PININFO A:I LOWLVPWR:I VGND:I VPB:I VPWR:I X:O
-M1000 VPWR a_620_911# VPB phighvt w=790000u l=150000u ad=8.352e+11p
-+ pd=7.41e+06u as=2.1725e+11p ps=2.13e+06u
-M1001 a_1032_911# a_620_911# VPB phighvt w=790000u l=150000u
+M1000 VPWR a_620_911# VPB pfet_01v8_hvt w=790000u l=150000u
++ ad=8.352e+11p pd=7.41e+06u as=2.1725e+11p ps=2.13e+06u
+M1001 a_1032_911# a_620_911# VPB pfet_01v8_hvt w=790000u l=150000u
 + ad=2.133e+11p pd=2.12e+06u as=0p ps=0u
-M1002 a_620_911# a_505_297# VGND nshort w=650000u l=150000u
+M1002 a_620_911# a_505_297# VGND nfet_01v8 w=650000u l=150000u
 + ad=3.64e+11p pd=3.72e+06u as=1.62905e+12p ps=1.514e+07u
-M1003 a_714_47# A VGND nshort w=650000u l=150000u ad=3.64e+11p
+M1003 a_714_47# A VGND nfet_01v8 w=650000u l=150000u ad=3.64e+11p
 + pd=3.72e+06u as=0p ps=0u
-M1004 a_714_47# A VGND nshort w=650000u l=150000u ad=0p pd=0u as=0p
+M1004 a_714_47# A VGND nfet_01v8 w=650000u l=150000u ad=0p pd=0u as=0p
 + ps=0u
-M1005 X a_1032_911# VGND nshort w=650000u l=150000u ad=2.405e+11p
+M1005 X a_1032_911# VGND nfet_01v8 w=650000u l=150000u ad=2.405e+11p
 + pd=2.04e+06u as=0p ps=0u
-M1006 VPWR a_1032_911# VPB phighvt w=1e+06u l=150000u ad=0p pd=0u
-+ as=3.7e+11p ps=2.74e+06u
-M1007 VGND A VGND nshort w=650000u l=150000u ad=0p pd=0u as=0p ps=0u
-M1008 VGND a_505_297# VGND nshort w=650000u l=150000u ad=0p pd=0u
-+ as=0p ps=0u
-M1009 a_1032_911# a_620_911# VGND nshort w=650000u l=150000u
-+ ad=1.7225e+11p pd=1.83e+06u as=0p ps=0u
-M1010 VGND A VGND nshort w=650000u l=150000u ad=0p pd=0u as=0p ps=0u
-M1011 a_505_297# A LOWLVPWR phighvt w=1e+06u l=150000u ad=2.75e+11p
-+ pd=2.55e+06u as=2.75e+11p ps=2.55e+06u
-M1012 a_505_297# A VGND nshort w=420000u l=150000u ad=1.113e+11p
-+ pd=1.37e+06u as=0p ps=0u
-M1013 X a_1032_911# VPB phighvt w=1e+06u l=150000u ad=0p pd=0u as=0p
+M1006 VPWR a_1032_911# VPB pfet_01v8_hvt w=1e+06u l=150000u ad=0p
++ pd=0u as=3.7e+11p ps=2.74e+06u
+M1007 VGND A VGND nfet_01v8 w=650000u l=150000u ad=0p pd=0u as=0p
 + ps=0u
-M1014 VGND a_1032_911# VGND nshort w=650000u l=150000u ad=0p pd=0u
+M1008 VGND a_505_297# VGND nfet_01v8 w=650000u l=150000u ad=0p pd=0u
 + as=0p ps=0u
-M1015 VGND a_505_297# VGND nshort w=650000u l=150000u ad=0p pd=0u
+M1009 a_1032_911# a_620_911# VGND nfet_01v8 w=650000u l=150000u
++ ad=1.7225e+11p pd=1.83e+06u as=0p ps=0u
+M1010 VGND A VGND nfet_01v8 w=650000u l=150000u ad=0p pd=0u as=0p
++ ps=0u
+M1011 a_505_297# A LOWLVPWR pfet_01v8_hvt w=1e+06u l=150000u
++ ad=2.75e+11p pd=2.55e+06u as=2.75e+11p ps=2.55e+06u
+M1012 a_505_297# A VGND nfet_01v8 w=420000u l=150000u ad=1.113e+11p
++ pd=1.37e+06u as=0p ps=0u
+M1013 X a_1032_911# VPB pfet_01v8_hvt w=1e+06u l=150000u ad=0p pd=0u
 + as=0p ps=0u
-M1016 a_620_911# a_505_297# VGND nshort w=650000u l=150000u ad=0p
+M1014 VGND a_1032_911# VGND nfet_01v8 w=650000u l=150000u ad=0p pd=0u
++ as=0p ps=0u
+M1015 VGND a_505_297# VGND nfet_01v8 w=650000u l=150000u ad=0p pd=0u
++ as=0p ps=0u
+M1016 a_620_911# a_505_297# VGND nfet_01v8 w=650000u l=150000u ad=0p
 + pd=0u as=0p ps=0u
-M1017 VPWR a_714_47# VPB phighvt w=790000u l=150000u ad=0p pd=0u
+M1017 VPWR a_714_47# VPB pfet_01v8_hvt w=790000u l=150000u ad=0p pd=0u
 + as=2.1725e+11p ps=2.13e+06u
 .ENDS sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2
