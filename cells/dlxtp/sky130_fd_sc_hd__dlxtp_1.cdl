@@ -16,40 +16,40 @@
 
 .SUBCKT sky130_fd_sc_hd__dlxtp_1 D GATE VGND VNB VPB VPWR Q
 *.PININFO D:I GATE:I VGND:I VNB:I VPB:I VPWR:I Q:O
-MI635 clkpos clkneg VPB phighvt m=1 w=0.64 l=0.15 mult=1 sa=0.265
+MI635 clkpos clkneg VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI17 M0 clkneg VPB pfet_01v8_hvt m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI17 M0 clkneg VPB phighvt m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
+MI650 Q m1 VPB pfet_01v8_hvt m=1 w=1.0 l=0.15 mult=1 sa=0.265 sb=0.265
 + sd=0.28 topography=normal area=0.063 perim=1.14
-MI650 Q m1 VPB phighvt m=1 w=1.0 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI633 clkneg GATE VPB phighvt m=1 w=0.64 l=0.15 mult=1 sa=0.265
+MI633 clkneg GATE VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI18 net51 db VPB phighvt m=1 w=0.64 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI653 net47 m1 VPB phighvt m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI651 M0 clkpos VPB phighvt m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI655 m1 M0 VPB phighvt m=1 w=1.0 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI638 db D VPB phighvt m=1 w=0.64 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI634 clkneg GATE VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265
+MI18 net51 db VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI649 Q m1 VNB nshort m=1 w=0.65 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI652 M0 clkneg VNB nshort m=1 w=0.36 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI654 net94 m1 VNB nshort m=1 w=0.36 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI656 m1 M0 VNB nshort m=1 w=0.65 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI636 clkpos clkneg VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265
+MI653 net47 m1 VPB pfet_01v8_hvt m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI637 db D VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
+MI651 M0 clkpos VPB pfet_01v8_hvt m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI655 m1 M0 VPB pfet_01v8_hvt m=1 w=1.0 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI638 db D VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI634 clkneg GATE VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI649 Q m1 VNB nfet_01v8 m=1 w=0.65 l=0.15 mult=1 sa=0.265 sb=0.265
 + sd=0.28 topography=normal area=0.063 perim=1.14
-MI19 M0 clkpos VNB nshort m=1 w=0.36 l=0.15 mult=1 sa=0.265 sb=0.265
+MI652 M0 clkneg VNB nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI654 net94 m1 VNB nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI656 m1 M0 VNB nfet_01v8 m=1 w=0.65 l=0.15 mult=1 sa=0.265 sb=0.265
 + sd=0.28 topography=normal area=0.063 perim=1.14
-MI20 net74 db VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
+MI636 clkpos clkneg VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI637 db D VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
++ sd=0.28 topography=normal area=0.063 perim=1.14
+MI19 M0 clkpos VNB nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI20 net74 db VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
 + sd=0.28 topography=normal area=0.063 perim=1.14
 .ENDS sky130_fd_sc_hd__dlxtp_1

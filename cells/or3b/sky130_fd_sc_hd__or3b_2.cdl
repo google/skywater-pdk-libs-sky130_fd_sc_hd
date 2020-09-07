@@ -16,24 +16,24 @@
 
 .SUBCKT sky130_fd_sc_hd__or3b_2 A B C_N VGND VNB VPB VPWR X
 *.PININFO A:I B:I C_N:I VGND:I VNB:I VPB:I VPWR:I X:O
-MMP0 VPWR A VPB phighvt m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
+MMP0 VPWR A VPB pfet_01v8_hvt m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMP1 sndPA B VPB pfet_01v8_hvt m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMP2 sndPB C VPB pfet_01v8_hvt m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMIP2 C C_N VPB pfet_01v8_hvt m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMIP3 X y VPB pfet_01v8_hvt m=2 w=1.0 l=0.15 mult=1 sa=0.265 sb=0.265
 + sd=0.28 topography=normal area=0.063 perim=1.14
-MMP1 sndPA B VPB phighvt m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
+MMN0 y A VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
 + sd=0.28 topography=normal area=0.063 perim=1.14
-MMP2 sndPB C VPB phighvt m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
+MMN1 y B VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
 + sd=0.28 topography=normal area=0.063 perim=1.14
-MMIP2 C C_N VPB phighvt m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
+MMN2 y C VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
 + sd=0.28 topography=normal area=0.063 perim=1.14
-MMIP3 X y VPB phighvt m=2 w=1.0 l=0.15 mult=1 sa=0.265 sb=0.265
+MMIN2 C C_N VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
 + sd=0.28 topography=normal area=0.063 perim=1.14
-MMN0 y A VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265 sd=0.28
-+ topography=normal area=0.063 perim=1.14
-MMN1 y B VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265 sd=0.28
-+ topography=normal area=0.063 perim=1.14
-MMN2 y C VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265 sd=0.28
-+ topography=normal area=0.063 perim=1.14
-MMIN2 C C_N VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MMIN3 X y VNB nshort m=2 w=0.65 l=0.15 mult=1 sa=0.265 sb=0.265
+MMIN3 X y VNB nfet_01v8 m=2 w=0.65 l=0.15 mult=1 sa=0.265 sb=0.265
 + sd=0.28 topography=normal area=0.063 perim=1.14
 .ENDS sky130_fd_sc_hd__or3b_2

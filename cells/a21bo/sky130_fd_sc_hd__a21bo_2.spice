@@ -16,28 +16,16 @@
 
 
 .subckt sky130_fd_sc_hd__a21bo_2 A1 A2 B1_N VGND VNB VPB VPWR X
-M1000 VGND A2 a_581_47# VNB nshort w=650000u l=150000u
-+  ad=7.2375e+11p pd=7.48e+06u as=1.365e+11p ps=1.72e+06u
-M1001 VPWR a_79_21# X VPB phighvt w=1e+06u l=150000u
-+  ad=8.93e+11p pd=8.08e+06u as=2.8e+11p ps=2.56e+06u
-M1002 a_297_93# B1_N VPWR VPB phighvt w=420000u l=150000u
-+  ad=1.092e+11p pd=1.36e+06u as=0p ps=0u
-M1003 a_297_93# B1_N VGND VNB nshort w=420000u l=150000u
-+  ad=1.092e+11p pd=1.36e+06u as=0p ps=0u
-M1004 a_485_297# A2 VPWR VPB phighvt w=1e+06u l=150000u
-+  ad=5.3e+11p pd=5.06e+06u as=0p ps=0u
-M1005 VPWR A1 a_485_297# VPB phighvt w=1e+06u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
-M1006 a_485_297# a_297_93# a_79_21# VPB phighvt w=1e+06u l=150000u
-+  ad=0p pd=0u as=2.6e+11p ps=2.52e+06u
-M1007 X a_79_21# VPWR VPB phighvt w=1e+06u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
-M1008 a_79_21# a_297_93# VGND VNB nshort w=650000u l=150000u
-+  ad=2.145e+11p pd=1.96e+06u as=0p ps=0u
-M1009 X a_79_21# VGND VNB nshort w=650000u l=150000u
-+  ad=1.82e+11p pd=1.86e+06u as=0p ps=0u
-M1010 VGND a_79_21# X VNB nshort w=650000u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
-M1011 a_581_47# A1 a_79_21# VNB nshort w=650000u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
+X0 X a_79_21# VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X1 a_79_21# A1 a_581_47# VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X2 VPWR B1_N a_297_93# VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X3 VGND a_297_93# a_79_21# VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X4 VGND a_79_21# X VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X5 a_485_297# A1 VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X6 a_581_47# A2 VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X7 VPWR a_79_21# X VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X8 a_79_21# a_297_93# a_485_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X9 VPWR A2 a_485_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X10 X a_79_21# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X11 VGND B1_N a_297_93# VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
 .ends

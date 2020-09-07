@@ -1,10 +1,10 @@
 sky130_fd_sc_hd__or3_4	A:I B:I C:I VGND:I VNB:I VPB:I VPWR:I X:O
 Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
-MMP0	MOSFET	VPWR	A	sndPA	VPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MMP1	MOSFET	sndPA	B	sndPB	VPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MMP2	MOSFET	sndPB	C	y	VPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MMIP3	MOSFET	X	y	VPWR	VPB	phighvt	4	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MMN0	MOSFET	y	A	VGND	VNB	nshort	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MMN1	MOSFET	y	B	VGND	VNB	nshort	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MMN2	MOSFET	y	C	VGND	VNB	nshort	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MMIN3	MOSFET	X	y	VGND	VNB	nshort	4	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMP0	MOSFET	VPWR	A	sndPA	VPB	pfet_01v8_hvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMP1	MOSFET	sndPA	B	sndPB	VPB	pfet_01v8_hvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMP2	MOSFET	sndPB	C	y	VPB	pfet_01v8_hvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIP3	MOSFET	X	y	VPWR	VPB	pfet_01v8_hvt	4	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMN0	MOSFET	y	A	VGND	VNB	nfet_01v8	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMN1	MOSFET	y	B	VGND	VNB	nfet_01v8	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMN2	MOSFET	y	C	VGND	VNB	nfet_01v8	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIN3	MOSFET	X	y	VGND	VNB	nfet_01v8	4	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14

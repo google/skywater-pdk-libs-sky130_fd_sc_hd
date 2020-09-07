@@ -1,14 +1,14 @@
 sky130_fd_sc_hd__a2bb2o_2	A1_N:I A2_N:I B1:I B2:I VGND:I VNB:I VPB:I VPWR:I X:O
 Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
-MMIN2	MOSFET	X	y	VGND	VNB	nshort	2	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MMNnor0	MOSFET	inor	A1_N	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MMNnor1	MOSFET	inor	A2_N	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MMNaoi10	MOSFET	VGND	B1	sndNB1	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MMNaoi11	MOSFET	sndNB1	B2	y	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MMNaoi20	MOSFET	y	inor	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MMPaoi20	MOSFET	y	inor	pmid	VPB	phighvt	1	0.64	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MMIP2	MOSFET	X	y	VPWR	VPB	phighvt	2	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MMPnor0	MOSFET	VPWR	A1_N	sndPA1N	VPB	phighvt	1	0.64	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MMPnor1	MOSFET	sndPA1N	A2_N	inor	VPB	phighvt	1	0.64	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MMPaoi10	MOSFET	pmid	B1	VPWR	VPB	phighvt	1	0.64	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MMPaoi11	MOSFET	pmid	B2	VPWR	VPB	phighvt	1	0.64	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIN2	MOSFET	X	y	VGND	VNB	nfet_01v8	2	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMNnor0	MOSFET	inor	A1_N	VGND	VNB	nfet_01v8	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMNnor1	MOSFET	inor	A2_N	VGND	VNB	nfet_01v8	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMNaoi10	MOSFET	VGND	B1	sndNB1	VNB	nfet_01v8	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMNaoi11	MOSFET	sndNB1	B2	y	VNB	nfet_01v8	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMNaoi20	MOSFET	y	inor	VGND	VNB	nfet_01v8	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMPaoi20	MOSFET	y	inor	pmid	VPB	pfet_01v8_hvt	1	0.64	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIP2	MOSFET	X	y	VPWR	VPB	pfet_01v8_hvt	2	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMPnor0	MOSFET	VPWR	A1_N	sndPA1N	VPB	pfet_01v8_hvt	1	0.64	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMPnor1	MOSFET	sndPA1N	A2_N	inor	VPB	pfet_01v8_hvt	1	0.64	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMPaoi10	MOSFET	pmid	B1	VPWR	VPB	pfet_01v8_hvt	1	0.64	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMPaoi11	MOSFET	pmid	B2	VPWR	VPB	pfet_01v8_hvt	1	0.64	0.15	1	0.265	0.265	0.28	normal	0.063	1.14

@@ -1,10 +1,10 @@
 sky130_fd_sc_hd__lpflow_inputiso0p_1	A:I SLEEP:I VGND:I VNB:I VPB:I VPWR:I X:O
 Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
-MI8	MOSFET	net36	A	VPWR	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MI7	MOSFET	net36	sleepb	VPWR	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MI20	MOSFET	X	net36	VPWR	VPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MI19	MOSFET	sleepb	SLEEP	VPWR	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MI10	MOSFET	net36	sleepb	sndA	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MI21	MOSFET	X	net36	VGND	VNB	nshort	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MI18	MOSFET	sleepb	SLEEP	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MI11	MOSFET	sndA	A	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI8	MOSFET	net36	A	VPWR	VPB	pfet_01v8_hvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI7	MOSFET	net36	sleepb	VPWR	VPB	pfet_01v8_hvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI20	MOSFET	X	net36	VPWR	VPB	pfet_01v8_hvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI19	MOSFET	sleepb	SLEEP	VPWR	VPB	pfet_01v8_hvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI10	MOSFET	net36	sleepb	sndA	VNB	nfet_01v8	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI21	MOSFET	X	net36	VGND	VNB	nfet_01v8	1	0.65	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI18	MOSFET	sleepb	SLEEP	VGND	VNB	nfet_01v8	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI11	MOSFET	sndA	A	VGND	VNB	nfet_01v8	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
