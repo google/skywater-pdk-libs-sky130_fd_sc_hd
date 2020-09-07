@@ -18,9 +18,6 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-UNITS
-  DATABASE MICRONS 200 ;
-END UNITS
 MACRO sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4
   CLASS CORE ;
   FOREIGN sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4 ;
@@ -37,6 +34,18 @@ MACRO sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4
         RECT 2.970000 1.070000 3.290000 1.540000 ;
     END
   END A
+  PIN VNB
+    PORT
+      LAYER pwell ;
+        RECT 0.075000 5.245000 0.200000 5.395000 ;
+    END
+  END VNB
+  PIN VPB
+    PORT
+      LAYER nwell ;
+        RECT 4.250000 1.305000 7.405000 4.135000 ;
+    END
+  END VPB
   PIN X
     ANTENNADIFFAREA  1.072500 ;
     DIRECTION OUTPUT ;
@@ -180,6 +189,9 @@ MACRO sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4
       RECT 7.045000  5.355000 7.215000 5.525000 ;
     LAYER met1 ;
       RECT 0.000000 -0.240000 7.360000 0.240000 ;
+    LAYER nwell ;
+      RECT -0.190000 1.305000 0.650000 4.135000 ;
+      RECT  1.920000 1.305000 2.980000 4.135000 ;
   END
 END sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4
 END LIBRARY

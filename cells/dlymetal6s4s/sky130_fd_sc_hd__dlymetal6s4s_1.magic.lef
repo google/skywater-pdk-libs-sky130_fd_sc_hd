@@ -18,9 +18,6 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-UNITS
-  DATABASE MICRONS 200 ;
-END UNITS
 MACRO sky130_fd_sc_hd__dlymetal6s4s_1
   CLASS CORE ;
   FOREIGN sky130_fd_sc_hd__dlymetal6s4s_1 ;
@@ -37,6 +34,18 @@ MACRO sky130_fd_sc_hd__dlymetal6s4s_1
         RECT 0.085000 0.995000 0.570000 1.700000 ;
     END
   END A
+  PIN VNB
+    PORT
+      LAYER pwell ;
+        RECT 0.120000 -0.085000 0.290000 0.085000 ;
+    END
+  END VNB
+  PIN VPB
+    PORT
+      LAYER nwell ;
+        RECT -0.190000 1.305000 4.790000 2.910000 ;
+    END
+  END VPB
   PIN X
     ANTENNADIFFAREA  0.429000 ;
     ANTENNAGATEAREA  0.126000 ;
