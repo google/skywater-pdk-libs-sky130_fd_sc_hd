@@ -57,7 +57,7 @@ module sky130_fd_sc_hd__nand4_2 (
     input  VGND;
     input  VPB ;
     input  VNB ;
-    sky130_fd_sc_hd__nand4 cell (
+    sky130_fd_sc_hd__nand4 base (
         .Y(Y),
         .A(A),
         .B(B),
@@ -105,7 +105,7 @@ module sky130_fd_sc_hd__nand4_2 (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_hd__nand4 cell (
+    sky130_fd_sc_hd__nand4 base (
         .Y(Y),
         .A(A),
         .B(B),

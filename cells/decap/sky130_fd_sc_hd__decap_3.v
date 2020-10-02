@@ -47,7 +47,7 @@ module sky130_fd_sc_hd__decap_3 (
     input VGND;
     input VPB ;
     input VNB ;
-    sky130_fd_sc_hd__decap cell (
+    sky130_fd_sc_hd__decap base (
         .VPWR(VPWR),
         .VGND(VGND),
         .VPB(VPB),
@@ -80,7 +80,7 @@ module sky130_fd_sc_hd__decap_3 (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_hd__decap cell ();
+    sky130_fd_sc_hd__decap base ();
 
 endmodule
 `endcelldefine

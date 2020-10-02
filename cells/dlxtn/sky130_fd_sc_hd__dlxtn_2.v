@@ -53,7 +53,7 @@ module sky130_fd_sc_hd__dlxtn_2 (
     input  VGND  ;
     input  VPB   ;
     input  VNB   ;
-    sky130_fd_sc_hd__dlxtn cell (
+    sky130_fd_sc_hd__dlxtn base (
         .Q(Q),
         .D(D),
         .GATE_N(GATE_N),
@@ -95,7 +95,7 @@ module sky130_fd_sc_hd__dlxtn_2 (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_hd__dlxtn cell (
+    sky130_fd_sc_hd__dlxtn base (
         .Q(Q),
         .D(D),
         .GATE_N(GATE_N)

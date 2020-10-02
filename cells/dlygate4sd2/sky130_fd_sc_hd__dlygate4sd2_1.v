@@ -51,7 +51,7 @@ module sky130_fd_sc_hd__dlygate4sd2_1 (
     input  VGND;
     input  VPB ;
     input  VNB ;
-    sky130_fd_sc_hd__dlygate4sd2 cell (
+    sky130_fd_sc_hd__dlygate4sd2 base (
         .X(X),
         .A(A),
         .VPWR(VPWR),
@@ -90,7 +90,7 @@ module sky130_fd_sc_hd__dlygate4sd2_1 (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_hd__dlygate4sd2 cell (
+    sky130_fd_sc_hd__dlygate4sd2 base (
         .X(X),
         .A(A)
     );

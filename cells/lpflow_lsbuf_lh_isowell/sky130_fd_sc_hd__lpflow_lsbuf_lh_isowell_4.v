@@ -55,7 +55,7 @@ module sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4 (
     input  VGND    ;
     input  VPB     ;
     input  VNB     ;
-    sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell cell (
+    sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell base (
         .X(X),
         .A(A),
         .LOWLVPWR(LOWLVPWR),
@@ -98,7 +98,7 @@ module sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4 (
     supply1 VPB     ;
     supply0 VNB     ;
 
-    sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell cell (
+    sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell base (
         .X(X),
         .A(A)
     );

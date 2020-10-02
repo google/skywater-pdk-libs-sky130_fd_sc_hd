@@ -61,7 +61,7 @@ module sky130_fd_sc_hd__mux4_2 (
     input  VGND;
     input  VPB ;
     input  VNB ;
-    sky130_fd_sc_hd__mux4 cell (
+    sky130_fd_sc_hd__mux4 base (
         .X(X),
         .A0(A0),
         .A1(A1),
@@ -115,7 +115,7 @@ module sky130_fd_sc_hd__mux4_2 (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_hd__mux4 cell (
+    sky130_fd_sc_hd__mux4 base (
         .X(X),
         .A0(A0),
         .A1(A1),

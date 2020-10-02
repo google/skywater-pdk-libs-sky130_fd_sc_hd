@@ -60,7 +60,7 @@ module sky130_fd_sc_hd__a2bb2o_2 (
     input  VGND;
     input  VPB ;
     input  VNB ;
-    sky130_fd_sc_hd__a2bb2o cell (
+    sky130_fd_sc_hd__a2bb2o base (
         .X(X),
         .A1_N(A1_N),
         .A2_N(A2_N),
@@ -108,7 +108,7 @@ module sky130_fd_sc_hd__a2bb2o_2 (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_hd__a2bb2o cell (
+    sky130_fd_sc_hd__a2bb2o base (
         .X(X),
         .A1_N(A1_N),
         .A2_N(A2_N),

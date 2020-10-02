@@ -58,7 +58,7 @@ module sky130_fd_sc_hd__a21bo_1 (
     input  VGND;
     input  VPB ;
     input  VNB ;
-    sky130_fd_sc_hd__a21bo cell (
+    sky130_fd_sc_hd__a21bo base (
         .X(X),
         .A1(A1),
         .A2(A2),
@@ -103,7 +103,7 @@ module sky130_fd_sc_hd__a21bo_1 (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_hd__a21bo cell (
+    sky130_fd_sc_hd__a21bo base (
         .X(X),
         .A1(A1),
         .A2(A2),
