@@ -36,9 +36,9 @@
 `ifdef USE_POWER_PINS
 
 `ifdef FUNCTIONAL
-`include "sky130_fd_sc_hd__lpflow_isobufsrckapwr.pp.functional.v"
+`include "sky130_fd_sc_hd__lpflow_isobufsrckapwr.functional.pp.v"
 `else  // FUNCTIONAL
-`include "sky130_fd_sc_hd__lpflow_isobufsrckapwr.pp.behavioral.v"
+`include "sky130_fd_sc_hd__lpflow_isobufsrckapwr.behavioral.pp.v"
 `endif // FUNCTIONAL
 
 `else  // USE_POWER_PINS

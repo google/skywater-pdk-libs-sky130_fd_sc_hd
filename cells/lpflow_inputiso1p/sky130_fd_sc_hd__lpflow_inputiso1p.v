@@ -35,9 +35,9 @@
 `ifdef USE_POWER_PINS
 
 `ifdef FUNCTIONAL
-`include "sky130_fd_sc_hd__lpflow_inputiso1p.pp.functional.v"
+`include "sky130_fd_sc_hd__lpflow_inputiso1p.functional.pp.v"
 `else  // FUNCTIONAL
-`include "sky130_fd_sc_hd__lpflow_inputiso1p.pp.behavioral.v"
+`include "sky130_fd_sc_hd__lpflow_inputiso1p.behavioral.pp.v"
 `endif // FUNCTIONAL
 
 `else  // USE_POWER_PINS

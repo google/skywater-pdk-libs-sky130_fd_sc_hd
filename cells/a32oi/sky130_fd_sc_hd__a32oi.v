@@ -36,9 +36,9 @@
 `ifdef USE_POWER_PINS
 
 `ifdef FUNCTIONAL
-`include "sky130_fd_sc_hd__a32oi.pp.functional.v"
+`include "sky130_fd_sc_hd__a32oi.functional.pp.v"
 `else  // FUNCTIONAL
-`include "sky130_fd_sc_hd__a32oi.pp.behavioral.v"
+`include "sky130_fd_sc_hd__a32oi.behavioral.pp.v"
 `endif // FUNCTIONAL
 
 `else  // USE_POWER_PINS
