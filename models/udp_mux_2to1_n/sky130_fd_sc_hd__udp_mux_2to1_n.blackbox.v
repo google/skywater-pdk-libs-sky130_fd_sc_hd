@@ -32,16 +32,16 @@
 
 (* blackbox *)
 module sky130_fd_sc_hd__udp_mux_2to1_N (
+    Y ,
     A0,
     A1,
-    S ,
-    Y
+    S
 );
 
+    output Y ;
     input  A0;
     input  A1;
     input  S ;
-    output Y ;
 endmodule
 
 `default_nettype wire
