@@ -55,7 +55,7 @@ module sky130_fd_sc_hd__lpflow_isobufsrc_4 (
     input  VGND ;
     input  VPB  ;
     input  VNB  ;
-    sky130_fd_sc_hd__lpflow_isobufsrc cell (
+    sky130_fd_sc_hd__lpflow_isobufsrc base (
         .X(X),
         .SLEEP(SLEEP),
         .A(A),
@@ -97,7 +97,7 @@ module sky130_fd_sc_hd__lpflow_isobufsrc_4 (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_hd__lpflow_isobufsrc cell (
+    sky130_fd_sc_hd__lpflow_isobufsrc base (
         .X(X),
         .SLEEP(SLEEP),
         .A(A)

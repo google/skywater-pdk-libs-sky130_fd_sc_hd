@@ -48,7 +48,7 @@ module sky130_fd_sc_hd__tapvgnd2_1 (
     input VGND;
     input VPB ;
     input VNB ;
-    sky130_fd_sc_hd__tapvgnd2 cell (
+    sky130_fd_sc_hd__tapvgnd2 base (
         .VPWR(VPWR),
         .VGND(VGND),
         .VPB(VPB),
@@ -81,7 +81,7 @@ module sky130_fd_sc_hd__tapvgnd2_1 (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_hd__tapvgnd2 cell ();
+    sky130_fd_sc_hd__tapvgnd2 base ();
 
 endmodule
 `endcelldefine

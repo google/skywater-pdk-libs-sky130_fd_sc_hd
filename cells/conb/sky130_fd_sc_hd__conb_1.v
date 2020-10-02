@@ -51,7 +51,7 @@ module sky130_fd_sc_hd__conb_1 (
     input  VGND;
     input  VPB ;
     input  VNB ;
-    sky130_fd_sc_hd__conb cell (
+    sky130_fd_sc_hd__conb base (
         .HI(HI),
         .LO(LO),
         .VPWR(VPWR),
@@ -90,7 +90,7 @@ module sky130_fd_sc_hd__conb_1 (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_hd__conb cell (
+    sky130_fd_sc_hd__conb base (
         .HI(HI),
         .LO(LO)
     );

@@ -57,7 +57,7 @@ module sky130_fd_sc_hd__fahcon_1 (
     input  VGND  ;
     input  VPB   ;
     input  VNB   ;
-    sky130_fd_sc_hd__fahcon cell (
+    sky130_fd_sc_hd__fahcon base (
         .COUT_N(COUT_N),
         .SUM(SUM),
         .A(A),
@@ -105,7 +105,7 @@ module sky130_fd_sc_hd__fahcon_1 (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_hd__fahcon cell (
+    sky130_fd_sc_hd__fahcon base (
         .COUT_N(COUT_N),
         .SUM(SUM),
         .A(A),

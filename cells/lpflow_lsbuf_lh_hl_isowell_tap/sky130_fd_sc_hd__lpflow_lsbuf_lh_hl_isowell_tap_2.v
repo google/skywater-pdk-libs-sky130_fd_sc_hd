@@ -55,7 +55,7 @@ module sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2 (
     input  VPWR  ;
     input  VGND  ;
     input  VPB   ;
-    sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap cell (
+    sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap base (
         .X(X),
         .A(A),
         .VPWRIN(VPWRIN),
@@ -94,7 +94,7 @@ module sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2 (
     supply0 VGND  ;
     supply1 VPB   ;
 
-    sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap cell (
+    sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap base (
         .X(X),
         .A(A)
     );

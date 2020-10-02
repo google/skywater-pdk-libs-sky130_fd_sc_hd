@@ -53,7 +53,7 @@ module sky130_fd_sc_hd__einvp_4 (
     input  VGND;
     input  VPB ;
     input  VNB ;
-    sky130_fd_sc_hd__einvp cell (
+    sky130_fd_sc_hd__einvp base (
         .Z(Z),
         .A(A),
         .TE(TE),
@@ -95,7 +95,7 @@ module sky130_fd_sc_hd__einvp_4 (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_hd__einvp cell (
+    sky130_fd_sc_hd__einvp base (
         .Z(Z),
         .A(A),
         .TE(TE)

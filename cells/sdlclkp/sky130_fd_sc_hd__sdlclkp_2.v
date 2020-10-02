@@ -55,7 +55,7 @@ module sky130_fd_sc_hd__sdlclkp_2 (
     input  VGND;
     input  VPB ;
     input  VNB ;
-    sky130_fd_sc_hd__sdlclkp cell (
+    sky130_fd_sc_hd__sdlclkp base (
         .GCLK(GCLK),
         .SCE(SCE),
         .GATE(GATE),
@@ -100,7 +100,7 @@ module sky130_fd_sc_hd__sdlclkp_2 (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_hd__sdlclkp cell (
+    sky130_fd_sc_hd__sdlclkp base (
         .GCLK(GCLK),
         .SCE(SCE),
         .GATE(GATE),

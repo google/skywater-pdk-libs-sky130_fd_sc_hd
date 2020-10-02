@@ -55,7 +55,7 @@ module sky130_fd_sc_hd__or3_4 (
     input  VGND;
     input  VPB ;
     input  VNB ;
-    sky130_fd_sc_hd__or3 cell (
+    sky130_fd_sc_hd__or3 base (
         .X(X),
         .A(A),
         .B(B),
@@ -100,7 +100,7 @@ module sky130_fd_sc_hd__or3_4 (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_hd__or3 cell (
+    sky130_fd_sc_hd__or3 base (
         .X(X),
         .A(A),
         .B(B),

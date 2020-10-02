@@ -61,7 +61,7 @@ module sky130_fd_sc_hd__o311ai_2 (
     input  VGND;
     input  VPB ;
     input  VNB ;
-    sky130_fd_sc_hd__o311ai cell (
+    sky130_fd_sc_hd__o311ai base (
         .Y(Y),
         .A1(A1),
         .A2(A2),
@@ -112,7 +112,7 @@ module sky130_fd_sc_hd__o311ai_2 (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_hd__o311ai cell (
+    sky130_fd_sc_hd__o311ai base (
         .Y(Y),
         .A1(A1),
         .A2(A2),

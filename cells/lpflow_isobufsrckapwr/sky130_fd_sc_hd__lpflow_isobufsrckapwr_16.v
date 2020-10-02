@@ -58,7 +58,7 @@ module sky130_fd_sc_hd__lpflow_isobufsrckapwr_16 (
     input  VGND ;
     input  VPB  ;
     input  VNB  ;
-    sky130_fd_sc_hd__lpflow_isobufsrckapwr cell (
+    sky130_fd_sc_hd__lpflow_isobufsrckapwr base (
         .X(X),
         .SLEEP(SLEEP),
         .A(A),
@@ -104,7 +104,7 @@ module sky130_fd_sc_hd__lpflow_isobufsrckapwr_16 (
     supply1 VPB  ;
     supply0 VNB  ;
 
-    sky130_fd_sc_hd__lpflow_isobufsrckapwr cell (
+    sky130_fd_sc_hd__lpflow_isobufsrckapwr base (
         .X(X),
         .SLEEP(SLEEP),
         .A(A)

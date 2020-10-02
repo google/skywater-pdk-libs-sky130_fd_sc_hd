@@ -57,7 +57,7 @@ module sky130_fd_sc_hd__sdfxtp_1 (
     input  VGND;
     input  VPB ;
     input  VNB ;
-    sky130_fd_sc_hd__sdfxtp cell (
+    sky130_fd_sc_hd__sdfxtp base (
         .Q(Q),
         .CLK(CLK),
         .D(D),
@@ -105,7 +105,7 @@ module sky130_fd_sc_hd__sdfxtp_1 (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_hd__sdfxtp cell (
+    sky130_fd_sc_hd__sdfxtp base (
         .Q(Q),
         .CLK(CLK),
         .D(D),

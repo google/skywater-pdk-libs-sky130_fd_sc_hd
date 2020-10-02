@@ -51,7 +51,7 @@ module sky130_fd_sc_hd__lpflow_decapkapwr_3 (
     input VGND ;
     input VPB  ;
     input VNB  ;
-    sky130_fd_sc_hd__lpflow_decapkapwr cell (
+    sky130_fd_sc_hd__lpflow_decapkapwr base (
         .VPWR(VPWR),
         .KAPWR(KAPWR),
         .VGND(VGND),
@@ -88,7 +88,7 @@ module sky130_fd_sc_hd__lpflow_decapkapwr_3 (
     supply1 VPB  ;
     supply0 VNB  ;
 
-    sky130_fd_sc_hd__lpflow_decapkapwr cell ();
+    sky130_fd_sc_hd__lpflow_decapkapwr base ();
 
 endmodule
 `endcelldefine

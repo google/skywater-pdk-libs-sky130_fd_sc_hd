@@ -52,7 +52,7 @@ module sky130_fd_sc_hd__dlymetal6s2s_1 (
     input  VGND;
     input  VPB ;
     input  VNB ;
-    sky130_fd_sc_hd__dlymetal6s2s cell (
+    sky130_fd_sc_hd__dlymetal6s2s base (
         .X(X),
         .A(A),
         .VPWR(VPWR),
@@ -91,7 +91,7 @@ module sky130_fd_sc_hd__dlymetal6s2s_1 (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_hd__dlymetal6s2s cell (
+    sky130_fd_sc_hd__dlymetal6s2s base (
         .X(X),
         .A(A)
     );

@@ -49,7 +49,7 @@ module sky130_fd_sc_hd__lpflow_bleeder_1 (
     input VGND ;
     input VPB  ;
     input VNB  ;
-    sky130_fd_sc_hd__lpflow_bleeder cell (
+    sky130_fd_sc_hd__lpflow_bleeder base (
         .SHORT(SHORT),
         .VPWR(VPWR),
         .VGND(VGND),
@@ -85,7 +85,7 @@ module sky130_fd_sc_hd__lpflow_bleeder_1 (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_hd__lpflow_bleeder cell (
+    sky130_fd_sc_hd__lpflow_bleeder base (
         .SHORT(SHORT)
     );
 
