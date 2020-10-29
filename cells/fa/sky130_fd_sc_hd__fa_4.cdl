@@ -16,60 +16,60 @@
 
 .SUBCKT sky130_fd_sc_hd__fa_4 A B CIN VGND VNB VPB VPWR COUT SUM
 *.PININFO A:I B:I CIN:I VGND:I VNB:I VPB:I VPWR:I COUT:O SUM:O
-MMNs1s nint1 majb VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
+MMNs1s nint1 majb sumb VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMIN2 COUT majb VNB nfet_01v8 m=4 w=0.65 l=0.15 mult=1 sa=0.265
+MMIN2 COUT majb VGND VNB nfet_01v8 m=4 w=0.65 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMIN3 SUM sumb VNB nfet_01v8 m=4 w=0.65 l=0.15 mult=1 sa=0.265
+MMIN3 SUM sumb VGND VNB nfet_01v8 m=4 w=0.65 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMNmaj10 majb B VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
-+ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMNmaj11 sndNAp1 A VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
-+ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMNmaj30 majb CIN VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
-+ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMNmaj21 nmajmid A VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
-+ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMNmaj20 VGND B VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
-+ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMNs2s0 VGND A VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
-+ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMNs2s1 sndNAn4 B VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
-+ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMNs2s2 sndNBn4 CIN VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
-+ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMNs3s0 nint1 A VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
-+ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMNs3s1 nint1 B VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
-+ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMNs3s2 nint1 CIN VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
-+ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMIP2 COUT majb VPB pfet_01v8_hvt m=4 w=1.0 l=0.15 mult=1 sa=0.265
-+ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMIP3 SUM sumb VPB pfet_01v8_hvt m=4 w=1.0 l=0.15 mult=1 sa=0.265
-+ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMPmaj10 VPWR A VPB pfet_01v8_hvt m=1 w=0.63 l=0.15 mult=1 sa=0.265
-+ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMPmaj11 sndPAp1 B VPB pfet_01v8_hvt m=1 w=0.63 l=0.15 mult=1 sa=0.265
-+ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMPmaj20 VPWR B VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1 sa=0.265
-+ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMPmaj30 pmajmid CIN VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1
+MMNmaj10 majb B sndNAp1 VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1
 + sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMPmaj21 pmajmid A VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1 sa=0.265
-+ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMPs2s0 VPWR A VPB pfet_01v8_hvt m=1 w=0.63 l=0.15 mult=1 sa=0.265
-+ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMPs2s1 sndPAp4 B VPB pfet_01v8_hvt m=1 w=0.63 l=0.15 mult=1 sa=0.265
-+ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMPs2s2 sndPBp4 CIN VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1
+MMNmaj11 sndNAp1 A VGND VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1
 + sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMPs3s0 pint1 A VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1 sa=0.265
+MMNmaj30 majb CIN nmajmid VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMNmaj21 nmajmid A VGND VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMNmaj20 VGND B nmajmid VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMNs2s0 VGND A sndNAn4 VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMPs3s1 pint1 B VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1 sa=0.265
+MMNs2s1 sndNAn4 B sndNBn4 VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMNs2s2 sndNBn4 CIN sumb VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMNs3s0 nint1 A VGND VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMPs3s2 pint1 CIN VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1 sa=0.265
+MMNs3s1 nint1 B VGND VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMPs1s pint1 majb VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1 sa=0.265
+MMNs3s2 nint1 CIN VGND VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMIP2 COUT majb VPWR VPB pfet_01v8_hvt m=4 w=1.0 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMIP3 SUM sumb VPWR VPB pfet_01v8_hvt m=4 w=1.0 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMPmaj10 VPWR A sndPAp1 VPB pfet_01v8_hvt m=1 w=0.63 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMPmaj11 sndPAp1 B majb VPB pfet_01v8_hvt m=1 w=0.63 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMPmaj20 VPWR B pmajmid VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMPmaj30 pmajmid CIN majb VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMPmaj21 pmajmid A VPWR VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMPs2s0 VPWR A sndPAp4 VPB pfet_01v8_hvt m=1 w=0.63 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMPs2s1 sndPAp4 B sndPBp4 VPB pfet_01v8_hvt m=1 w=0.63 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMPs2s2 sndPBp4 CIN sumb VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMPs3s0 pint1 A VPWR VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMPs3s1 pint1 B VPWR VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMPs3s2 pint1 CIN VPWR VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMPs1s pint1 majb sumb VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 .ENDS sky130_fd_sc_hd__fa_4
