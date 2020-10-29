@@ -16,24 +16,24 @@
 
 .SUBCKT sky130_fd_sc_hd__lpflow_isobufsrckapwr_16 A SLEEP KAPWR VGND VNB VPB VPWR X
 *.PININFO A:I SLEEP:I KAPWR:I VGND:I VNB:I VPB:I VPWR:I X:O
-MMP0 VPWR SLEEP VPB pfet_01v8_hvt m=4 w=1.0 l=0.15 mult=1 sa=0.265
+MMP0 VPWR SLEEP sndPA VPB pfet_01v8_hvt m=4 w=1.0 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMP1 sndPA net58 net66 VPB pfet_01v8_hvt m=4 w=1.0 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMIP1 net58 A VPWR VPB pfet_01v8_hvt m=1 w=1.0 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMP1 sndPA net58 VPB pfet_01v8_hvt m=4 w=1.0 l=0.15 mult=1 sa=0.265
+MMIP0 Ab net66 KAPWR VPB pfet_01v8_hvt m=4 w=1.0 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI9 X Ab KAPWR VPB pfet_01v8_hvt m=16 w=1.0 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMIP1 net58 A VPB pfet_01v8_hvt m=1 w=1.0 l=0.15 mult=1 sa=0.265
+MMN0 net66 SLEEP VGND VNB nfet_01v8 m=4 w=0.65 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMIP0 Ab net66 VPB pfet_01v8_hvt m=4 w=1.0 l=0.15 mult=1 sa=0.265
+MMN1 net66 net58 VGND VNB nfet_01v8 m=4 w=0.65 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI9 X Ab VPB pfet_01v8_hvt m=16 w=1.0 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MMN0 net66 SLEEP VNB nfet_01v8 m=4 w=0.65 l=0.15 mult=1 sa=0.265
+MMIN1 net58 A VGND VNB nfet_01v8 m=1 w=0.65 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMN1 net66 net58 VNB nfet_01v8 m=4 w=0.65 l=0.15 mult=1 sa=0.265
+MMIN0 Ab net66 VGND VNB nfet_01v8 m=4 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMIN1 net58 A VNB nfet_01v8 m=1 w=0.65 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MMIN0 Ab net66 VNB nfet_01v8 m=4 w=0.42 l=0.15 mult=1 sa=0.265
+MI8 X Ab VGND VNB nfet_01v8 m=16 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI8 X Ab VNB nfet_01v8 m=16 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
 .ENDS sky130_fd_sc_hd__lpflow_isobufsrckapwr_16

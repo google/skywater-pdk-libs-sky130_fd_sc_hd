@@ -16,14 +16,14 @@
 
 .SUBCKT sky130_fd_sc_hd__lpflow_bleeder_1 SHORT VGND VNB VPB VPWR
 *.PININFO SHORT:I VGND:I VNB:I VPB:I VPWR:B
-MI2 net29 SHORT VNB nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
+MI2 net29 SHORT net25 VNB nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI3 net25 SHORT VNB nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
+MI3 net25 SHORT net24 VNB nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI1 VPWR SHORT VNB nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
+MI1 VPWR SHORT net29 VNB nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI4 net24 SHORT VNB nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
+MI4 net24 SHORT net16 VNB nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI7 net16 SHORT VNB nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
+MI7 net16 SHORT VGND VNB nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 .ENDS sky130_fd_sc_hd__lpflow_bleeder_1
