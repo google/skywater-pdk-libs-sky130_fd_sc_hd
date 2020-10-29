@@ -62,18 +62,7 @@ endmodule
 /*********************************************************/
 
 `celldefine
-module sky130_fd_sc_hd__tap_2 (
-    VPWR,
-    VGND,
-    VPB ,
-    VNB
-);
-
-    input VPWR;
-    input VGND;
-    input VPB ;
-    input VNB ;
-
+module sky130_fd_sc_hd__tap_2 ();
     // Voltage supply signals
     supply1 VPWR;
     supply0 VGND;

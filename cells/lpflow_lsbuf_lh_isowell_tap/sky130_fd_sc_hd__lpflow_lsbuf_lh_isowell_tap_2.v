@@ -72,20 +72,12 @@ endmodule
 
 `celldefine
 module sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2 (
-    X       ,
-    A       ,
-    LOWLVPWR,
-    VPWR    ,
-    VGND    ,
-    VPB
+    X,
+    A
 );
 
-    output X       ;
-    input  A       ;
-    input  LOWLVPWR;
-    input  VPWR    ;
-    input  VGND    ;
-    input  VPB     ;
+    output X;
+    input  A;
 
     // Voltage supply signals
     wire    LOWLVPWR;

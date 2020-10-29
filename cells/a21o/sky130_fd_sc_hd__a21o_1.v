@@ -77,24 +77,16 @@ endmodule
 
 `celldefine
 module sky130_fd_sc_hd__a21o_1 (
-    X   ,
-    A1  ,
-    A2  ,
-    B1  ,
-    VPWR,
-    VGND,
-    VPB ,
-    VNB
+    X ,
+    A1,
+    A2,
+    B1
 );
 
-    output X   ;
-    input  A1  ;
-    input  A2  ;
-    input  B1  ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output X ;
+    input  A1;
+    input  A2;
+    input  B1;
 
     // Voltage supply signals
     supply1 VPWR;

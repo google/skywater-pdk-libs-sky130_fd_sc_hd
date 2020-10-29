@@ -66,18 +66,10 @@ endmodule
 
 `celldefine
 module sky130_fd_sc_hd__diode_2 (
-    DIODE,
-    VPWR ,
-    VGND ,
-    VPB  ,
-    VNB
+    DIODE
 );
 
     input DIODE;
-    input VPWR ;
-    input VGND ;
-    input VPB  ;
-    input VNB  ;
 
     // Voltage supply signals
     supply1 VPWR;

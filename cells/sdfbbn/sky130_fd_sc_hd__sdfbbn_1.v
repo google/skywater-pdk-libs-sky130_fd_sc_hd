@@ -95,11 +95,7 @@ module sky130_fd_sc_hd__sdfbbn_1 (
     SCE    ,
     CLK_N  ,
     SET_B  ,
-    RESET_B,
-    VPWR   ,
-    VGND   ,
-    VPB    ,
-    VNB
+    RESET_B
 );
 
     output Q      ;
@@ -110,10 +106,6 @@ module sky130_fd_sc_hd__sdfbbn_1 (
     input  CLK_N  ;
     input  SET_B  ;
     input  RESET_B;
-    input  VPWR   ;
-    input  VGND   ;
-    input  VPB    ;
-    input  VNB    ;
 
     // Voltage supply signals
     supply1 VPWR;

@@ -87,11 +87,7 @@ module sky130_fd_sc_hd__sdfrtn_1 (
     D      ,
     SCD    ,
     SCE    ,
-    RESET_B,
-    VPWR   ,
-    VGND   ,
-    VPB    ,
-    VNB
+    RESET_B
 );
 
     output Q      ;
@@ -100,10 +96,6 @@ module sky130_fd_sc_hd__sdfrtn_1 (
     input  SCD    ;
     input  SCE    ;
     input  RESET_B;
-    input  VPWR   ;
-    input  VGND   ;
-    input  VPB    ;
-    input  VNB    ;
 
     // Voltage supply signals
     supply1 VPWR;

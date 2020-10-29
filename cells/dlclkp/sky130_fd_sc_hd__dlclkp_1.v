@@ -74,20 +74,12 @@ endmodule
 module sky130_fd_sc_hd__dlclkp_1 (
     GCLK,
     GATE,
-    CLK ,
-    VPWR,
-    VGND,
-    VPB ,
-    VNB
+    CLK
 );
 
     output GCLK;
     input  GATE;
     input  CLK ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
 
     // Voltage supply signals
     supply1 VPWR;
