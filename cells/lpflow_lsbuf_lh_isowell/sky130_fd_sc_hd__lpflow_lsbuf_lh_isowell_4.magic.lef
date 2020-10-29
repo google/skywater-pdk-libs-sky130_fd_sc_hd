@@ -34,18 +34,6 @@ MACRO sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4
         RECT 2.970000 1.070000 3.290000 1.540000 ;
     END
   END A
-  PIN VNB
-    PORT
-      LAYER pwell ;
-        RECT 0.075000 5.245000 0.200000 5.395000 ;
-    END
-  END VNB
-  PIN VPB
-    PORT
-      LAYER nwell ;
-        RECT 4.250000 1.305000 7.405000 4.135000 ;
-    END
-  END VPB
   PIN X
     ANTENNADIFFAREA  1.072500 ;
     DIRECTION OUTPUT ;
@@ -80,6 +68,8 @@ MACRO sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4
         RECT 0.070000 2.140000 7.290000 2.280000 ;
         RECT 1.360000 2.085000 2.370000 2.140000 ;
         RECT 1.360000 2.280000 2.370000 2.315000 ;
+      LAYER nwell ;
+        RECT 1.920000 1.305000 2.980000 4.135000 ;
     END
   END LOWLVPWR
   PIN VGND
@@ -91,6 +81,22 @@ MACRO sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4
         RECT 0.000000 5.200000 7.360000 5.680000 ;
     END
   END VGND
+  PIN VNB
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER pwell ;
+        RECT 0.075000 5.245000 0.200000 5.395000 ;
+    END
+  END VNB
+  PIN VPB
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER nwell ;
+        RECT 4.250000 1.305000 7.405000 4.135000 ;
+    END
+  END VPB
   PIN VPWR
     DIRECTION INOUT ;
     SHAPE ABUTMENT ;
@@ -191,7 +197,6 @@ MACRO sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4
       RECT 0.000000 -0.240000 7.360000 0.240000 ;
     LAYER nwell ;
       RECT -0.190000 1.305000 0.650000 4.135000 ;
-      RECT  1.920000 1.305000 2.980000 4.135000 ;
   END
 END sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4
 END LIBRARY

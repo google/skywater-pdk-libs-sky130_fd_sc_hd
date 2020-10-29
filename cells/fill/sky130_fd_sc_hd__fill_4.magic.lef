@@ -25,18 +25,6 @@ MACRO sky130_fd_sc_hd__fill_4
   SIZE  1.840000 BY  2.720000 ;
   SYMMETRY X Y R90 ;
   SITE unithd ;
-  PIN VNB
-    PORT
-      LAYER pwell ;
-        RECT 0.175000 -0.060000 0.285000 0.060000 ;
-    END
-  END VNB
-  PIN VPB
-    PORT
-      LAYER nwell ;
-        RECT -0.190000 1.305000 2.030000 2.910000 ;
-    END
-  END VPB
   PIN VGND
     DIRECTION INOUT ;
     SHAPE ABUTMENT ;
@@ -46,6 +34,22 @@ MACRO sky130_fd_sc_hd__fill_4
         RECT 0.000000 -0.240000 1.840000 0.240000 ;
     END
   END VGND
+  PIN VNB
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER pwell ;
+        RECT 0.175000 -0.060000 0.285000 0.060000 ;
+    END
+  END VNB
+  PIN VPB
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER nwell ;
+        RECT -0.190000 1.305000 2.030000 2.910000 ;
+    END
+  END VPB
   PIN VPWR
     DIRECTION INOUT ;
     SHAPE ABUTMENT ;
