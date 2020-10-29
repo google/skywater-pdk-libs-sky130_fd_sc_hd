@@ -82,28 +82,20 @@ endmodule
 
 `celldefine
 module sky130_fd_sc_hd__sedfxtp_2 (
-    Q   ,
-    CLK ,
-    D   ,
-    DE  ,
-    SCD ,
-    SCE ,
-    VPWR,
-    VGND,
-    VPB ,
-    VNB
+    Q  ,
+    CLK,
+    D  ,
+    DE ,
+    SCD,
+    SCE
 );
 
-    output Q   ;
-    input  CLK ;
-    input  D   ;
-    input  DE  ;
-    input  SCD ;
-    input  SCE ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output Q  ;
+    input  CLK;
+    input  D  ;
+    input  DE ;
+    input  SCD;
+    input  SCE;
 
     // Voltage supply signals
     supply1 VPWR;

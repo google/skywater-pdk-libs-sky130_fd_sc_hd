@@ -72,22 +72,12 @@ endmodule
 
 `celldefine
 module sky130_fd_sc_hd__lpflow_clkinvkapwr_16 (
-    Y    ,
-    A    ,
-    KAPWR,
-    VPWR ,
-    VGND ,
-    VPB  ,
-    VNB
+    Y,
+    A
 );
 
-    output Y    ;
-    input  A    ;
-    input  KAPWR;
-    input  VPWR ;
-    input  VGND ;
-    input  VPB  ;
-    input  VNB  ;
+    output Y;
+    input  A;
 
     // Voltage supply signals
     supply1 KAPWR;

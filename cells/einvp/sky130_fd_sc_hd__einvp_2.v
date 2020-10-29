@@ -72,22 +72,14 @@ endmodule
 
 `celldefine
 module sky130_fd_sc_hd__einvp_2 (
-    Z   ,
-    A   ,
-    TE  ,
-    VPWR,
-    VGND,
-    VPB ,
-    VNB
+    Z ,
+    A ,
+    TE
 );
 
-    output Z   ;
-    input  A   ;
-    input  TE  ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output Z ;
+    input  A ;
+    input  TE;
 
     // Voltage supply signals
     supply1 VPWR;

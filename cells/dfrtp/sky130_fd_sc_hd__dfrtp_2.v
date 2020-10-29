@@ -78,21 +78,13 @@ module sky130_fd_sc_hd__dfrtp_2 (
     Q      ,
     CLK    ,
     D      ,
-    RESET_B,
-    VPWR   ,
-    VGND   ,
-    VPB    ,
-    VNB
+    RESET_B
 );
 
     output Q      ;
     input  CLK    ;
     input  D      ;
     input  RESET_B;
-    input  VPWR   ;
-    input  VGND   ;
-    input  VPB    ;
-    input  VNB    ;
 
     // Voltage supply signals
     supply1 VPWR;

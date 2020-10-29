@@ -80,22 +80,12 @@ endmodule
 module sky130_fd_sc_hd__lpflow_isobufsrckapwr_16 (
     X    ,
     SLEEP,
-    A    ,
-    KAPWR,
-    VPWR ,
-    VGND ,
-    VPB  ,
-    VNB
+    A
 );
 
     output X    ;
     input  SLEEP;
     input  A    ;
-    input  KAPWR;
-    input  VPWR ;
-    input  VGND ;
-    input  VPB  ;
-    input  VNB  ;
 
     // Voltage supply signals
     supply1 KAPWR;

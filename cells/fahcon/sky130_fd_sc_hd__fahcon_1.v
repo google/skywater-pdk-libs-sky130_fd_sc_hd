@@ -82,11 +82,7 @@ module sky130_fd_sc_hd__fahcon_1 (
     SUM   ,
     A     ,
     B     ,
-    CI    ,
-    VPWR  ,
-    VGND  ,
-    VPB   ,
-    VNB
+    CI
 );
 
     output COUT_N;
@@ -94,10 +90,6 @@ module sky130_fd_sc_hd__fahcon_1 (
     input  A     ;
     input  B     ;
     input  CI    ;
-    input  VPWR  ;
-    input  VGND  ;
-    input  VPB   ;
-    input  VNB   ;
 
     // Voltage supply signals
     supply1 VPWR;

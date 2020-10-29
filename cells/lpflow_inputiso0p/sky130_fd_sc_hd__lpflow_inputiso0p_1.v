@@ -76,20 +76,12 @@ endmodule
 module sky130_fd_sc_hd__lpflow_inputiso0p_1 (
     X    ,
     A    ,
-    SLEEP,
-    VPWR ,
-    VGND ,
-    VPB  ,
-    VNB
+    SLEEP
 );
 
     output X    ;
     input  A    ;
     input  SLEEP;
-    input  VPWR ;
-    input  VGND ;
-    input  VPB  ;
-    input  VNB  ;
 
     // Voltage supply signals
     supply1 VPWR;

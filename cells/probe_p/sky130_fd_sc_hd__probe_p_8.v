@@ -69,20 +69,12 @@ endmodule
 
 `celldefine
 module sky130_fd_sc_hd__probe_p_8 (
-    X   ,
-    A   ,
-    VGND,
-    VNB ,
-    VPB ,
-    VPWR
+    X,
+    A
 );
 
-    output X   ;
-    input  A   ;
-    input  VGND;
-    input  VNB ;
-    input  VPB ;
-    input  VPWR;
+    output X;
+    input  A;
 
     // Voltage supply signals
     supply0 VGND;

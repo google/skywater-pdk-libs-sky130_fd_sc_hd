@@ -74,20 +74,12 @@ endmodule
 module sky130_fd_sc_hd__dlxtp_1 (
     Q   ,
     D   ,
-    GATE,
-    VPWR,
-    VGND,
-    VPB ,
-    VNB
+    GATE
 );
 
     output Q   ;
     input  D   ;
     input  GATE;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
 
     // Voltage supply signals
     supply1 VPWR;

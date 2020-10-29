@@ -66,18 +66,10 @@ endmodule
 
 `celldefine
 module sky130_fd_sc_hd__lpflow_bleeder_1 (
-    SHORT,
-    VPWR ,
-    VGND ,
-    VPB  ,
-    VNB
+    SHORT
 );
 
     input SHORT;
-    inout VPWR ;
-    input VGND ;
-    input VPB  ;
-    input VNB  ;
 
     // Voltage supply signals
     wire    VPWR;

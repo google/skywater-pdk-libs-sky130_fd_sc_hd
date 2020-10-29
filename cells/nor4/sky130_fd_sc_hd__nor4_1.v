@@ -80,26 +80,18 @@ endmodule
 
 `celldefine
 module sky130_fd_sc_hd__nor4_1 (
-    Y   ,
-    A   ,
-    B   ,
-    C   ,
-    D   ,
-    VPWR,
-    VGND,
-    VPB ,
-    VNB
+    Y,
+    A,
+    B,
+    C,
+    D
 );
 
-    output Y   ;
-    input  A   ;
-    input  B   ;
-    input  C   ;
-    input  D   ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output Y;
+    input  A;
+    input  B;
+    input  C;
+    input  D;
 
     // Voltage supply signals
     supply1 VPWR;

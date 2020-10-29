@@ -78,21 +78,13 @@ module sky130_fd_sc_hd__dlxbp_1 (
     Q   ,
     Q_N ,
     D   ,
-    GATE,
-    VPWR,
-    VGND,
-    VPB ,
-    VNB
+    GATE
 );
 
     output Q   ;
     output Q_N ;
     input  D   ;
     input  GATE;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
 
     // Voltage supply signals
     supply1 VPWR;
