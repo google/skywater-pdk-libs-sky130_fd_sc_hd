@@ -16,3 +16,29 @@
  * SPDX-License-Identifier: Apache-2.0
 */
 
+`ifndef SKY130_FD_SC_HD__LPFLOW_BLEEDER_FUNCTIONAL_PP_V
+`define SKY130_FD_SC_HD__LPFLOW_BLEEDER_FUNCTIONAL_PP_V
+
+`timescale 1ns / 1ps
+`default_nettype none
+
+`celldefine
+module sky130_fd_sc_hd__lpflow_bleeder (
+    SHORT,
+    VPWR ,
+    VGND ,
+    VPB  ,
+    VNB
+);
+
+    input SHORT;
+    inout VPWR ;
+    input VGND ;
+    input VPB  ;
+    input VNB  ;
+
+endmodule
+`endcelldefine
+
+`default_nettype wire
+`endif	// SKY130_FD_SC_HD__LPFLOW_BLEEDER_FUNCTIONAL_PP_V
