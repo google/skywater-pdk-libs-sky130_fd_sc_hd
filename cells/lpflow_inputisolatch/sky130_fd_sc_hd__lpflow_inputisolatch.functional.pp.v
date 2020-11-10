@@ -54,7 +54,6 @@ module sky130_fd_sc_hd__lpflow_inputisolatch (
 
     // Local signals
     wire buf_Q;
-    wire 1'b0 ;
 
     //                                     Name     Output  Other arguments
     sky130_fd_sc_hd__udp_dlatch$lP_pp$PG$N dlatch0 (buf_Q , D, SLEEP_B, 1'b0, VPWR, VGND);
