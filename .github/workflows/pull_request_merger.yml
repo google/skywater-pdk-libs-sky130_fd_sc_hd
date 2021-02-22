@@ -15,27 +15,9 @@ jobs:
           ref: master
           fetch-depth: '50'
 
-      - name: Export Pull Request ID Name To Environment
-        if: ${{ github.event_name == 'pull_request' }}
-        run: echo "PULL_REQUEST_ID=${{ github.event.pull_request.number }}" >> $GITHUB_ENV
-
-      - name: Get Pull Request Patch
-        run: wget https://github.com/$GITHUB_REPOSITORY/pull/$PULL_REQUEST_ID.patch
-
-      - name: Get External Path Name
-        run: echo "EXTERNAL_PATH=$(cd $GITHUB_WORKSPACE/../ && pwd)" >> $GITHUB_ENV
-
-      - name: Move Pull Request Patch out of the working directory
-        run: mv $PULL_REQUEST_ID.patch $EXTERNAL_PATH/
-
       - name: Run The Pull Request Merger
-        run: |
-          echo "Running Now! The Pull Request Patch is $EXTERNAL_PATH/$PULL_REQUEST_ID.patch"
-          cd $GITHUB_WORKSPACE
-          python3 $GITHUB_WORKSPACE/.github/scripts/library_patch_submodules.py $EXTERNAL_PATH/$PULL_REQUEST_ID.patch
+        uses: agorararmard/pull-request-merger-action@main
 
       - name: Label Commenter
         uses: peaceiris/actions-label-commenter@v1
 
-      - name: Push Updates to All Branches
-        run: git push --force --all
