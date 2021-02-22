@@ -1,0 +1,15 @@
+comment:
+  header: Hi, there.
+  footer: "\
+    ---\n\n
+    > This is an automated comment created by the [peaceiris/actions-label-commenter]. \
+    Responding to the bot or mentioning it won't have any effect.\n\n
+    [peaceiris/actions-label-commenter]: https://github.com/peaceiris/actions-label-commenter
+    "
+
+labels:
+  - name: ready-to-merge
+    labeled:
+      pr:
+        body: Thank you @{{ pull_request.user.login }} for your pull request. This pull request will be closed, and the Pull-Request Merger will apply it internally to all branches.
+        action: close
