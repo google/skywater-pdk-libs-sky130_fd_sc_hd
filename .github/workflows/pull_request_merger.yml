@@ -1,12 +1,11 @@
 name: pull-request-merger
 
 on:
-  pull_request:
-    types: [ labeled ]
+  schedule:
+    - cron: '*/5 * * * *'
 
 jobs:
   build:
-    if: ${{ github.event.label.name == 'ready-to-merge' }}
     runs-on: ubuntu-latest
 
     steps:
@@ -15,9 +14,5 @@ jobs:
           ref: master
           fetch-depth: '50'
 
-      - name: Run The Pull Request Merger
-        uses: agorararmard/pull-request-merger-action@main
-
-      - name: Label Commenter
-        uses: peaceiris/actions-label-commenter@v1
-
+      - name: Skywater PDK Libraries Pull Request Merger on Release Branches
+        uses: agorararmard/skywater-pdk-modules-pull-request-backporter-action@v2
