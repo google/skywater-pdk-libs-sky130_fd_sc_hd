@@ -56,6 +56,19 @@ LAYER pwell
   PROPERTY LEF58_TYPE "TYPE PWELL ;" ;
 END pwell
 
+LAYER poly
+	TYPE MASTERSLICE ;
+END poly
+
+LAYER licon1
+  TYPE CUT ;
+
+  WIDTH 0.17 ;                # Licon 1
+  SPACING 0.17 ;              # Licon 2
+  ENCLOSURE BELOW 0 0 ;       # Licon 4
+  ENCLOSURE ABOVE 0.08 0.08 ; # Poly / Met1 4 / Met1 5
+END licon1
+
 LAYER li1
   TYPE ROUTING ;
   DIRECTION VERTICAL ;
@@ -283,6 +296,9 @@ LAYER met5
   ANTENNADIFFSIDEAREARATIO PWL ( ( 0 400 ) ( 0.0125 400 ) ( 0.0225 2609 ) ( 22.5 11600 ) ) ;
 END met5
 
+LAYER OVERLAP
+  TYPE OVERLAP ;
+END OVERLAP
 
 ### Routing via cells section   ###
 # Plus via rule, metals are along the prefered direction
