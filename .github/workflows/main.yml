@@ -1,0 +1,30 @@
+name: CI
+
+on:
+    # Runs on pushes
+    push:
+    # Runs on Pull Requests
+    pull_request:
+    # Manual Dispatch
+    workflow_dispatch:
+
+jobs:
+  drc:
+    name: "Design Rule Check on All Cells"
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Get Magic Dependencies
+        run: sudo apt-get install tcl-dev tk-dev csh
+      - name: Clone and Install Magic
+        env:
+          MAGIC_TAG: 8.3.160
+        run: |
+          mkdir -p /tmp/magic
+          curl -L https://github.com/RTimothyEdwards/magic/archive/refs/tags/${{ env.MAGIC_TAG }}.tar.gz | tar -xzC /tmp/magic --strip-components=1
+          cd /tmp/magic
+          ./configure
+          make -j$(nproc) && sudo make install
+      - name: Run All DRC
+        run: python3 ./.github/scripts/run_all_drc.py

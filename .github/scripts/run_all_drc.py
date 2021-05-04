@@ -71,7 +71,7 @@ def drc_gds(path):
 
         return cell_name, parse_drc_report(report)
     except FileNotFoundError:
-        return cell_name, ["Magic did not produce a report:", res.stdout, res.stderr]
+        return cell_name, [["Magic did not produce a report.", res.stdout.decode("utf8"), res.stderr.decode("utf8")]]
 
 if len(sys.argv) > 2:
     print("Usage: %s [optional: directory filter regex]" % sys.argv[0])
@@ -128,4 +128,10 @@ with fut.ThreadPoolExecutor(max_workers=nproc) as executor:
                 for line in error[1:]:
                     print("  %s" % line)
     
-    print("%i/%i successes (%f%%)" % (successes, total, (successes / total * 100)))
+    success_rate = (successes / total * 100)
+    print("%i/%i successes (%f%%)" % (successes, total, success_rate))
+
+    if success_rate == 1.0:
+        exit(0)
+    else:
+        exit(1)
