@@ -41,6 +41,16 @@ ACCEPTABLE_ERRORS = [
     "N-diff distance to P-tap must be < 15.0um (LU.2)",
 ]
 
+KNOWN_BAD = [
+    "sky130_fd_sc_hd__tapvgnd_1",
+    "sky130_fd_sc_hd__clkdlybuf4s15_1",
+    "sky130_fd_sc_hd__buf_16",
+    "sky130_fd_sc_hd__a2111oi_0",
+    "sky130_fd_sc_hd__tapvgnd2_1",
+    "sky130_fd_sc_hd__clkdlybuf4s18_1",
+    "sky130_fd_sc_hd__probe_p_8"
+]
+
 def parse_drc_report(report):    
     components = list(map(lambda x: x.split("\n"), report.split("\n\n")))
     
@@ -112,6 +122,7 @@ with fut.ThreadPoolExecutor(max_workers=nproc) as executor:
     print("Claiming futures…")
     successes = 0
     total = 0
+    exit_code = 0
     for future in futures:
         total += 1
         cell_name, errors = future.result()
@@ -123,6 +134,8 @@ with fut.ThreadPoolExecutor(max_workers=nproc) as executor:
             message = "CLEAN"
         print("%-64s %s %s" % (cell_name, symbol, message))
         if len(errors) != 0:
+            if not cell_name in KNOWN_BAD:
+                exit_code = 1
             for error in errors:
                 print("* %s" % error[0])
                 for line in error[1:]:
@@ -131,7 +144,4 @@ with fut.ThreadPoolExecutor(max_workers=nproc) as executor:
     success_rate = (successes / total * 100)
     print("%i/%i successes (%f%%)" % (successes, total, success_rate))
 
-    if success_rate == 1.0:
-        exit(0)
-    else:
-        exit(1)
+    exit(exit_code)
