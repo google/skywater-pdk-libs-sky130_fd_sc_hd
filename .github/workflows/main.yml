@@ -10,21 +10,13 @@ on:
 
 jobs:
   drc:
-    name: "Design Rule Check on All Cells"
+    name: "Design Rule Check using Magic on All Cells"
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Get Magic Dependencies
-        run: sudo apt-get install tcl-dev tk-dev csh
-      - name: Clone and Install Magic
-        env:
-          MAGIC_TAG: 8.3.160
-        run: |
-          mkdir -p /tmp/magic
-          curl -L https://github.com/RTimothyEdwards/magic/archive/refs/tags/${{ env.MAGIC_TAG }}.tar.gz | tar -xzC /tmp/magic --strip-components=1
-          cd /tmp/magic
-          ./configure
-          make -j$(nproc) && sudo make install
-      - name: Run All DRC
-        run: python3 ./.github/scripts/run_all_drc.py
+      - name: Run Magic DRC
+        uses: ./modules-magic-drc # Uses an action in the root directory
+        id: magic-drc
+        with:
+          known_bad: sky130_fd_sc_hd__tapvgnd_1,sky130_fd_sc_hd__clkdlybuf4s15_1,sky130_fd_sc_hd__buf_16,sky130_fd_sc_hd__a2111oi_0,sky130_fd_sc_hd__tapvgnd2_1,sky130_fd_sc_hd__clkdlybuf4s18_1,sky130_fd_sc_hd__probe_p_8

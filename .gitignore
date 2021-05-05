@@ -1,1 +1,4 @@
 timing/*.lib
+*_drc.txt
+/*.tcl
+/.vscode
