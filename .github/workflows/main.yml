@@ -9,14 +9,15 @@ on:
     workflow_dispatch:
 
 jobs:
-  drc:
+  ci:
     name: "Design Rule Check using Magic on All Cells"
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Run Magic DRC
-        uses: donn/skywater-pdk-actions/modules-magic-drc@main
-        id: magic-drc
+        uses: donn/skywater-pdk-actions/magic-gds-drc@main
+        id: magic-gds-drc
         with:
           known_bad: sky130_fd_sc_hd__tapvgnd_1,sky130_fd_sc_hd__clkdlybuf4s15_1,sky130_fd_sc_hd__buf_16,sky130_fd_sc_hd__a2111oi_0,sky130_fd_sc_hd__tapvgnd2_1,sky130_fd_sc_hd__clkdlybuf4s18_1,sky130_fd_sc_hd__probe_p_8
+          acceptable_errors: ./.github/acceptable_errors
