@@ -13,7 +13,7 @@
   "current_unit": "1mA",
   "default_cell_leakage_power": 0.0,
   "default_constraint_arc_mode": "worst",
-  "default_fanout_load": 0.0,
+  "default_fanout_load": 1.0,
   "default_inout_pin_cap": 0.0,
   "default_input_pin_cap": 0.0,
   "default_leakage_power_density": 0.0,
