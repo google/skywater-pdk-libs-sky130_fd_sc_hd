@@ -33,4 +33,4 @@ endmodule
 `endcelldefine
 
 `default_nettype wire
-`endif SKY130_FD_SC_HD__LPFLOW_BLEEDER_FUNCTIONAL_V
+`endif // SKY130_FD_SC_HD__LPFLOW_BLEEDER_FUNCTIONAL_V
